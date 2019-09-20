@@ -21,6 +21,7 @@
 			}
 		],
 		"source": "arXiv:1802.",
+
 		"year": 2018,
 		"volume": 5801,
 		"citation_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=k2uOCu0AAAAJ&pagesize=100&citation_for_view=k2uOCu0AAAAJ:d1gkVwhDpl0C",
@@ -232,7 +233,8 @@
 		"year": 2019,
 		"startpage": 1,
 		"endpage": 23,
-		"citation_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=k2uOCu0AAAAJ&pagesize=100&citation_for_view=k2uOCu0AAAAJ:u-x6o8ySG0sC",
+		"citation_url": "https://arxiv.org/abs/1806.09014",
+		"journal_url": "https://www.tandfonline.com/doi/full/10.1080/00031305.2019.1592781",
 		"cites_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=4392421106441485919",
 		"cites": 4,
 		"ecc": 4,
@@ -242,7 +244,8 @@
 			{
 				"topic": "Misspecification"
 			}		
-		]
+		],
+		"abstract": "It is well known that models used in conventional regression analysis are commonly misspecified. A standard response is little more than a shrug. Data analysts invoke Box’s maxim that all models are wrong and then proceed as if the results are useful nevertheless. In this paper, we provide an alternative. Regression models are treated explicitly as approximations of a true response surface that can have a number of desir- able statistical properties, including estimates that are asymptotically unbiased. Valid statistical inference follows. We generalize the formulation to include regression func- tionals, which broadens substantially the range of potential applications. An empirical application is provided to illustrate the paper’s key concepts."
 	},
 	{
 		"type": "Preprint",
@@ -510,31 +513,6 @@
 			}		
 		]
 	},
-	// {
-	// 	"type": "Preprint",
-	// 	"id": 17,
-	// 	"title": "Cram\\'er-type Large deviation and non-uniform central limit theorems in high dimensions",
-	// 	"authors": [
-	// 		{
-	// 			"name": "D Banerjee"
-	// 		},
-	// 		{
-	// 			"name": "AK Kuchibhotla"
-	// 		},
-	// 		{
-	// 			"name": "S Mukherjee"
-	// 		}
-	// 	],
-	// 	"source": "arXiv:1806.",
-	// 	"year": 2018,
-	// 	"volume": 6153,
-	// 	"citation_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=k2uOCu0AAAAJ&pagesize=100&citation_for_view=k2uOCu0AAAAJ:WF5omc3nYNoC",
-	// 	"cites_url": "https://scholar.google.com",
-	// 	"cites": 0,
-	// 	"ecc": 0,
-	// 	"rank": 17,
-	// 	"use": true
-	// },
 	{
 		"type": "Preprint",
 		"id": 18,
@@ -553,7 +531,8 @@
 		"source": "arXiv:1806.",
 		"year": 2018,
 		"volume": 6153,
-		"citation_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=k2uOCu0AAAAJ&pagesize=100&citation_for_view=k2uOCu0AAAAJ:Se3iqnhoufwC",
+		"citation_url": "https://arxiv.org/abs/1706.05745",
+		"journal_url": "https://link.springer.com/article/10.1007/s10463-018-0665-x",
 		"cites_url": "https://scholar.google.com",
 		"cites": 0,
 		"ecc": 0,
@@ -563,7 +542,8 @@
 			{
 				"topic": "High-dimensional Statistics"
 			}		
-		]
+		],
+		"abstract": "M-estimators offer simple robust alternatives to the maximum likelihood estimator. The density power divergence (DPD) and the logarithmic density power divergence (LDPD) measures provide two classes of robust M-estimators which contain the MLE as a special case. In each of these families, the robustness of the estimator is achieved through a density power down-weighting of outlying observations. Even though the families have proved to be useful in robust inference, the relation and hierarchy between these two families are yet to be fully established. In this paper, we present a generalized family of divergences that provides a smooth bridge between DPD and LDPD measures. This family helps to clarify and settle several longstanding issues in the relation between the important families of DPD and LDPD, apart from being an important tool in different areas of statistical inference in its own right."
 	},
 	{
 		"type": "Preprint",
@@ -597,27 +577,6 @@
 			}
 		]
 	},
-	// {
-	// 	"id": 20,
-	// 	"title": "Models as Approximations II: A Model-Free Theory of Parametric Regression",
-	// 	"authors": [
-	// 		{
-	// 			"name": "A Buja"
-	// 		},
-	// 		{
-	// 			"name": "L Brown"
-	// 		},
-	// 		{
-	// 			"name": "AK Kuchibhotla"
-	// 		}
-	// 	],
-	// 	"citation_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=k2uOCu0AAAAJ&pagesize=100&citation_for_view=k2uOCu0AAAAJ:roLk4NBRz8UC",
-	// 	"cites_url": "https://scholar.google.com",
-	// 	"cites": 0,
-	// 	"ecc": 0,
-	// 	"rank": 21,
-	// 	"use": true
-	// },
 	{
 		"id": 21,
 		"title": "Testing in Additive and Projection Pursuit Models",
