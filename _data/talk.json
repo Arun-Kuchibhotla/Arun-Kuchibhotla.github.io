@@ -70,5 +70,23 @@
 		"place": "St. Louis, MO",
 		"pdf_link": "WHOA-PSI-2.pdf",
 		"url": "https://www.math.wustl.edu/~kuffner/WHOA-PSI-2.html"
+	},
+	{
+		"title": "Robust Non-Parametric Curve Estimation using Density Power Divergences",
+		"type": "Contributed talk",
+		"time": 2015,
+		"meeting": "ICORS",
+		"place": "ISI, Kolkata",
+		"pdf_link": "ICORS15.pdf",
+		"url": "https://www.isical.ac.in/~icors2015/"
+	},
+	{
+		"title": "Minimum Distance Weighted Likelihood",
+		"type": "Contributed talk",
+		"time": 2014,
+		"meeting": "ICORS",
+		"place": "ISI, Kolkata",
+		"pdf_link": "ICORS14.pdf",
+		"url": "https://statistik.wiwi.uni-halle.de/icors2014/"
 	}
 ]
