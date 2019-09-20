@@ -1,0 +1,516 @@
+﻿[
+	{
+		"type": "Preprint",
+		"id": 1,
+		"title": "A Model Free Perspective for Linear Regression: Uniform-in-model Bounds for Post Selection Inference",
+		"authors": [
+			{
+				"name": "AK Kuchibhotla"
+			},
+			{
+				"name": "LD Brown"
+			},
+			{
+				"name": "A Buja"
+			},
+			{
+				"name": "EI George"
+			},
+			{
+				"name": "L Zhao"
+			}
+		],
+		"source": "arXiv:1802.",
+		"year": 2018,
+		"volume": 5801,
+		"citation_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=k2uOCu0AAAAJ&pagesize=100&citation_for_view=k2uOCu0AAAAJ:d1gkVwhDpl0C",
+		"cites_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=3071614081092121308",
+		"cites": 15,
+		"ecc": 15,
+		"rank": 1,
+		"use": true
+	},
+	{
+		"type": "Preprint",
+		"id": 2,
+		"title": "Moving Beyond Sub-Gaussianity in High-Dimensional Statistics: Applications in Covariance Estimation and Linear Regression",
+		"authors": [
+			{
+				"name": "AK Kuchibhotla"
+			},
+			{
+				"name": "A Chakrabortty"
+			}
+		],
+		"source": "arXiv:1804.",
+		"year": 2018,
+		"volume": 2605,
+		"citation_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=k2uOCu0AAAAJ&pagesize=100&citation_for_view=k2uOCu0AAAAJ:u5HHmVD_uO8C",
+		"cites_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=1276321809884077117",
+		"cites": 12,
+		"ecc": 12,
+		"rank": 2,
+		"use": true
+	},
+	{
+		"type": "Journal article",
+		"id": 3,
+		"title": "A general set up for minimum disparity estimation",
+		"authors": [
+			{
+				"name": "AK Kuchibhotla"
+			},
+			{
+				"name": "A Basu"
+			}
+		],
+		"source": "Statistics & Probability Letters",
+		"year": 2015,
+		"volume": 96,
+		"startpage": 68,
+		"endpage": 74,
+		"citation_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=k2uOCu0AAAAJ&pagesize=100&citation_for_view=k2uOCu0AAAAJ:9yKSN-GCB0IC",
+		"cites_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=4149858368467716897",
+		"cites": 9,
+		"ecc": 9,
+		"rank": 3,
+		"use": true
+	},
+	{
+		"type": "Preprint",
+		"id": 4,
+		"title": "Efficient estimation in convex single index models",
+		"authors": [
+			{
+				"name": "AK Kuchibhotla"
+			},
+			{
+				"name": "RK Patra"
+			},
+			{
+				"name": "B Sen"
+			}
+		],
+		"source": "arXiv:1708.",
+		"year": 2017,
+		"volume": 145,
+		"citation_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=k2uOCu0AAAAJ&pagesize=100&citation_for_view=k2uOCu0AAAAJ:qjMakFHDy7sC",
+		"cites_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=8231790234499541402",
+		"cites": 6,
+		"ecc": 6,
+		"rank": 4,
+		"use": true
+	},
+	{
+		"type": "Preprint",
+		"id": 5,
+		"title": "Models as Approximations---Part II: A General Theory of Model-Robust Regression",
+		"authors": [
+			{
+				"name": "A Buja"
+			},
+			{
+				"name": "R Berk"
+			},
+			{
+				"name": "L Brown"
+			},
+			{
+				"name": "E George"
+			},
+			{
+				"name": "AK Kuchibhotla"
+			},
+			{
+				"name": "L Zhao"
+			}
+		],
+		"source": "arXiv:1612.",
+		"year": 2016,
+		"volume": 3257,
+		"citation_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=k2uOCu0AAAAJ&pagesize=100&citation_for_view=k2uOCu0AAAAJ:YsMSGLbcyi4C",
+		"cites_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=16495760639311084209",
+		"cites": 6,
+		"ecc": 6,
+		"rank": 5,
+		"use": true
+	},
+	{
+		"type": "Preprint",
+		"id": 6,
+		"title": "Efficient Estimation in Single Index Models through Smoothing splines",
+		"authors": [
+			{
+				"name": "AK Kuchibhotla"
+			},
+			{
+				"name": "RK Patra"
+			}
+		],
+		"source": "arXiv:1612.",
+		"year": 2016,
+		"volume": 68,
+		"citation_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=k2uOCu0AAAAJ&pagesize=100&citation_for_view=k2uOCu0AAAAJ:Y0pCki6q_DkC",
+		"cites_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=14919254509675272603",
+		"cites": 6,
+		"ecc": 6,
+		"rank": 6,
+		"use": true
+	},
+	{
+		"type": "Book chapter",
+		"id": 7,
+		"title": "Assumption lean regression",
+		"authors": [
+			{
+				"name": "R Berk"
+			},
+			{
+				"name": "A Buja"
+			},
+			{
+				"name": "L Brown"
+			},
+			{
+				"name": "E George"
+			},
+			{
+				"name": "AK Kuchibhotla"
+			},
+			{
+				"name": "W Su"
+			},
+			{
+				"name": "L Shazo"
+			}
+		],
+		"source": "The American Statistician",
+		"year": 2019,
+		"startpage": 1,
+		"endpage": 23,
+		"citation_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=k2uOCu0AAAAJ&pagesize=100&citation_for_view=k2uOCu0AAAAJ:u-x6o8ySG0sC",
+		"cites_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=4392421106441485919",
+		"cites": 4,
+		"ecc": 4,
+		"rank": 7,
+		"use": true
+	},
+	{
+		"type": "Preprint",
+		"id": 8,
+		"title": "Valid Post-selection Inference in Assumption-lean Linear Regression",
+		"authors": [
+			{
+				"name": "AK Kuchibhotla"
+			},
+			{
+				"name": "LD Brown"
+			},
+			{
+				"name": "A Buja"
+			},
+			{
+				"name": "EI George"
+			},
+			{
+				"name": "L Zhao"
+			}
+		],
+		"source": "arXiv:1806.",
+		"year": 2018,
+		"volume": 4119,
+		"citation_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=k2uOCu0AAAAJ&pagesize=100&citation_for_view=k2uOCu0AAAAJ:IjCSPb-OGe4C",
+		"cites_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=10014366546700290406",
+		"cites": 3,
+		"ecc": 3,
+		"rank": 8,
+		"use": true
+	},
+	{
+		"type": "Preprint",
+		"id": 9,
+		"title": "Deterministic Inequalities for Smooth M-estimators",
+		"authors": [
+			{
+				"name": "AK Kuchibhotla"
+			}
+		],
+		"source": "arXiv:1809.",
+		"year": 2018,
+		"volume": 5172,
+		"citation_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=k2uOCu0AAAAJ&pagesize=100&citation_for_view=k2uOCu0AAAAJ:ufrVoPGSRksC",
+		"cites_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=9556568440652642842",
+		"cites": 2,
+		"ecc": 2,
+		"rank": 9,
+		"use": true
+	},
+	{
+		"type": "Journal article",
+		"id": 10,
+		"title": "On the asymptotics of minimum disparity estimation",
+		"authors": [
+			{
+				"name": "AK Kuchibhotla"
+			},
+			{
+				"name": "A Basu"
+			}
+		],
+		"source": "TEST",
+		"year": 2017,
+		"volume": 26,
+		"issue": 3,
+		"startpage": 481,
+		"endpage": 502,
+		"citation_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=k2uOCu0AAAAJ&pagesize=100&citation_for_view=k2uOCu0AAAAJ:UeHWp8X0CEIC",
+		"cites_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=8999149679345435611",
+		"cites": 2,
+		"ecc": 2,
+		"rank": 10,
+		"use": true
+	},
+	{
+		"type": "Journal article",
+		"id": 11,
+		"title": "Statistical inference based on bridge divergences",
+		"authors": [
+			{
+				"name": "AK Kuchibhotla"
+			},
+			{
+				"name": "S Mukherjee"
+			},
+			{
+				"name": "A Basu"
+			}
+		],
+		"source": "Annals of the Institute of Statistical Mathematics",
+		"year": 2019,
+		"volume": 71,
+		"issue": 3,
+		"startpage": 627,
+		"endpage": 656,
+		"citation_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=k2uOCu0AAAAJ&pagesize=100&citation_for_view=k2uOCu0AAAAJ:eQOLeE2rZwMC",
+		"cites_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=103179556759016315",
+		"cites": 1,
+		"ecc": 1,
+		"rank": 11,
+		"use": true
+	},
+	{
+		"id": 12,
+		"title": "A minimum distance weighted likelihood method of estimation",
+		"authors": [
+			{
+				"name": "A Kuchibhotla"
+			},
+			{
+				"name": "A Basu"
+			}
+		],
+		"source": "Technical report, Interdisciplinary Statistical Research Unit (ISRU), Indian …",
+		"year": 2018,
+		"citation_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=k2uOCu0AAAAJ&pagesize=100&citation_for_view=k2uOCu0AAAAJ:Tyk-4Ss8FVUC",
+		"cites_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=7859755060604478349",
+		"cites": 1,
+		"ecc": 1,
+		"rank": 12,
+		"use": true
+	},
+	{
+		"id": 13,
+		"title": "simest: Single Index Model Estimation with Constraints on Link Function, 2016",
+		"authors": [
+			{
+				"name": "AK Kuchibhotla"
+			},
+			{
+				"name": "RK Patra"
+			}
+		],
+		"source": "R package version 0.6,",
+		"citation_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=k2uOCu0AAAAJ&pagesize=100&citation_for_view=k2uOCu0AAAAJ:UebtZRa9Y70C",
+		"cites_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=5299991146738598591",
+		"cites": 1,
+		"ecc": 1,
+		"rank": 13,
+		"use": true
+	},
+	{
+		"type": "Preprint",
+		"id": 14,
+		"title": "On Least Squares Estimation under Heteroscedastic and Heavy-Tailed Errors",
+		"authors": [
+			{
+				"name": "AK Kuchibhotla"
+			},
+			{
+				"name": "RK Patra"
+			}
+		],
+		"source": "arXiv:1909.",
+		"year": 2019,
+		"volume": 2088,
+		"citation_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=k2uOCu0AAAAJ&pagesize=100&citation_for_view=k2uOCu0AAAAJ:0EnyYjriUFMC",
+		"cites_url": "https://scholar.google.com",
+		"cites": 0,
+		"ecc": 0,
+		"rank": 14,
+		"use": true
+	},
+	{
+		"id": 15,
+		"title": "Tail Bounds for Canonical U-Statistics and U-Processes with Unbounded Kernels",
+		"authors": [
+			{
+				"name": "A Chakrabortty"
+			},
+			{
+				"name": "AK Kuchibhotla"
+			}
+		],
+		"year": 2018,
+		"citation_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=k2uOCu0AAAAJ&pagesize=100&citation_for_view=k2uOCu0AAAAJ:LkGwnXOMwfcC",
+		"cites_url": "https://scholar.google.com",
+		"cites": 0,
+		"ecc": 0,
+		"rank": 15,
+		"use": true
+	},
+	{
+		"type": "Preprint",
+		"id": 16,
+		"title": "Model-free Study of Ordinary Least Squares Linear Regression",
+		"authors": [
+			{
+				"name": "AK Kuchibhotla"
+			},
+			{
+				"name": "LD Brown"
+			},
+			{
+				"name": "A Buja"
+			}
+		],
+		"source": "arXiv:1809.",
+		"year": 2018,
+		"volume": 10538,
+		"citation_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=k2uOCu0AAAAJ&pagesize=100&citation_for_view=k2uOCu0AAAAJ:_FxGoFyzp5QC",
+		"cites_url": "https://scholar.google.com",
+		"cites": 0,
+		"ecc": 0,
+		"rank": 16,
+		"use": true
+	},
+	{
+		"type": "Preprint",
+		"id": 17,
+		"title": "Cram\\'er-type Large deviation and non-uniform central limit theorems in high dimensions",
+		"authors": [
+			{
+				"name": "D Banerjee"
+			},
+			{
+				"name": "AK Kuchibhotla"
+			},
+			{
+				"name": "S Mukherjee"
+			}
+		],
+		"source": "arXiv:1806.",
+		"year": 2018,
+		"volume": 6153,
+		"citation_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=k2uOCu0AAAAJ&pagesize=100&citation_for_view=k2uOCu0AAAAJ:WF5omc3nYNoC",
+		"cites_url": "https://scholar.google.com",
+		"cites": 0,
+		"ecc": 0,
+		"rank": 17,
+		"use": true
+	},
+	{
+		"type": "Preprint",
+		"id": 18,
+		"title": "High-dimensional CLT: Improvements, Non-uniform Extensions and Large Deviations",
+		"authors": [
+			{
+				"name": "AK Kuchibhotla"
+			},
+			{
+				"name": "S Mukherjee"
+			},
+			{
+				"name": "D Banerjee"
+			}
+		],
+		"source": "arXiv:1806.",
+		"year": 2018,
+		"volume": 6153,
+		"citation_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=k2uOCu0AAAAJ&pagesize=100&citation_for_view=k2uOCu0AAAAJ:Se3iqnhoufwC",
+		"cites_url": "https://scholar.google.com",
+		"cites": 0,
+		"ecc": 0,
+		"rank": 18,
+		"use": true
+	},
+	{
+		"type": "Preprint",
+		"id": 19,
+		"title": "On single index models with convex link",
+		"authors": [
+			{
+				"name": "AK Kuchibhotla"
+			},
+			{
+				"name": "RK Patra"
+			},
+			{
+				"name": "B Sen"
+			}
+		],
+		"source": "Preprint URL http://stat. columbia. edu/~ rohit/PapersandDraft/cvxsim. pdf",
+		"year": 2015,
+		"citation_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=k2uOCu0AAAAJ&pagesize=100&citation_for_view=k2uOCu0AAAAJ:zYLM7Y9cAGgC",
+		"cites_url": "https://scholar.google.com",
+		"cites": 0,
+		"ecc": 0,
+		"rank": 20,
+		"use": true
+	},
+	{
+		"id": 20,
+		"title": "Models as Approximations II: A Model-Free Theory of Parametric Regression",
+		"authors": [
+			{
+				"name": "A Buja"
+			},
+			{
+				"name": "L Brown"
+			},
+			{
+				"name": "AK Kuchibhotla"
+			}
+		],
+		"citation_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=k2uOCu0AAAAJ&pagesize=100&citation_for_view=k2uOCu0AAAAJ:roLk4NBRz8UC",
+		"cites_url": "https://scholar.google.com",
+		"cites": 0,
+		"ecc": 0,
+		"rank": 21,
+		"use": true
+	},
+	{
+		"id": 21,
+		"title": "Testing in Additive and Projection Pursuit Models",
+		"authors": [
+			{
+				"name": "AK Kuchibhotla"
+			}
+		],
+		"citation_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=k2uOCu0AAAAJ&pagesize=100&citation_for_view=k2uOCu0AAAAJ:2osOgNQ5qMEC",
+		"cites_url": "https://scholar.google.com",
+		"cites": 0,
+		"ecc": 0,
+		"rank": 22,
+		"use": true
+	}
+]

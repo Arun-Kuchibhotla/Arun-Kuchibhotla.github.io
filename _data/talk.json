@@ -1,0 +1,74 @@
+[
+	{
+		"title": "Randomness-free Study of M-estimators: NBK Inequalities",
+		"type": "Invited talk",
+		"time": 2019,
+		"meeting": "ICSA",
+		"place": "Nankai University, Tianjin, China",
+		"pdf_link": "ICSA_2019_07_03.pdf",
+		"url": "http://www.icsa.org/icsa/events/2019-icsa-china-conference"
+	},
+	{
+		"title": "Post-selection Inference for all using NBK Inequalities",
+		"type": "Invited talk",
+		"time": 2019,
+		"meeting": "WHOA-PSI-4",
+		"place": "St. Louis, MO",
+		"pdf_link": "WHOA-PSI-4.pdf",
+		"url": "https://www.math.wustl.edu/~kuffner/WHOA-PSI-4.html"
+	},
+	{
+		"title": "Randomness-free Study of M-estimators: NBK Inequalities",
+		"type": "Invited talk",
+		"time": 2019,
+		"meeting": "JSM",
+		"place": "Denver, CO",
+		"pdf_link": "JSM_2019_07_30V2.pdf",
+		"url": ""
+	},
+	{
+		"title": "Construction of PoSI Statistics",
+		"type": "Shared a talk with Andreas Buja",
+		"time": 2018,
+		"meeting": "WHOA-PSI-3",
+		"place": "St. Louis, MO",
+		"pdf_link": "WHOA-PSI-3.pdf",
+		"url": "https://www.math.wustl.edu/~kuffner/WHOA-PSI-3.html"
+	},
+	{
+		"title": "Uniform Linear Representation for Post-selection Inference",
+		"type": "Invited talk representing Larry Brown",
+		"time": 2018,
+		"meeting": "Workshop Model Selection, Regularization, and Inference",
+		"place": "University of Vienna, Vienna, Austria",
+		"pdf_link": "UniformLinearRepresentation.pdf",
+		"url": " https://www.univie.ac.at/seam/inference2018/"
+	},
+	{
+		"title": "Recent Developments in Post-selection Inference",
+		"type": "Invited talk",
+		"time": 2018,
+		"meeting": "Larry Brown's Memorial Workshop",
+		"place": "University of Pennsylvania, Philadelphia, PA",
+		"pdf_link": "Larry_Memorial.pdf",
+		"url": "https://cccfran.github.io/larrybrown2018/"
+	},
+	{
+		"title": "Post-Selection Inference and Misspecification",
+		"type": "Shared a talk with Andreas Buja",
+		"time": 2018,
+		"meeting": "SLDSC",
+		"place": "Columbia University, New York, NY",
+		"pdf_link": "SLDSC_2018.pdf",
+		"url": "https://publish.illinois.edu/sldsc2018/"
+	},
+	{
+		"title": "Validity First, Optimality Next",
+		"type": "Shared a talk with Andreas Buja",
+		"time": 2017,
+		"meeting": "WHOA-PSI-2",
+		"place": "St. Louis, MO",
+		"pdf_link": "WHOA-PSI-2.pdf",
+		"url": "https://www.math.wustl.edu/~kuffner/WHOA-PSI-2.html"
+	}
+]

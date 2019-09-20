@@ -1,0 +1,25 @@
+[
+	{
+		"title": "STAT 991 - TOPICS IN LINEAR MODELS",
+		"type": "instructor",
+		"time": [{"time": "Fall 2017 (jointly with Larry Brown)"}]
+	},
+	{
+		"title": "STAT 111 - INTRODUCTORY STATISTICS",
+		"type": "instructor",
+		"time": [{"time": "Summer 2018"}]
+	},
+	{
+		"title": "STAT 471/571/701 - MODERN DATA MINING",
+		"type": "TA",
+		"time": [
+			{
+				"time": "Fall 2019"
+			},
+			{
+				"time": "Spring 2019"
+			}
+		],
+		"more": "http://cccfran.github.io/dsl2019/"
+	}
+]
