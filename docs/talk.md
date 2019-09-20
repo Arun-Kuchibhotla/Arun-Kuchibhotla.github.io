@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Talk
+title: Talks
 nav_order: 3
 ---
 

@@ -49,7 +49,7 @@
 	{
 		"type": "Preprint",
 		"id": 2,
-		"title": "Moving Beyond Sub-Gaussianity in High-Dimensional Statistics: Applications in Covariance Estimation and Linear Regression",
+		"title": "Moving Beyond Sub-Gaussianity in High-dimensional Statistics: Applications in Covariance Estimation and Linear Regression",
 		"authors": [
 			{
 				"name": "AK Kuchibhotla"
@@ -375,6 +375,35 @@
 		"topic":[
 			{
 				"topic": "Robust Statistics"
+			}		
+		],
+		"use": true,
+		"abstract": "M-estimators offer simple robust alternatives to the maximum likelihood estimator. The density power divergence (DPD) and the logarithmic density power divergence (LDPD) measures provide two classes of robust M-estimators which contain the MLE as a special case. In each of these families, the robustness of the estimator is achieved through a density power down-weighting of outlying observations. Even though the families have proved to be useful in robust inference, the relation and hierarchy between these two families are yet to be fully established. In this paper, we present a generalized family of divergences that provides a smooth bridge between DPD and LDPD measures. This family helps to clarify and settle several longstanding issues in the relation between the important families of DPD and LDPD, apart from being an important tool in different areas of statistical inference in its own right."
+	},
+	{
+		"type": "Conference proceedings",
+		"id": 22,
+		"title": "First order expansion of convex regularized estimators",
+		"authors": [
+			{
+				"name": "P Bellec"
+			},
+			{
+				"name": "AK Kuchibhotla"
+			}
+		],
+		"source": "Advances in Neural Information Processing Systems",
+		"year": 2019,
+		"volume": 33,
+		"citation_url": "https://nips.cc/Conferences/2019/AcceptedPapersInitial",
+		"cites_url": "https://nips.cc/Conferences/2019/AcceptedPapersInitial",
+		"cites": 1,
+		"ecc": 1,
+		"rank": 11,
+		"use": true,
+		"topic":[
+			{
+				"topic": "High-dimensional Statistics"
 			}		
 		],
 		"use": true,
