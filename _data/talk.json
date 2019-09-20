@@ -72,6 +72,15 @@
 		"url": "https://www.math.wustl.edu/~kuffner/WHOA-PSI-2.html"
 	},
 	{
+		"title": "Testing in Additive and Projection Pursuit Models",
+		"type": "Special Topics Session",
+		"time": 2015,
+		"meeting": "World Statistics Congress",
+		"place": "Rio de Janeiro, Brazil",
+		"pdf_link": "WSC15.pdf",
+		"url": "http://www.isi2015.ibge.gov.br/"
+	},
+	{
 		"title": "Robust Non-Parametric Curve Estimation using Density Power Divergences",
 		"type": "Contributed talk",
 		"time": 2015,
