@@ -28,7 +28,21 @@
 		"cites": 15,
 		"ecc": 15,
 		"rank": 1,
-		"use": true
+		"use": true,
+		"topic":[
+			{
+				"topic": "Post-selection Inference"
+			}, 
+			{
+				"topic": "Misspecification"
+			},
+			{
+				"topic": "High-dimensional Statistics"
+			},
+			{
+				"topic": "Dependent Data"
+			}
+		]
 	},
 	{
 		"type": "Preprint",
@@ -50,7 +64,12 @@
 		"cites": 12,
 		"ecc": 12,
 		"rank": 2,
-		"use": true
+		"use": true,
+		"topic":[
+			{
+				"topic": "Concentration Inequalities"
+			}		
+		]
 	},
 	{
 		"type": "Journal article",
@@ -74,7 +93,12 @@
 		"cites": 9,
 		"ecc": 9,
 		"rank": 3,
-		"use": true
+		"use": true,
+		"topic":[
+			{
+				"topic": "Robust Statistics"
+			}		
+		]
 	},
 	{
 		"type": "Preprint",
@@ -99,7 +123,15 @@
 		"cites": 6,
 		"ecc": 6,
 		"rank": 4,
-		"use": true
+		"use": true,
+		"topic":[
+			{
+				"topic": "Semi-parametric Inference"
+			},
+			{
+				"topic": "Shape-constrained Inference"
+			}		
+		]
 	},
 	{
 		"type": "Preprint",
@@ -133,7 +165,12 @@
 		"cites": 6,
 		"ecc": 6,
 		"rank": 5,
-		"use": true
+		"use": true,
+		"topic":[
+			{
+				"topic": "Misspecification"
+			}		
+		]
 	},
 	{
 		"type": "Preprint",
@@ -155,7 +192,12 @@
 		"cites": 6,
 		"ecc": 6,
 		"rank": 6,
-		"use": true
+		"use": true,
+		"topic":[
+			{
+				"topic": "Semi-parametric Inference"
+			}		
+		]
 	},
 	{
 		"type": "Book chapter",
@@ -181,7 +223,7 @@
 				"name": "W Su"
 			},
 			{
-				"name": "L Shazo"
+				"name": "L Zhao"
 			}
 		],
 		"source": "The American Statistician",
@@ -193,7 +235,12 @@
 		"cites": 4,
 		"ecc": 4,
 		"rank": 7,
-		"use": true
+		"use": true,
+		"topic":[
+			{
+				"topic": "Misspecification"
+			}		
+		]
 	},
 	{
 		"type": "Preprint",
@@ -224,7 +271,18 @@
 		"cites": 3,
 		"ecc": 3,
 		"rank": 8,
-		"use": true
+		"use": true,
+		"topic":[
+			{
+				"topic": "Post-selection Inference"
+			},
+			{
+				"topic": "High-dimensional Statistics"
+			},
+			{
+				"topic": "Dependent Data"
+			}
+		]
 	},
 	{
 		"type": "Preprint",
@@ -243,7 +301,18 @@
 		"cites": 2,
 		"ecc": 2,
 		"rank": 9,
-		"use": true
+		"use": true,
+		"topic":[
+			{
+				"topic": "Semi-parametric Inference"
+			},
+			{
+				"topic": "Post-selection Inference"
+			},
+			{
+				"topic": "Dependent Data"
+			}
+		]
 	},
 	{
 		"type": "Journal article",
@@ -291,12 +360,17 @@
 		"issue": 3,
 		"startpage": 627,
 		"endpage": 656,
-		"citation_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=k2uOCu0AAAAJ&pagesize=100&citation_for_view=k2uOCu0AAAAJ:eQOLeE2rZwMC",
+		"citation_url": "https://arxiv.org/abs/1706.05745",
 		"cites_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=103179556759016315",
 		"cites": 1,
 		"ecc": 1,
 		"rank": 11,
-		"use": true
+		"use": true,
+		"topic":[
+			{
+				"topic": "Robust Statistics"
+			}		
+		]
 	},
 	{
 		"id": 12,
@@ -316,11 +390,17 @@
 		"cites": 1,
 		"ecc": 1,
 		"rank": 12,
-		"use": true
+		"use": true,
+		"topic":[
+			{
+				"topic": "Robust Statistics"
+			}		
+		]
 	},
 	{
 		"id": 13,
-		"title": "simest: Single Index Model Estimation with Constraints on Link Function, 2016",
+		"title": "simest: Single Index Model Estimation with Constraints on Link Function",
+		"year": 2016,
 		"authors": [
 			{
 				"name": "AK Kuchibhotla"
@@ -335,7 +415,12 @@
 		"cites": 1,
 		"ecc": 1,
 		"rank": 13,
-		"use": true
+		"use": true,
+		"topic":[
+			{
+				"topic": "Semi-parametric Inference"
+			}		
+		]
 	},
 	{
 		"type": "Preprint",
@@ -357,7 +442,12 @@
 		"cites": 0,
 		"ecc": 0,
 		"rank": 14,
-		"use": true
+		"use": true,
+		"topic":[
+			{
+				"topic": "Nonparametric Statistics"
+			}		
+		]
 	},
 	{
 		"id": 15,
@@ -376,7 +466,12 @@
 		"cites": 0,
 		"ecc": 0,
 		"rank": 15,
-		"use": true
+		"use": true,
+		"topic":[
+			{
+				"topic": "Concentration Inequalities"
+			}		
+		]
 	},
 	{
 		"type": "Preprint",
@@ -401,7 +496,12 @@
 		"cites": 0,
 		"ecc": 0,
 		"rank": 16,
-		"use": true
+		"use": true,
+		"topic":[
+			{
+				"topic": "Misspecification"
+			}		
+		]
 	},
 	{
 		"type": "Preprint",
@@ -426,7 +526,12 @@
 		"cites": 0,
 		"ecc": 0,
 		"rank": 17,
-		"use": true
+		"use": true,
+		"topic":[
+			{
+				"topic": "High-dimensional Statistics"
+			}
+		]
 	},
 	{
 		"type": "Preprint",
@@ -451,7 +556,12 @@
 		"cites": 0,
 		"ecc": 0,
 		"rank": 18,
-		"use": true
+		"use": true,
+		"topic":[
+			{
+				"topic": "High-dimensional Statistics"
+			}		
+		]
 	},
 	{
 		"type": "Preprint",
@@ -475,32 +585,41 @@
 		"cites": 0,
 		"ecc": 0,
 		"rank": 20,
-		"use": true
-	},
-	{
-		"id": 20,
-		"title": "Models as Approximations II: A Model-Free Theory of Parametric Regression",
-		"authors": [
+		"use": true,
+		"topic":[
 			{
-				"name": "A Buja"
+				"topic": "Semi-parametric Inference"
 			},
 			{
-				"name": "L Brown"
-			},
-			{
-				"name": "AK Kuchibhotla"
+				"topic": "Shape-constrained Inference"
 			}
-		],
-		"citation_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=k2uOCu0AAAAJ&pagesize=100&citation_for_view=k2uOCu0AAAAJ:roLk4NBRz8UC",
-		"cites_url": "https://scholar.google.com",
-		"cites": 0,
-		"ecc": 0,
-		"rank": 21,
-		"use": true
+		]
 	},
+	// {
+	// 	"id": 20,
+	// 	"title": "Models as Approximations II: A Model-Free Theory of Parametric Regression",
+	// 	"authors": [
+	// 		{
+	// 			"name": "A Buja"
+	// 		},
+	// 		{
+	// 			"name": "L Brown"
+	// 		},
+	// 		{
+	// 			"name": "AK Kuchibhotla"
+	// 		}
+	// 	],
+	// 	"citation_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=k2uOCu0AAAAJ&pagesize=100&citation_for_view=k2uOCu0AAAAJ:roLk4NBRz8UC",
+	// 	"cites_url": "https://scholar.google.com",
+	// 	"cites": 0,
+	// 	"ecc": 0,
+	// 	"rank": 21,
+	// 	"use": true
+	// },
 	{
 		"id": 21,
 		"title": "Testing in Additive and Projection Pursuit Models",
+		"year": 2013, 
 		"authors": [
 			{
 				"name": "AK Kuchibhotla"
@@ -511,6 +630,11 @@
 		"cites": 0,
 		"ecc": 0,
 		"rank": 22,
-		"use": true
+		"use": true,
+		"topic":[
+			{
+				"topic": "Nonparametric Statistics"
+			}		
+		]
 	}
 ]
