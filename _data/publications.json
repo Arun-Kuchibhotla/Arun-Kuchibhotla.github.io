@@ -21,6 +21,7 @@
 			}
 		],
 		"source": "arXiv:1802.",
+
 		"year": 2018,
 		"volume": 5801,
 		"citation_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=k2uOCu0AAAAJ&pagesize=100&citation_for_view=k2uOCu0AAAAJ:d1gkVwhDpl0C",
@@ -29,6 +30,20 @@
 		"ecc": 15,
 		"rank": 1,
 		"use": true,
+		"topic":[
+			{
+				"topic": "Post-selection Inference"
+			}, 
+			{
+				"topic": "Misspecification"
+			},
+			{
+				"topic": "High-dimensional Statistics"
+			},
+			{
+				"topic": "Dependent Data"
+			}
+		],
 		"abstract": "For the last two decades, high-dimensional data and methods have proliferated throughout the literature. The classical technique of linear regression, however, has not lost its touch in applications. Most high-dimensional estimation techniques can be seen as variable selection tools which lead to a smaller set of variables where classical linear regression technique applies. In this paper, we prove estimation error and linear representation bounds for the linear regression estimator uniformly over (many) subsets of variables.  Based on deterministic inequalities, our results provide ``good'' rates when applied to both independent and dependent data. These results are useful in correctly interpreting the linear regression estimator obtained after exploring the data and also in post model-selection inference. All the results are derived under no model assumptions and are non-asymptotic in nature."
 	},
 	{
@@ -51,6 +66,11 @@
 		"cites": 12,
 		"ecc": 12,
 		"rank": 2,
+		"topic":[
+			{
+				"topic": "Concentration Inequalities"
+			}		
+		],
 		"use": true,
 		"abstract": "Concentration inequalities form an essential toolkit in the study of high dimensional statistical methods. Most of the relevant statistics literature in this regard is, however, based on the assumptions of sub-Gaussian/sub-exponential random vectors. In this paper, we first bring together, via a unified exposition, various probability inequalities for sums of independent random variables under much weaker exponential type (sub-Weibull) tail assumptions. These results extract a part sub-Gaussian tail behavior of the sum in finite samples, matching the asymptotics governed by the central limit theorem, and are compactly represented in terms of a new Orlicz quasi-norm -- the Generalized Bernstein-Orlicz norm -- that typifies such kind of tail behaviors.\nWe illustrate the usefulness of these inequalities through the analysis of four fundamental problems in high dimensional statistics. In the first two problems, we study the rate of convergence of the sample covariance matrix in terms of the maximum elementwise norm and the maximum $k$-sub-matrix operator norm which are key quantities of interest in bootstrap procedures and high dimensional structured covariance matrix estimation. The third example concerns the restricted eigenvalue condition, required in high dimensional linear regression, which we verify for all sub-Weibull random vectors under only marginal (not joint) tail assumptions on the covariates. To our knowledge, this is the first unified result obtained in such generality. In the final example, we consider the Lasso estimator for linear regression and establish its rate of convergence to be generally $\\sqrt{k\\log p/n}$, for $k$-sparse signals, under much weaker tail assumptions (on the errors as well as the covariates) than those in the existing literature. The common feature in all our results is that the convergence rates under most exponential tails match the usual ones obtained under sub-Gaussian assumptions.\nFinally, we also establish a high dimensional central limit theorem with a concrete rate bound for sub-Weibulls, as well as tail bounds for suprema of empirical processes. All our results are finite sample."
 	},
@@ -76,7 +96,12 @@
 		"cites": 9,
 		"ecc": 9,
 		"rank": 3,
-		"use": true
+		"use": true,
+		"topic":[
+			{
+				"topic": "Robust Statistics"
+			}		
+		]
 	},
 	{
 		"type": "Preprint",
@@ -101,7 +126,15 @@
 		"cites": 6,
 		"ecc": 6,
 		"rank": 4,
-		"use": true
+		"use": true,
+		"topic":[
+			{
+				"topic": "Semi-parametric Inference"
+			},
+			{
+				"topic": "Shape-constrained Inference"
+			}		
+		]
 	},
 	{
 		"type": "Preprint",
@@ -135,7 +168,12 @@
 		"cites": 6,
 		"ecc": 6,
 		"rank": 5,
-		"use": true
+		"use": true,
+		"topic":[
+			{
+				"topic": "Misspecification"
+			}		
+		]
 	},
 	{
 		"type": "Preprint",
@@ -157,7 +195,12 @@
 		"cites": 6,
 		"ecc": 6,
 		"rank": 6,
-		"use": true
+		"use": true,
+		"topic":[
+			{
+				"topic": "Semi-parametric Inference"
+			}		
+		]
 	},
 	{
 		"type": "Journal article",
@@ -183,19 +226,26 @@
 				"name": "W Su"
 			},
 			{
-				"name": "L Shazo"
+				"name": "L Zhao"
 			}
 		],
 		"source": "The American Statistician",
 		"year": 2019,
 		"startpage": 1,
 		"endpage": 23,
-		"citation_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=k2uOCu0AAAAJ&pagesize=100&citation_for_view=k2uOCu0AAAAJ:u-x6o8ySG0sC",
+		"citation_url": "https://arxiv.org/abs/1806.09014",
+		"journal_url": "https://www.tandfonline.com/doi/full/10.1080/00031305.2019.1592781",
 		"cites_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=4392421106441485919",
 		"cites": 4,
 		"ecc": 4,
 		"rank": 7,
-		"use": true
+		"use": true,
+		"topic":[
+			{
+				"topic": "Misspecification"
+			}		
+		],
+		"abstract": "It is well known that models used in conventional regression analysis are commonly misspecified. A standard response is little more than a shrug. Data analysts invoke Box’s maxim that all models are wrong and then proceed as if the results are useful nevertheless. In this paper, we provide an alternative. Regression models are treated explicitly as approximations of a true response surface that can have a number of desir- able statistical properties, including estimates that are asymptotically unbiased. Valid statistical inference follows. We generalize the formulation to include regression func- tionals, which broadens substantially the range of potential applications. An empirical application is provided to illustrate the paper’s key concepts."
 	},
 	{
 		"type": "Preprint",
@@ -226,7 +276,18 @@
 		"cites": 3,
 		"ecc": 3,
 		"rank": 8,
-		"use": true
+		"use": true,
+		"topic":[
+			{
+				"topic": "Post-selection Inference"
+			},
+			{
+				"topic": "High-dimensional Statistics"
+			},
+			{
+				"topic": "Dependent Data"
+			}
+		]
 	},
 	{
 		"type": "Preprint",
@@ -245,7 +306,18 @@
 		"cites": 2,
 		"ecc": 2,
 		"rank": 9,
-		"use": true
+		"use": true,
+		"topic":[
+			{
+				"topic": "Semi-parametric Inference"
+			},
+			{
+				"topic": "Post-selection Inference"
+			},
+			{
+				"topic": "Dependent Data"
+			}
+		]
 	},
 	{
 		"type": "Journal article",
@@ -293,11 +365,18 @@
 		"issue": 3,
 		"startpage": 627,
 		"endpage": 656,
+		"citation_url": "https://arxiv.org/abs/1706.05745",
 		"journal_url": "https://link.springer.com/article/10.1007/s10463-018-0665-x",
 		"cites_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=103179556759016315",
 		"cites": 1,
 		"ecc": 1,
 		"rank": 11,
+		"use": true,
+		"topic":[
+			{
+				"topic": "Robust Statistics"
+			}		
+		],
 		"use": true,
 		"abstract": "M-estimators offer simple robust alternatives to the maximum likelihood estimator. The density power divergence (DPD) and the logarithmic density power divergence (LDPD) measures provide two classes of robust M-estimators which contain the MLE as a special case. In each of these families, the robustness of the estimator is achieved through a density power down-weighting of outlying observations. Even though the families have proved to be useful in robust inference, the relation and hierarchy between these two families are yet to be fully established. In this paper, we present a generalized family of divergences that provides a smooth bridge between DPD and LDPD measures. This family helps to clarify and settle several longstanding issues in the relation between the important families of DPD and LDPD, apart from being an important tool in different areas of statistical inference in its own right."
 	},
@@ -319,11 +398,17 @@
 		"cites": 1,
 		"ecc": 1,
 		"rank": 12,
-		"use": true
+		"use": true,
+		"topic":[
+			{
+				"topic": "Robust Statistics"
+			}		
+		]
 	},
 	{
 		"id": 13,
-		"title": "simest: Single Index Model Estimation with Constraints on Link Function, 2016",
+		"title": "simest: Single Index Model Estimation with Constraints on Link Function",
+		"year": 2016,
 		"authors": [
 			{
 				"name": "AK Kuchibhotla"
@@ -338,7 +423,12 @@
 		"cites": 1,
 		"ecc": 1,
 		"rank": 13,
-		"use": true
+		"use": true,
+		"topic":[
+			{
+				"topic": "Semi-parametric Inference"
+			}		
+		]
 	},
 	{
 		"type": "Preprint",
@@ -361,6 +451,12 @@
 		"ecc": 0,
 		"rank": 14,
 		"use": true,
+		"topic":[
+			{
+				"topic": "Nonparametric Statistics"
+			}		
+		],
+		"use": true,
 		"abstract": "We consider least squares estimation in a general nonparametric regression model. The rate of convergence of the least squares estimator (LSE) for the unknown regression function is well studied when the errors are sub-Gaussian. We find upper bounds on the rates of convergence of the LSE when the errors have uniformly bounded conditional variance and have only finitely many moments. We show that the interplay between the moment assumptions on the error, the metric entropy of the class of functions involved, and the \"local\" structure of the function class around the truth drives the rate of convergence of the LSE. We find sufficient conditions on the errors under which the rate of the LSE matches the rate of the LSE under sub-Gaussian error. Our results are finite sample and allow for heteroscedastic and heavy-tailed errors."
 	},
 	{
@@ -380,7 +476,12 @@
 		"cites": 0,
 		"ecc": 0,
 		"rank": 15,
-		"use": true
+		"use": true,
+		"topic":[
+			{
+				"topic": "Concentration Inequalities"
+			}		
+		]
 	},
 	{
 		"type": "Preprint",
@@ -405,33 +506,13 @@
 		"cites": 0,
 		"ecc": 0,
 		"rank": 16,
-		"use": true
+		"use": true,
+		"topic":[
+			{
+				"topic": "Misspecification"
+			}		
+		]
 	},
-	// {
-	// 	"type": "Preprint",
-	// 	"id": 17,
-	// 	"title": "Cram\\'er-type Large deviation and non-uniform central limit theorems in high dimensions",
-	// 	"authors": [
-	// 		{
-	// 			"name": "D Banerjee"
-	// 		},
-	// 		{
-	// 			"name": "AK Kuchibhotla"
-	// 		},
-	// 		{
-	// 			"name": "S Mukherjee"
-	// 		}
-	// 	],
-	// 	"source": "arXiv:1806.",
-	// 	"year": 2018,
-	// 	"volume": 6153,
-	// 	"citation_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=k2uOCu0AAAAJ&pagesize=100&citation_for_view=k2uOCu0AAAAJ:WF5omc3nYNoC",
-	// 	"cites_url": "https://scholar.google.com",
-	// 	"cites": 0,
-	// 	"ecc": 0,
-	// 	"rank": 17,
-	// 	"use": true
-	// },
 	{
 		"type": "Preprint",
 		"id": 18,
@@ -450,12 +531,19 @@
 		"source": "arXiv:1806.",
 		"year": 2018,
 		"volume": 6153,
-		"citation_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=k2uOCu0AAAAJ&pagesize=100&citation_for_view=k2uOCu0AAAAJ:Se3iqnhoufwC",
+		"citation_url": "https://arxiv.org/abs/1706.05745",
+		"journal_url": "https://link.springer.com/article/10.1007/s10463-018-0665-x",
 		"cites_url": "https://scholar.google.com",
 		"cites": 0,
 		"ecc": 0,
 		"rank": 18,
-		"use": true
+		"use": true,
+		"topic":[
+			{
+				"topic": "High-dimensional Statistics"
+			}		
+		],
+		"abstract": "M-estimators offer simple robust alternatives to the maximum likelihood estimator. The density power divergence (DPD) and the logarithmic density power divergence (LDPD) measures provide two classes of robust M-estimators which contain the MLE as a special case. In each of these families, the robustness of the estimator is achieved through a density power down-weighting of outlying observations. Even though the families have proved to be useful in robust inference, the relation and hierarchy between these two families are yet to be fully established. In this paper, we present a generalized family of divergences that provides a smooth bridge between DPD and LDPD measures. This family helps to clarify and settle several longstanding issues in the relation between the important families of DPD and LDPD, apart from being an important tool in different areas of statistical inference in its own right."
 	},
 	{
 		"type": "Preprint",
@@ -479,32 +567,20 @@
 		"cites": 0,
 		"ecc": 0,
 		"rank": 20,
-		"use": true
-	},
-	{
-		"id": 20,
-		"title": "Models as Approximations II: A Model-Free Theory of Parametric Regression",
-		"authors": [
+		"use": true,
+		"topic":[
 			{
-				"name": "A Buja"
+				"topic": "Semi-parametric Inference"
 			},
 			{
-				"name": "L Brown"
-			},
-			{
-				"name": "AK Kuchibhotla"
+				"topic": "Shape-constrained Inference"
 			}
-		],
-		"citation_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=k2uOCu0AAAAJ&pagesize=100&citation_for_view=k2uOCu0AAAAJ:roLk4NBRz8UC",
-		"cites_url": "https://scholar.google.com",
-		"cites": 0,
-		"ecc": 0,
-		"rank": 21,
-		"use": true
+		]
 	},
 	{
 		"id": 21,
 		"title": "Testing in Additive and Projection Pursuit Models",
+		"year": 2013, 
 		"authors": [
 			{
 				"name": "AK Kuchibhotla"
@@ -515,6 +591,11 @@
 		"cites": 0,
 		"ecc": 0,
 		"rank": 22,
-		"use": true
+		"use": true,
+		"topic":[
+			{
+				"topic": "Nonparametric Statistics"
+			}		
+		]
 	}
 ]
