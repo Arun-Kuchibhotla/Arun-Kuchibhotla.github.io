@@ -20,11 +20,10 @@
 				"name": "L Zhao"
 			}
 		],
-		"source": "arXiv:1802.",
-
+		"source": "arXiv:1802.05801",
 		"year": 2018,
 		"volume": 5801,
-		"citation_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=k2uOCu0AAAAJ&pagesize=100&citation_for_view=k2uOCu0AAAAJ:d1gkVwhDpl0C",
+		"citation_url": "https://arxiv.org/abs/1802.05801",
 		"cites_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=3071614081092121308",
 		"cites": 15,
 		"ecc": 15,
@@ -44,7 +43,8 @@
 				"topic": "Dependent Data"
 			}
 		],
-		"abstract": "For the last two decades, high-dimensional data and methods have proliferated throughout the literature. The classical technique of linear regression, however, has not lost its touch in applications. Most high-dimensional estimation techniques can be seen as variable selection tools which lead to a smaller set of variables where classical linear regression technique applies. In this paper, we prove estimation error and linear representation bounds for the linear regression estimator uniformly over (many) subsets of variables.  Based on deterministic inequalities, our results provide ``good'' rates when applied to both independent and dependent data. These results are useful in correctly interpreting the linear regression estimator obtained after exploring the data and also in post model-selection inference. All the results are derived under no model assumptions and are non-asymptotic in nature."
+		"abstract": "For the last two decades, high-dimensional data and methods have proliferated throughout the literature. The classical technique of linear regression, however, has not lost its touch in applications. Most high-dimensional estimation techniques can be seen as variable selection tools which lead to a smaller set of variables where classical linear regression technique applies. In this paper, we prove estimation error and linear representation bounds for the linear regression estimator uniformly over (many) subsets of variables.  Based on deterministic inequalities, our results provide ``good'' rates when applied to both independent and dependent data. These results are useful in correctly interpreting the linear regression estimator obtained after exploring the data and also in post model-selection inference. All the results are derived under no model assumptions and are non-asymptotic in nature.",
+		"description": "This paper proves finite sample results for convergence of OLS estimators uniform over all subset of covariates. The results apply for both independent and dependent observations. The dependence setting considered is functional dependence introduced by Wu (2005)."
 	},
 	{
 		"type": "Preprint",
@@ -58,10 +58,10 @@
 				"name": "A Chakrabortty"
 			}
 		],
-		"source": "arXiv:1804.",
+		"source": "arXiv:1804.02605",
 		"year": 2018,
 		"volume": 2605,
-		"citation_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=k2uOCu0AAAAJ&pagesize=100&citation_for_view=k2uOCu0AAAAJ:u5HHmVD_uO8C",
+		"citation_url": "https://arxiv.org/abs/1804.02605",
 		"cites_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=1276321809884077117",
 		"cites": 12,
 		"ecc": 12,
@@ -72,7 +72,8 @@
 			}		
 		],
 		"use": true,
-		"abstract": "Concentration inequalities form an essential toolkit in the study of high dimensional statistical methods. Most of the relevant statistics literature in this regard is, however, based on the assumptions of sub-Gaussian/sub-exponential random vectors. In this paper, we first bring together, via a unified exposition, various probability inequalities for sums of independent random variables under much weaker exponential type (sub-Weibull) tail assumptions. These results extract a part sub-Gaussian tail behavior of the sum in finite samples, matching the asymptotics governed by the central limit theorem, and are compactly represented in terms of a new Orlicz quasi-norm -- the Generalized Bernstein-Orlicz norm -- that typifies such kind of tail behaviors.\nWe illustrate the usefulness of these inequalities through the analysis of four fundamental problems in high dimensional statistics. In the first two problems, we study the rate of convergence of the sample covariance matrix in terms of the maximum elementwise norm and the maximum $k$-sub-matrix operator norm which are key quantities of interest in bootstrap procedures and high dimensional structured covariance matrix estimation. The third example concerns the restricted eigenvalue condition, required in high dimensional linear regression, which we verify for all sub-Weibull random vectors under only marginal (not joint) tail assumptions on the covariates. To our knowledge, this is the first unified result obtained in such generality. In the final example, we consider the Lasso estimator for linear regression and establish its rate of convergence to be generally $\\sqrt{k\\log p/n}$, for $k$-sparse signals, under much weaker tail assumptions (on the errors as well as the covariates) than those in the existing literature. The common feature in all our results is that the convergence rates under most exponential tails match the usual ones obtained under sub-Gaussian assumptions.\nFinally, we also establish a high dimensional central limit theorem with a concrete rate bound for sub-Weibulls, as well as tail bounds for suprema of empirical processes. All our results are finite sample."
+		"abstract": "Concentration inequalities form an essential toolkit in the study of high dimensional statistical methods. Most of the relevant statistics literature in this regard is, however, based on the assumptions of sub-Gaussian/sub-exponential random vectors. In this paper, we first bring together, via a unified exposition, various probability inequalities for sums of independent random variables under much weaker exponential type (sub-Weibull) tail assumptions. These results extract a part sub-Gaussian tail behavior of the sum in finite samples, matching the asymptotics governed by the central limit theorem, and are compactly represented in terms of a new Orlicz quasi-norm -- the Generalized Bernstein-Orlicz norm -- that typifies such kind of tail behaviors.\nWe illustrate the usefulness of these inequalities through the analysis of four fundamental problems in high dimensional statistics. In the first two problems, we study the rate of convergence of the sample covariance matrix in terms of the maximum elementwise norm and the maximum $k$-sub-matrix operator norm which are key quantities of interest in bootstrap procedures and high dimensional structured covariance matrix estimation. The third example concerns the restricted eigenvalue condition, required in high dimensional linear regression, which we verify for all sub-Weibull random vectors under only marginal (not joint) tail assumptions on the covariates. To our knowledge, this is the first unified result obtained in such generality. In the final example, we consider the Lasso estimator for linear regression and establish its rate of convergence to be generally $\\sqrt{k\\log p/n}$, for $k$-sparse signals, under much weaker tail assumptions (on the errors as well as the covariates) than those in the existing literature. The common feature in all our results is that the convergence rates under most exponential tails match the usual ones obtained under sub-Gaussian assumptions.\nFinally, we also establish a high dimensional central limit theorem with a concrete rate bound for sub-Weibulls, as well as tail bounds for suprema of empirical processes. All our results are finite sample.",
+		"description": "Concentration inequalities are well-known under sub-Gaussian and sub-exponential conditions. In some examples these do not hold. For example, in the case of sandwich variance in linear regression we encounter $XX'(Y - X'\\beta)^2$ which is a quartic function of random variables. Even if we assume sub-Gaussianity of X and Y this quartic function is only sub-Weibull(1/2). In this paper, we consider tail bounds for these kind of random variables. After an exposition of these concentration inequalities, we consider four statistical applications."
 	},
 	{
 		"type": "Journal article",
@@ -91,7 +92,7 @@
 		"volume": 96,
 		"startpage": 68,
 		"endpage": 74,
-		"citation_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=k2uOCu0AAAAJ&pagesize=100&citation_for_view=k2uOCu0AAAAJ:9yKSN-GCB0IC",
+		"citation_url": "https://www.sciencedirect.com/science/article/pii/S0167715214003083",
 		"cites_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=4149858368467716897",
 		"cites": 9,
 		"ecc": 9,
@@ -101,12 +102,14 @@
 			{
 				"topic": "Robust Statistics"
 			}		
-		]
+		],
+		"abstract": "Lindsay (1994) provided a general set up in discrete models for minimum disparity estimation. Such a set up eludes us in continuous models. We provide such a general result and hence fill up a major gap in the literature.",
+		"description": "Lindsay (1994) provided a general set up in discrete models for minimum disparity estimation. Such a set up eludes us in continuous models. We provide such a general result and hence fill up a major gap in the literature."
 	},
 	{
 		"type": "Preprint",
 		"id": 4,
-		"title": "Efficient estimation in convex single index models",
+		"title": "Least Squares Estimation in a Single Index Model with Convex Lipschitz link",
 		"authors": [
 			{
 				"name": "AK Kuchibhotla"
@@ -118,10 +121,10 @@
 				"name": "B Sen"
 			}
 		],
-		"source": "arXiv:1708.",
+		"source": "arXiv:1708.00145",
 		"year": 2017,
 		"volume": 145,
-		"citation_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=k2uOCu0AAAAJ&pagesize=100&citation_for_view=k2uOCu0AAAAJ:qjMakFHDy7sC",
+		"citation_url": "https://arxiv.org/abs/1708.00145",
 		"cites_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=8231790234499541402",
 		"cites": 6,
 		"ecc": 6,
@@ -134,7 +137,9 @@
 			{
 				"topic": "Shape-constrained Inference"
 			}		
-		]
+		],
+		"abstract": "We consider estimation and inference in a single index regression model with an unknown convex link function. We propose a Lipschitz constrained least squares estimator (LLSE) for both the parametric and the nonparametric components given independent and identically distributed observations. We prove the consistency and find the rates of convergence of the LLSE when the errors are assumed to have only $q\\ge2$ moments and are allowed to depend on the covariates. In fact, we prove a general theorem which can be used to find the rates of convergence of LSEs in a variety of nonparametric/semiparametric regression problems under the same assumptions on the errors. Moreover when $q\\ge5$, we establish $n^{-1/2}$-rate of convergence and asymptotic normality of the estimator of the parametric component. Moreover the LLSE is proved to be semiparametrically efficient if the errors happen to be homoscedastic. Furthermore, we develop the R package simest to compute the proposed estimator.",
+		"description": "This paper consider estimation and inference in a single index model when the link function is constrained to be convex and Lipschitz. This paper proves a general result that helps find rate of convergence of nonparametric least squares under finite number of moments."
 	},
 	{
 		"type": "Preprint",
@@ -160,10 +165,10 @@
 				"name": "L Zhao"
 			}
 		],
-		"source": "arXiv:1612.",
+		"source": "arXiv:1612.03257",
 		"year": 2016,
 		"volume": 3257,
-		"citation_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=k2uOCu0AAAAJ&pagesize=100&citation_for_view=k2uOCu0AAAAJ:YsMSGLbcyi4C",
+		"citation_url": "https://arxiv.org/abs/1612.03257",
 		"cites_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=16495760639311084209",
 		"cites": 6,
 		"ecc": 6,
@@ -173,7 +178,9 @@
 			{
 				"topic": "Misspecification"
 			}		
-		]
+		],
+		"abstract": "We develop a model-free theory of general types of parametric regression for iid observations. The theory replaces the parameters of parametric models with statistical functionals, to be called regression functionals, defined on large non-parametric classes of joint $(X, Y)$ distributions, without assuming a correct model. Parametric models are reduced to heuristics to suggest plausible objective functions. An example of a regression functional is the vector of slopes of linear equations fitted by OLS to largely arbitrary $(X, Y)$ distributions, without assuming a linear model (see Part~I). More generally, regression functionals can be defined by minimizing objective functions or solving estimating equations at joint $(X, Y)$ distributions. In this framework it is possible to achieve the following: (1)~define a notion of well-specification for regression functionals that replaces the notion of correct specification of models, (2)~propose a well-specification diagnostic for regression functionals based on reweighting distributions and data, (3)~decompose sampling variability of regression functionals into two sources, one due to the conditional response distribution and another due to the regressor distribution interacting with misspecification, both of order $N^{-1/2}$, (4)~exhibit plug-in/sandwich estimators of standard error as limit cases of $(X, Y)$ bootstrap estimators, and (5)~provide theoretical heuristics to indicate that $(X, Y)$ bootstrap standard errors may generally be more stable than sandwich estimators.",
+		"description": "This provides provides the theory and interpretation of M-estimators under misspecification."
 	},
 	{
 		"type": "Preprint",
@@ -190,7 +197,7 @@
 		"source": "arXiv:1612.",
 		"year": 2016,
 		"volume": 68,
-		"citation_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=k2uOCu0AAAAJ&pagesize=100&citation_for_view=k2uOCu0AAAAJ:Y0pCki6q_DkC",
+		"citation_url": "https://arxiv.org/abs/1612.00068",
 		"cites_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=14919254509675272603",
 		"cites": 6,
 		"ecc": 6,
@@ -200,7 +207,9 @@
 			{
 				"topic": "Semi-parametric Inference"
 			}		
-		]
+		],
+		"abstract": "We consider estimation and inference in a single index regression model with an unknown but smooth link function. In contrast to the standard approach of using kernels or regression splines, we use smoothing splines to estimate the smooth link function. We develop a method to compute the penalized least squares estimators (PLSEs) of the parametric and the nonparametric components given independent and identically distributed (i.i.d.)~data. We prove the consistency and find the rates of convergence of the estimators. We establish asymptotic normality under under mild assumption and prove asymptotic efficiency of the parametric component under homoscedastic errors. A finite sample simulation corroborates our asymptotic theory. We also analyze a car mileage data set and a Ozone concentration data set. The identifiability and existence of the PLSEs are also investigated.",
+		"description": "This paper considers estimation and inference in a single index model using a smoothing spline estimator of the link function."
 	},
 	{
 		"type": "Journal article",
@@ -245,7 +254,8 @@
 				"topic": "Misspecification"
 			}		
 		],
-		"abstract": "It is well known that models used in conventional regression analysis are commonly misspecified. A standard response is little more than a shrug. Data analysts invoke Box’s maxim that all models are wrong and then proceed as if the results are useful nevertheless. In this paper, we provide an alternative. Regression models are treated explicitly as approximations of a true response surface that can have a number of desir- able statistical properties, including estimates that are asymptotically unbiased. Valid statistical inference follows. We generalize the formulation to include regression func- tionals, which broadens substantially the range of potential applications. An empirical application is provided to illustrate the paper’s key concepts."
+		"abstract": "It is well known that models used in conventional regression analysis are commonly misspecified. A standard response is little more than a shrug. Data analysts invoke Box’s maxim that all models are wrong and then proceed as if the results are useful nevertheless. In this paper, we provide an alternative. Regression models are treated explicitly as approximations of a true response surface that can have a number of desir- able statistical properties, including estimates that are asymptotically unbiased. Valid statistical inference follows. We generalize the formulation to include regression func- tionals, which broadens substantially the range of potential applications. An empirical application is provided to illustrate the paper’s key concepts.",
+		"description": "This paper is a non-technical version of the papers: Models as approximation parts 1 and 2."
 	},
 	{
 		"type": "Preprint",
@@ -271,7 +281,7 @@
 		"source": "arXiv:1806.",
 		"year": 2018,
 		"volume": 4119,
-		"citation_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=k2uOCu0AAAAJ&pagesize=100&citation_for_view=k2uOCu0AAAAJ:IjCSPb-OGe4C",
+		"citation_url": "https://arxiv.org/abs/1806.04119",
 		"cites_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=10014366546700290406",
 		"cites": 3,
 		"ecc": 3,
@@ -287,7 +297,9 @@
 			{
 				"topic": "Dependent Data"
 			}
-		]
+		],
+		"abstract": "Modern data-driven approaches to modeling make extensive use of covariate/model selection.  Such selection incurs a cost: it invalidates classical statistical inference.  A conservative remedy to the problem was proposed by Berk et al. (2013) and further extended by Bachoc et al. (2016). These proposals, labeled ``PoSI methods'', provide valid inference after arbitrary model selection.  They are computationally NP-hard and have certain limitations in their theoretical justifications.  We therefore propose computationally efficient PoSI confidence regions and prove large-$p$ asymptotics for them.  We do this for linear OLS regression allowing misspecification of the normal linear model, for both fixed and random covariates, and for independent as well as some types of dependent data.  We start by proving a general equivalence result for the post-selection inference problem and a simultaneous inference problem in a setting that strips inessential features still present in a related result of Berk et al. (2013). We then construct valid PoSI confidence regions that are the first to have vastly improved computational efficiency in that the required computation times grow only quadratically rather than exponentially with the total number $p$ of covariates. These are also the first PoSI confidence regions with guaranteed asymptotic validity when the total number of covariates~$p$ diverges (almost exponentially) with the sample size~$n$.  Under standard tail assumptions, we only require $(\\log p)^7 = o(n)$ and $k = o(\\sqrt{n/\\log p})$ where $k (\\le p)$ is the largest number of covariates (model size) considered for selection.  We study various properties of these confidence regions, including their Lebesgue measures, and compare them (theoretically) with those proposed previously.",
+		"description": "This paper prvides the first ever computationally efficient simultaneous inference for all sub-models in linear regression without assuming linearity, independence of observations."
 	},
 	{
 		"type": "Preprint",
@@ -301,7 +313,7 @@
 		"source": "arXiv:1809.",
 		"year": 2018,
 		"volume": 5172,
-		"citation_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=k2uOCu0AAAAJ&pagesize=100&citation_for_view=k2uOCu0AAAAJ:ufrVoPGSRksC",
+		"citation_url": "https://arxiv.org/abs/1809.05172",
 		"cites_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=9556568440652642842",
 		"cites": 2,
 		"ecc": 2,
@@ -317,7 +329,9 @@
 			{
 				"topic": "Dependent Data"
 			}
-		]
+		],
+		"abstract": "Ever since the proof of asymptotic normality of maximum likelihood estimator by Cramer (1946), it has been understood that a basic technique of the Taylor series expansion suffices for asymptotics of M-estimators with smooth/differentiable loss function. Although the Taylor series expansion is a purely deterministic tool, the realization that the asymptotic normality results can also be made deterministic (and so finite sample) received far less attention. With the advent of big data and high-dimensional statistics, the need for finite sample results has increased. In this paper, we use the (well-known) Banach fixed point theorem to derive various deterministic inequalities that lead to the classical results when studied under randomness. In addition, we provide applications of these deterministic inequalities for crossvalidation/subsampling, marginal screening and uniform-in-submodel results that are very useful for post-selection inference and in the study of post-regularization estimators. Our results apply to many classical estimators, in particular, generalized linear models, non-linear regression and cox proportional hazards model. Extensions to non-smooth and constrained problems are also discussed.",
+		"description": "This paper proves deterministic inequalities for estimator defined by smooth estimating equations without assuming any model or dependence structure on the data. The examples include ordinary least squares, generalized linear models, Cox proportional hazards model, non-linear least squares and equality constrained estimators."
 	},
 	{
 		"type": "Journal article",
@@ -337,12 +351,14 @@
 		"issue": 3,
 		"startpage": 481,
 		"endpage": 502,
-		"citation_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=k2uOCu0AAAAJ&pagesize=100&citation_for_view=k2uOCu0AAAAJ:UeHWp8X0CEIC",
+		"citation_url": "https://link.springer.com/article/10.1007/s11749-016-0520-4",
 		"cites_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=8999149679345435611",
 		"cites": 2,
 		"ecc": 2,
 		"rank": 10,
-		"use": true
+		"use": true,
+		"abstract": "Inference procedures based on the minimization of divergences are popular statistical tools. Beran (Ann stat 5(3):445–463, 1977) proved consistency and asymptotic normality of the minimum Hellinger distance (MHD) estimator. This method was later extended to the large class of disparities in discrete models by Lindsay (Ann stat 22(2):1081–1114, 1994) who proved existence of a sequence of roots of the estimating equation which is consistent and asymptotically normal. However, the current literature does not provide a general asymptotic result about the minimizer of a generic disparity. In this paper, we prove, under very general conditions, an asymptotic representation of the minimum disparity estimator itself (and not just for a root of the estimating equation), thus generalizing the results of Beran (Ann stat 5(3):445–463, 1977) and Lindsay (Ann stat 22(2):1081–1114, 1994). This leads to a general framework for minimum disparity estimation encompassing both discrete and continuous models.",
+		"description": "This paper provides a unified framework for the asymptotics of the minimum disparity estimators. This paper does not assume any model or dependence structure on the data. Hence it is similar in spirit to my paper: Determinisitic Inequalities for Smooth M-estimators."
 	},
 	{
 		"type": "Journal article",
@@ -378,7 +394,8 @@
 			}		
 		],
 		"use": true,
-		"abstract": "M-estimators offer simple robust alternatives to the maximum likelihood estimator. The density power divergence (DPD) and the logarithmic density power divergence (LDPD) measures provide two classes of robust M-estimators which contain the MLE as a special case. In each of these families, the robustness of the estimator is achieved through a density power down-weighting of outlying observations. Even though the families have proved to be useful in robust inference, the relation and hierarchy between these two families are yet to be fully established. In this paper, we present a generalized family of divergences that provides a smooth bridge between DPD and LDPD measures. This family helps to clarify and settle several longstanding issues in the relation between the important families of DPD and LDPD, apart from being an important tool in different areas of statistical inference in its own right."
+		"abstract": "M-estimators offer simple robust alternatives to the maximum likelihood estimator. The density power divergence (DPD) and the logarithmic density power divergence (LDPD) measures provide two classes of robust M-estimators which contain the MLE as a special case. In each of these families, the robustness of the estimator is achieved through a density power down-weighting of outlying observations. Even though the families have proved to be useful in robust inference, the relation and hierarchy between these two families are yet to be fully established. In this paper, we present a generalized family of divergences that provides a smooth bridge between DPD and LDPD measures. This family helps to clarify and settle several longstanding issues in the relation between the important families of DPD and LDPD, apart from being an important tool in different areas of statistical inference in its own right.",
+		"description": "There are many robust estimators for location and scale estimators. For general parametric families, there are two prominent alternatives based on density power divergences and logarithmic density power divergences. These two classes have very different properties and in this paper we combine these two families to get a better family of estimators."
 	},
 	{
 		"type": "Conference proceedings",
@@ -407,7 +424,8 @@
 			}		
 		],
 		"use": true,
-		"abstract": "M-estimators offer simple robust alternatives to the maximum likelihood estimator. The density power divergence (DPD) and the logarithmic density power divergence (LDPD) measures provide two classes of robust M-estimators which contain the MLE as a special case. In each of these families, the robustness of the estimator is achieved through a density power down-weighting of outlying observations. Even though the families have proved to be useful in robust inference, the relation and hierarchy between these two families are yet to be fully established. In this paper, we present a generalized family of divergences that provides a smooth bridge between DPD and LDPD measures. This family helps to clarify and settle several longstanding issues in the relation between the important families of DPD and LDPD, apart from being an important tool in different areas of statistical inference in its own right."
+		"abstract": "We consider first order expansions of convex penalized estimators in high-dimensional regression problems with random designs. Our setting includes linear regression and logistic regression as special cases. For a given penalty function $h$ and the corresponding penalized estimator $\\hbeta$, we construct a quantity $\\eta$, the first order expansion of $\\hbeta$, such that the distance between $\\hbeta$ and $\\eta$ is an order of magnitude smaller than the estimation error $\\|\\hat{\beta} - \beta^*\\|$. In this sense, the first order expansion $\\eta$ can be thought of as a generalization of influence functions from the mathematical statistics literature to regularized estimators in high-dimensions. Such first order expansion implies that the risk of $\\hat{\beta}$ is asymptotically the same as the risk of $\\eta$ which leads to a precise characterization of the MSE of $\\hbeta$; this characterization takes a particularly simple form for isotropic design. Such first order expansion also leads to inference results based on $\\hat{\beta}$. We provide sufficient conditions for the existence of such first order expansion for three regularizers: the Lasso in its constrained form, the lasso in its penalized form, and the Group-Lasso. The results apply to general loss functions under some conditions and those conditions are satisfied for the squared loss in linear regression and for the logistic loss in the logistic model.",
+		"description": "This paper provides a first order influence function expansion for penalized estimators. The classical influence function expansion shows M-estimators properly centered behaves like a centered average and in this paper, we show the penalized estimator behaves like a shrinked version of the true parameter shifted by a centered average."
 	},
 	{
 		"id": 12,
@@ -422,7 +440,7 @@
 		],
 		"source": "Technical report, Interdisciplinary Statistical Research Unit (ISRU), Indian …",
 		"year": 2018,
-		"citation_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=k2uOCu0AAAAJ&pagesize=100&citation_for_view=k2uOCu0AAAAJ:Tyk-4Ss8FVUC",
+		"citation_url": "https://faculty.wharton.upenn.edu/wp-content/uploads/2018/02/attemptv4p1.pdf?_ga=2.82169622.1886152885.1569090151-93526264.1463923455",
 		"cites_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=7859755060604478349",
 		"cites": 1,
 		"ecc": 1,
@@ -432,7 +450,9 @@
 			{
 				"topic": "Robust Statistics"
 			}		
-		]
+		],
+		"abstract": "Over the last several decades, minimum distance (or minimum divergence, minimum disparity, minimum discrepancy) estimation methods have been studied in different statistical settings as an alternative to the method of maximum likelihood. The initial motivation was probably to exhibit that there exists other estimators apart from the maximum likelihood estimator (MLE) which has full asymptotic efficiency at the model. As the scope of and interest in the area of robust inference grew, many of these estimators were found to be particularly useful in that respect and performed better than the MLE under contamination. Later, a weighted likelihood variant of the method was developed in the same spirit, which was substantially simpler to implement. In the statistics literature the method of minimum disparity estimation and the corresponding weighted likelihood estimation methods have distinct identities. Despite their similarities, they have some basic differences. In this paper we propose a method of estimation which is simultaneously a minimum disparity method and a weighted likelihood method, and may be viewed as a method that combines the positive aspects of both. We refer to the estimator as the minimum distance weighted likelihood (MDWL) estimator, investigate its properties, and illustrate the same through real data examples and simulations. We briefly explore the applicability of the method in robust tests of hypothesis.",
+		"description": "This paper provides a version of weighted likelihood estimator that corresponds to a minimum disparity estimator. This estimator is both robust to outliers and asymptotically efficient under the true model."
 	},
 	{
 		"id": 13,
@@ -457,7 +477,8 @@
 			{
 				"topic": "Semi-parametric Inference"
 			}		
-		]
+		],
+		"description": "This package implements the estimators from the papers on single index model with Rohit Patra and Bodhisattva Sen."
 	},
 	{
 		"type": "Preprint",
@@ -471,7 +492,7 @@
 				"name": "RK Patra"
 			}
 		],
-		"source": "arXiv:1909.",
+		"source": "arXiv:1909.02088",
 		"year": 2019,
 		"volume": 2088,
 		"citation_url": "https://arxiv.org/abs/1909.02088",
@@ -486,7 +507,8 @@
 			}		
 		],
 		"use": true,
-		"abstract": "We consider least squares estimation in a general nonparametric regression model. The rate of convergence of the least squares estimator (LSE) for the unknown regression function is well studied when the errors are sub-Gaussian. We find upper bounds on the rates of convergence of the LSE when the errors have uniformly bounded conditional variance and have only finitely many moments. We show that the interplay between the moment assumptions on the error, the metric entropy of the class of functions involved, and the \"local\" structure of the function class around the truth drives the rate of convergence of the LSE. We find sufficient conditions on the errors under which the rate of the LSE matches the rate of the LSE under sub-Gaussian error. Our results are finite sample and allow for heteroscedastic and heavy-tailed errors."
+		"abstract": "We consider least squares estimation in a general nonparametric regression model. The rate of convergence of the least squares estimator (LSE) for the unknown regression function is well studied when the errors are sub-Gaussian. We find upper bounds on the rates of convergence of the LSE when the errors have uniformly bounded conditional variance and have only finitely many moments. We show that the interplay between the moment assumptions on the error, the metric entropy of the class of functions involved, and the \"local\" structure of the function class around the truth drives the rate of convergence of the LSE. We find sufficient conditions on the errors under which the rate of the LSE matches the rate of the LSE under sub-Gaussian error. Our results are finite sample and allow for heteroscedastic and heavy-tailed errors.",
+		"description": "This paper considers the asymptotics of nonparametric least squares estimator when the errors have finite number of moments and is dependent on the covariates."
 	},
 	{
 		"id": 15,
@@ -510,7 +532,9 @@
 			{
 				"topic": "Concentration Inequalities"
 			}		
-		]
+		],
+		"abstract": "In this paper, we prove exponential tail bounds for canonical (or degenerate) U-statistics and U-processes under exponential-type tail assumption on the kernels. Most of the existing results in the relevant literature often assume bounded kernels or obtain sub-optimal tail behavior under unbounded kernels. We obtain sharp rates and optimal tail behavior under sub-Weibull kernel functions. Some examples from non-parametric regression literature are considered.",
+		"description": "This paper is an extension of the Moving beyond sub-Gaussianity paper. Degenerate U-statistics represent a second order extension of mean zero averages. We prove bounds when the U-statistics kernels are unbounded."
 	},
 	{
 		"type": "Preprint",
@@ -527,10 +551,10 @@
 				"name": "A Buja"
 			}
 		],
-		"source": "arXiv:1809.",
+		"source": "arXiv:1809.10538",
 		"year": 2018,
 		"volume": 10538,
-		"citation_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=k2uOCu0AAAAJ&pagesize=100&citation_for_view=k2uOCu0AAAAJ:_FxGoFyzp5QC",
+		"citation_url": "https://arxiv.org/abs/1809.10538",
 		"cites_url": "https://scholar.google.com",
 		"cites": 0,
 		"ecc": 0,
@@ -540,7 +564,9 @@
 			{
 				"topic": "Misspecification"
 			}		
-		]
+		],
+		"abstract": "Ordinary least squares (OLS) linear regression is one of the most basic statistical techniques for data analysis. In the main stream literature and the statistical education, the study of linear regression is typically restricted to the case where the covariates are fixed, errors are mean zero Gaussians with variance independent of the (fixed) covariates. Even though OLS has been studied under misspecification from as early as the 1960's, the implications have not yet caught up with the main stream literature and applied sciences. The present article is an attempt at a unified viewpoint that makes the various implications of misspecification stand out.",
+		"description": "This paper provides a thorough study of the OLS estimator under misspecification. All the results are finite sample in nature backed by Berry-Esseen bounds. Validity of different bootstrap methods is also discussed."
 	},
 	{
 		"type": "Preprint",
@@ -557,10 +583,10 @@
 				"name": "D Banerjee"
 			}
 		],
-		"source": "arXiv:1806.",
+		"source": "arXiv:1806.06153",
 		"year": 2018,
 		"volume": 6153,
-		"citation_url": "https://arxiv.org/abs/1706.05745",
+		"citation_url": "https://arxiv.org/abs/1806.06153",
 		"journal_url": "https://link.springer.com/article/10.1007/s10463-018-0665-x",
 		"cites_url": "https://scholar.google.com",
 		"cites": 0,
@@ -572,7 +598,8 @@
 				"topic": "High-dimensional Statistics"
 			}		
 		],
-		"abstract": "M-estimators offer simple robust alternatives to the maximum likelihood estimator. The density power divergence (DPD) and the logarithmic density power divergence (LDPD) measures provide two classes of robust M-estimators which contain the MLE as a special case. In each of these families, the robustness of the estimator is achieved through a density power down-weighting of outlying observations. Even though the families have proved to be useful in robust inference, the relation and hierarchy between these two families are yet to be fully established. In this paper, we present a generalized family of divergences that provides a smooth bridge between DPD and LDPD measures. This family helps to clarify and settle several longstanding issues in the relation between the important families of DPD and LDPD, apart from being an important tool in different areas of statistical inference in its own right."
+		"abstract": "Central limit theorems (CLTs) for high-dimensional random vectors with dimension possibly growing with the sample size have received a lot of attention in the recent times. Chernozhukov et al. (2017) proved a Berry--Esseen type result for high-dimensional averages for the class of hyperrectangles and they proved that the rate of convergence can be upper bounded by $n^{-1/6}$ upto a polynomial factor of $\\log(p)$ (where $n$ represents the sample size and $p$ denotes the dimension). Convergence to zero of the bound requires $\\log^7p=o(n)$. We improve upon their result which only requires $\\log^4p=o(n)$ (in the best case). This improvement is made possible by a sharper dimension-free anti-concentration inequality for Gaussian process on a compact metric space. In addition, we prove two non-uniform variants of the high-dimensional CLT based on the large deviation and non-uniform CLT results for random variables in a Banach space by Bentkus, Rackauskas, and Paulauskas. We apply our results in the context of post-selection inference in linear regression and of empirical processes.",
+		"description": "This paper considers the implication of Banach space CLT results for the high-dimensional case and comparing the proof techniques, we improve on the results of Chernozhukov et al. (2017). We further provide non-uniform and large deviation versions of high-dimensional CLT. Applications for empirical processes and post-selection inference are also considered."
 	},
 	{
 		"type": "Preprint",
@@ -589,9 +616,9 @@
 				"name": "B Sen"
 			}
 		],
-		"source": "Preprint URL http://stat. columbia. edu/~ rohit/PapersandDraft/cvxsim. pdf",
+		"source": "Previous version of Least Squares Estimation in a Single Index Model with Convex Lipschitz link",
 		"year": 2015,
-		"citation_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=k2uOCu0AAAAJ&pagesize=100&citation_for_view=k2uOCu0AAAAJ:zYLM7Y9cAGgC",
+		"citation_url": "http://stat.columbia.edu/~rohit/PapersandDraft/cvxsim.pdf",
 		"cites_url": "https://scholar.google.com",
 		"cites": 0,
 		"ecc": 0,
@@ -604,7 +631,9 @@
 			{
 				"topic": "Shape-constrained Inference"
 			}
-		]
+		],
+		"abstract": "We consider estimation and inference in a single index regression model with an unknown convex link function. We propose a Lipschitz constrained least squares estimator (LLSE) for both the parametric and the nonparametric components given independent and identically distributed observations. We prove the consistency and find the rates of convergence of the LLSE when the errors are assumed to have only $q\\ge2$ moments and are allowed to depend on the covariates. In fact, we prove a general theorem which can be used to find the rates of convergence of LSEs in a variety of nonparametric/semiparametric regression problems under the same assumptions on the errors. Moreover when $q\\ge5$, we establish $n^{-1/2}$-rate of convergence and asymptotic normality of the estimator of the parametric component. Moreover the LLSE is proved to be semiparametrically efficient if the errors happen to be homoscedastic. Furthermore, we develop the R package simest to compute the proposed estimator.",
+		"description": "This paper consider estimation and inference in a single index model when the link function is constrained to be convex and smooth. This paper studies two different estimators. One based on convexity constrained smoothing splines and convex Liptschitz least squares."
 	},
 	{
 		"id": 21,
@@ -615,7 +644,7 @@
 				"name": "AK Kuchibhotla"
 			}
 		],
-		"citation_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=k2uOCu0AAAAJ&pagesize=100&citation_for_view=k2uOCu0AAAAJ:2osOgNQ5qMEC",
+		"citation_url": "https://faculty.wharton.upenn.edu/wp-content/uploads/2015/12/kuchibhotla2.pdf?_ga=2.259498890.1886152885.1569090151-93526264.1463923455",
 		"cites_url": "https://scholar.google.com",
 		"cites": 0,
 		"ecc": 0,
@@ -625,6 +654,8 @@
 			{
 				"topic": "Nonparametric Statistics"
 			}		
-		]
+		],
+		"abstract": "Additive models and projection pursuit models are very useful popular nonparametric methods for fitting multivariate data. The flexibility of these models makes them very useful. Yet, this very property can sometimes lead to overfitting. Inference procedures like testing of hypothesis in these cases are not very well developed in the literature. This might be due to the complexity involved in estimation. In the present paper we introduce a bootstrap based technique which allows one to test the hypothesis of the adequacy of multiple linear regression model versus the nonparametric additive model and beyond. These tests are highly useful for practitioners since the simpler models are more interpretable. We will also introduce a new model which incorporates both the additive model and the multiple index model.",
+		"description": "This paper was awarded second prize in ISI Jan Tinbergen Awards 2015. The paper considers the problem of testing between projection pursuit models and ACE models."
 	}
 ]
