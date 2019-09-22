@@ -657,5 +657,26 @@
 		],
 		"abstract": "Additive models and projection pursuit models are very useful popular nonparametric methods for fitting multivariate data. The flexibility of these models makes them very useful. Yet, this very property can sometimes lead to overfitting. Inference procedures like testing of hypothesis in these cases are not very well developed in the literature. This might be due to the complexity involved in estimation. In the present paper we introduce a bootstrap based technique which allows one to test the hypothesis of the adequacy of multiple linear regression model versus the nonparametric additive model and beyond. These tests are highly useful for practitioners since the simpler models are more interpretable. We will also introduce a new model which incorporates both the additive model and the multiple index model.",
 		"description": "This paper was awarded second prize in ISI Jan Tinbergen Awards 2015. The paper considers the problem of testing between projection pursuit models and ACE models."
+	},
+	{
+		"type": "working paper",
+		"id":23,
+		"title": "Nested conformal prediction and the generalized jackknife+",
+		"year": 2019,
+		"authors": [
+			{
+				"name": "AK Kuchibhotla"
+			},
+			{
+				"name": "Aaditya Ramdas"
+			}
+		],
+		"use": true,
+		"topic":[
+			{
+				"topic": "Conformal Prediction"
+			}
+		],
+		"description": "This paper considers conformal prediction based on a nested sequence of sets rather than a function estimate. An element of the nested sequence is obtained based on the data to have the required coverage properties. This framework includes several of the existing conformal procedures and naturally provides an extension of jackknife+ recently introduced."
 	}
 ]
