@@ -29,16 +29,10 @@ nav_order: 2
       <div class="input-group-append">
         <button class="btn btn-outline-secondary dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Category</button>
         <div class="dropdown-menu">
-          <a class="dropdown-item" href="#" onclick="categorySelector('Concentration Inequalities')">Concentration Inequalities</a>
-          <a class="dropdown-item" href="#" onclick="categorySelector('Conformal Prediction')">Conformal Prediction</a>
-          <a class="dropdown-item" href="#" onclick="categorySelector('Dependent Data')">Dependent Data</a>
-          <a class="dropdown-item" href="#" onclick="categorySelector('High-dimensional Statistics')">High-dimensional Statistics</a>
-          <a class="dropdown-item" href="#" onclick="categorySelector('Misspecification')">Misspecification</a>
-          <a class="dropdown-item" href="#" onclick="categorySelector('Nonparametric Statistics')">Nonparametric Statistics</a>
-          <a class="dropdown-item" href="#" onclick="categorySelector('Post-selection Inference')">Post-selection Inference</a>
-          <a class="dropdown-item" href="#" onclick="categorySelector('Robust Statistics')">Robust Statistics</a>
-          <a class="dropdown-item" href="#" onclick="categorySelector('Semi-parametric Inference')">Semi-parametric Inference</a>
-          <a class="dropdown-item" href="#" onclick="categorySelector('Shape-constrained Inference')">Shape-constrained Inference</a>
+          {% assign categories = "Concentration Inequalities, Conformal Prediction, Dependent Data, High-dimensional Statistics, Misspecification, Nonparametric Statistics, Post-selection Inference, Robust Statistics, Semi-parametric Inference, Shape-constrained Inference" | split: ", " %} 
+          {% for category in categories %}
+            <a class="dropdown-item" href="#" onclick="categorySelector('{{ category }}')">{{ category }}</a>  
+          {% endfor %}
           <div role="separator" class="dropdown-divider"></div>
           <a class="dropdown-item" href="#" onclick="categorySelector('All')">All</a>
         </div>
