@@ -41,7 +41,7 @@ nav_order: 2
   </div>
 </div>
 <div class="row" id="myItems">
-  {% assign types = "Journal publication, Preprint, Working paper" | split: ", " %}
+  {% assign types = "Working paper, Preprint, Journal publication" | split: ", " %}
   {% for type in types %}
   <div class="col-sm-12 mb-3">
     <h3> {{ type }} </h3>
