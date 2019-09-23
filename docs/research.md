@@ -66,10 +66,10 @@ nav_order: 2
         </h6>
         <h6 class="card-text"> 
           {{ paper.source }} 
-          [<a data-toggle="collapse" data-target="#collapseAbstract{{ paper.id }}" aria-expanded="false" aria-controls="collapseAbstract{{ paper.id }}" href="">
+          [<a data-toggle="collapse" data-target="#collapseDescription{{ paper.id }}" aria-expanded="false" aria-controls="collapseDescription{{ paper.id }}" href="">
             Description
           </a>]
-          [<a data-toggle="collapse" data-target="#collapseDescription{{ paper.id }}" aria-expanded="false" aria-controls="collapseDescription{{ paper.id }}" href="">
+          [<a data-toggle="collapse" data-target="#collapseAbstract{{ paper.id }}" aria-expanded="false" aria-controls="collapseAbstract{{ paper.id }}" href="">
             Abstract
           </a>]
           [<a href="{{ paper.citation_url }}">
