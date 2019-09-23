@@ -367,6 +367,11 @@
 		"ecc": 2,
 		"rank": 10,
 		"use": true,
+		"topic":[
+			{
+				"topic": "Robust Statistics"
+			}		
+		],
 		"abstract": "Inference procedures based on the minimization of divergences are popular statistical tools. Beran (Ann stat 5(3):445–463, 1977) proved consistency and asymptotic normality of the minimum Hellinger distance (MHD) estimator. This method was later extended to the large class of disparities in discrete models by Lindsay (Ann stat 22(2):1081–1114, 1994) who proved existence of a sequence of roots of the estimating equation which is consistent and asymptotically normal. However, the current literature does not provide a general asymptotic result about the minimizer of a generic disparity. In this paper, we prove, under very general conditions, an asymptotic representation of the minimum disparity estimator itself (and not just for a root of the estimating equation), thus generalizing the results of Beran (Ann stat 5(3):445–463, 1977) and Lindsay (Ann stat 22(2):1081–1114, 1994). This leads to a general framework for minimum disparity estimation encompassing both discrete and continuous models.",
 		"description": "This paper provides a unified framework for the asymptotics of the minimum disparity estimators. This paper does not assume any model or dependence structure on the data. Hence it is similar in spirit to my paper: Determinisitic Inequalities for Smooth M-estimators."
 	},
