@@ -1,6 +1,7 @@
 ﻿[
 	{
 		"type": "Preprint",
+		"work_type": "Preprint",
 		"id": 1,
 		"title": "A Model Free Perspective for Linear Regression: Uniform-in-model Bounds for Post Selection Inference",
 		"authors": [
@@ -48,6 +49,7 @@
 	},
 	{
 		"type": "Preprint",
+		"work_type": "Preprint",
 		"id": 2,
 		"title": "Moving Beyond Sub-Gaussianity in High-dimensional Statistics: Applications in Covariance Estimation and Linear Regression",
 		"authors": [
@@ -77,6 +79,7 @@
 	},
 	{
 		"type": "Journal article",
+		"work_type": "Journal publication",
 		"id": 3,
 		"title": "A general set up for minimum disparity estimation",
 		"authors": [
@@ -108,6 +111,7 @@
 	},
 	{
 		"type": "Preprint",
+		"work_type": "Preprint",
 		"id": 4,
 		"title": "Least Squares Estimation in a Single Index Model with Convex Lipschitz link",
 		"authors": [
@@ -143,6 +147,7 @@
 	},
 	{
 		"type": "Preprint",
+		"work_type": "Preprint",
 		"id": 5,
 		"title": "Models as Approximations---Part II: A General Theory of Model-Robust Regression",
 		"authors": [
@@ -184,6 +189,7 @@
 	},
 	{
 		"type": "Preprint",
+		"work_type": "Preprint",
 		"id": 6,
 		"title": "Efficient Estimation in Single Index Models through Smoothing splines",
 		"authors": [
@@ -213,6 +219,7 @@
 	},
 	{
 		"type": "Journal article",
+		"work_type": "Journal publication",
 		"id": 7,
 		"title": "Assumption lean regression",
 		"authors": [
@@ -259,6 +266,7 @@
 	},
 	{
 		"type": "Preprint",
+		"work_type": "Preprint",
 		"id": 8,
 		"title": "Valid Post-selection Inference in Assumption-lean Linear Regression",
 		"authors": [
@@ -303,6 +311,7 @@
 	},
 	{
 		"type": "Preprint",
+		"work_type": "Preprint",
 		"id": 9,
 		"title": "Deterministic Inequalities for Smooth M-estimators",
 		"authors": [
@@ -335,6 +344,7 @@
 	},
 	{
 		"type": "Journal article",
+		"work_type": "Journal publication",
 		"id": 10,
 		"title": "On the asymptotics of minimum disparity estimation",
 		"authors": [
@@ -362,6 +372,7 @@
 	},
 	{
 		"type": "Journal article",
+		"work_type": "Journal publication",
 		"id": 11,
 		"title": "Statistical inference based on bridge divergences",
 		"authors": [
@@ -399,6 +410,7 @@
 	},
 	{
 		"type": "Conference proceedings",
+		"work_type": "Journal publication",
 		"id": 22,
 		"title": "First order expansion of convex regularized estimators",
 		"authors": [
@@ -412,8 +424,8 @@
 		"source": "Advances in Neural Information Processing Systems",
 		"year": 2019,
 		"volume": 33,
-		"citation_url": "https://nips.cc/Conferences/2019/AcceptedPapersInitial",
-		"cites_url": "https://nips.cc/Conferences/2019/AcceptedPapersInitial",
+		"citation_url": "https://nips.cc/Conferences/2019/Journal publicationPapersInitial",
+		"cites_url": "https://nips.cc/Conferences/2019/Journal publicationPapersInitial",
 		"cites": 1,
 		"ecc": 1,
 		"rank": 11,
@@ -429,6 +441,7 @@
 	},
 	{
 		"id": 12,
+		"work_type": "Journal publication",
 		"title": "A minimum distance weighted likelihood method of estimation",
 		"authors": [
 			{
@@ -456,6 +469,7 @@
 	},
 	{
 		"id": 13,
+		"work_type": "Preprint",
 		"title": "simest: Single Index Model Estimation with Constraints on Link Function",
 		"year": 2016,
 		"authors": [
@@ -482,6 +496,7 @@
 	},
 	{
 		"type": "Preprint",
+		"work_type": "Preprint",
 		"id": 14,
 		"title": "On Least Squares Estimation under Heteroscedastic and Heavy-Tailed Errors",
 		"authors": [
@@ -512,6 +527,7 @@
 	},
 	{
 		"id": 15,
+		"work_type": "Preprint",
 		"title": "Tail Bounds for Canonical U-Statistics and U-Processes with Unbounded Kernels",
 		"authors": [
 			{
@@ -538,6 +554,7 @@
 	},
 	{
 		"type": "Preprint",
+		"work_type": "Preprint",
 		"id": 16,
 		"title": "Model-free Study of Ordinary Least Squares Linear Regression",
 		"authors": [
@@ -570,6 +587,7 @@
 	},
 	{
 		"type": "Preprint",
+		"work_type": "Preprint",
 		"id": 18,
 		"title": "High-dimensional CLT: Improvements, Non-uniform Extensions and Large Deviations",
 		"authors": [
@@ -603,6 +621,7 @@
 	},
 	{
 		"type": "Preprint",
+		"work_type": "Preprint",
 		"id": 19,
 		"title": "On single index models with convex link",
 		"authors": [
@@ -638,6 +657,7 @@
 	{
 		"id": 21,
 		"title": "Testing in Additive and Projection Pursuit Models",
+		"work_type": "Preprint",
 		"year": 2013, 
 		"authors": [
 			{
@@ -659,7 +679,8 @@
 		"description": "This paper was awarded second prize in ISI Jan Tinbergen Awards 2015. The paper considers the problem of testing between projection pursuit models and ACE models."
 	},
 	{
-		"type": "working paper",
+		"type": "Working paper",
+		"work_type": "Working paper",
 		"id":23,
 		"title": "Nested conformal prediction and the generalized jackknife+",
 		"year": 2019,

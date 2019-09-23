@@ -28,8 +28,11 @@ nav_order: 2
   </div>
 </div>
 <div class="row" id="myItems">
+  {% assign types = "Journal publication, Preprint, Working paper" | split: ", " %}
+  {% for type in types %}
   <div class="col-sm-12 mb-3">
-    {% assign sorted_publications = site.data.publications | where:"type",type | sort: 'year' | reverse %}
+    <h3> {{ type }} </h3>
+    {% assign sorted_publications = site.data.publications | where:"work_type",type | sort: 'year' | reverse %}
     {% for paper in sorted_publications %}
     {% assign paper = paper_hash[1] %}
     <div class="card border-light">
@@ -51,25 +54,50 @@ nav_order: 2
           {% endfor %}
           ({{ paper.year }})
         </h6>
+        <h6 class="card-subtitle mb-2 pb-1" id="category"> 
+          Categories: 
+          {% for topic in paper.topic %}
+            {% if forloop.index < paper.topic.size %} 
+              {{ topic.topic }},
+            {% else %} 
+              {{ topic.topic }}
+            {% endif %}
+          {% endfor %}
+        </h6>
         <h6 class="card-text"> 
           {{ paper.source }} 
-          [<a data-toggle="collapse" data-target="#collapseExample{{ paper.id }}" aria-expanded="false" aria-controls="collapseExample{{ paper.id }}" href="">
+          [<a data-toggle="collapse" data-target="#collapseDescription{{ paper.id }}" aria-expanded="false" aria-controls="collapseDescription{{ paper.id }}" href="">
+            Description
+          </a>]
+          [<a data-toggle="collapse" data-target="#collapseAbstract{{ paper.id }}" aria-expanded="false" aria-controls="collapseAbstract{{ paper.id }}" href="">
             Abstract
           </a>]
-          [<a href="{{ paper.citation_url}}">
+          [<a href="{{ paper.citation_url }}">
             arXiv
           </a>]
+          {% if paper.journal_url %}
+            [<a href="{{ paper.journal_url }}">
+              Published version
+            </a>]
+          {% endif %}
         </h6>
-        <div class="collapse" id="collapseExample{{ paper.id }}">
+        <div class="collapse" id="collapseAbstract{{ paper.id }}">
           <div class="container">
             <hr/>
             {{ paper.abstract }}
           </div>
         </div>
+        <div class="collapse" id="collapseDescription{{ paper.id }}">
+          <div class="container">
+            <hr/>
+            {{ paper.description }}
+          </div>
+        </div>
       </div>
     </div>  
-    {% endfor %}   
-  </div>    
+    {% endfor %}
+  </div>
+  {% endfor %}
 </div>
 
 
@@ -84,7 +112,8 @@ nav_order: 2
         title = cards[i].querySelector(".card-body h5.card-title");
         authors = cards[i].querySelector(".card-body h6.card-subtitle");
         type = cards[i].querySelector(".card-body h6.card-text");
-        if (title.innerText.toUpperCase().indexOf(filter) > -1 | authors.innerText.toUpperCase().indexOf(filter) > -1 | type.innerText.toUpperCase().indexOf(filter) > -1 ) {
+        category = cards[i].querySelector("[id='category']");
+        if (title.innerText.toUpperCase().indexOf(filter) > -1 | authors.innerText.toUpperCase().indexOf(filter) > -1 | type.innerText.toUpperCase().indexOf(filter) > -1 | category.innerText.toUpperCase().indexOf(filter) > -1 ) {
             cards[i].style.display = "";
         } else {
             cards[i].style.display = "none";
