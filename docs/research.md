@@ -24,7 +24,26 @@ nav_order: 2
 
 <div class="row">
   <div class="col-sm-12 mb-3 mt-3">
-    <input type="text" id="myFilter" class="form-control" onkeyup="myFunction()" placeholder="&#xF002; &nbsp; Search for title, author, journal" style="font-family:Arial, FontAwesome">
+    <div class="input-group">
+      <input type="text" id="myFilter" class="form-control" onkeyup="myFunction()" placeholder="&#xF002; &nbsp; Search for title, author, category, journal" style="font-family:Arial, FontAwesome">
+      <div class="input-group-append">
+        <button class="btn btn-outline-secondary dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Category</button>
+        <div class="dropdown-menu">
+          <a class="dropdown-item" href="#" onclick="categorySelector('Concentration Inequalities')">Concentration Inequalities</a>
+          <a class="dropdown-item" href="#" onclick="categorySelector('Conformal Prediction')">Conformal Prediction</a>
+          <a class="dropdown-item" href="#" onclick="categorySelector('Dependent Data')">Dependent Data</a>
+          <a class="dropdown-item" href="#" onclick="categorySelector('High-dimensional Statistics')">High-dimensional Statistics</a>
+          <a class="dropdown-item" href="#" onclick="categorySelector('Misspecification')">Misspecification</a>
+          <a class="dropdown-item" href="#" onclick="categorySelector('Nonparametric Statistics')">Nonparametric Statistics</a>
+          <a class="dropdown-item" href="#" onclick="categorySelector('Post-selection Inference')">Post-selection Inference</a>
+          <a class="dropdown-item" href="#" onclick="categorySelector('Robust Statistics')">Robust Statistics</a>
+          <a class="dropdown-item" href="#" onclick="categorySelector('Semi-parametric Inference')">Semi-parametric Inference</a>
+          <a class="dropdown-item" href="#" onclick="categorySelector('Shape-constrained Inference')">Shape-constrained Inference</a>
+          <div role="separator" class="dropdown-divider"></div>
+          <a class="dropdown-item" href="#" onclick="categorySelector('All')">All</a>
+        </div>
+      </div>
+    </div>
   </div>
 </div>
 <div class="row" id="myItems">
@@ -119,5 +138,19 @@ nav_order: 2
             cards[i].style.display = "none";
         }
     }
-}
+  }
+
+  function categorySelector(topic) {
+    var cardContainer, cards;
+    cardContainer = document.getElementById("myItems");
+    cards = cardContainer.getElementsByClassName("card");
+    for (i = 0; i < cards.length; i++) {
+        category = cards[i].querySelector("[id='category']");
+        if ( category.innerText.indexOf(topic) > -1 | topic == "All") {
+            cards[i].style.display = "";
+        } else {
+            cards[i].style.display = "none";
+        }
+    }
+  }
 </script>
