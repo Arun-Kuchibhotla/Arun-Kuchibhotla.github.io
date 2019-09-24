@@ -25,7 +25,7 @@ nav_order: 2
 <div class="row">
   <div class="col-sm-12 mb-3 mt-3">
     <div class="input-group">
-      <input type="text" id="myFilter" class="form-control" onkeyup="myFunction()" placeholder="&#xF002; &nbsp; Search for title, author, category, journal" style="font-family:Arial, FontAwesome">
+      <input type="text" id="myFilter" class="form-control" onkeyup="myFunction()" placeholder="&#xF002; &nbsp; Search for title, author, journal" style="font-family:Arial, FontAwesome">
       <div class="input-group-append">
         <button class="btn btn-outline-secondary dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Category</button>
         <div class="dropdown-menu">
@@ -66,16 +66,6 @@ nav_order: 2
             {% endif %}
           {% endfor %}
           ({{ paper.year }})
-        </h6>
-        <h6 class="card-subtitle mb-2 pb-1" id="category"> 
-          Categories: 
-          {% for topic in paper.topic %}
-            {% if forloop.index < paper.topic.size %} 
-              {{ topic.topic }},
-            {% else %} 
-              {{ topic.topic }}
-            {% endif %}
-          {% endfor %}
         </h6>
         <h6 class="card-text"> 
           {{ paper.source }} 
