@@ -610,7 +610,6 @@
 		"year": 2018,
 		"volume": 6153,
 		"citation_url": "https://arxiv.org/abs/1806.06153",
-		"journal_url": "https://link.springer.com/article/10.1007/s10463-018-0665-x",
 		"cites_url": "https://scholar.google.com",
 		"cites": 0,
 		"ecc": 0,
@@ -704,5 +703,27 @@
 			}
 		],
 		"description": "This paper considers conformal prediction based on a nested sequence of sets rather than a function estimate. An element of the nested sequence is obtained based on the data to have the required coverage properties. This framework includes several of the existing conformal procedures and naturally provides an extension of jackknife+ recently introduced."
-	}
+	},
+	// {
+	// 	"type": "Working paper",
+	// 	"work_type": "Working paper",
+	// 	"id":23,
+	// 	"title": "Nested conformal prediction and the generalized jackknife+",
+	// 	"year": 2019,
+	// 	"authors": [
+	// 		{
+	// 			"name": "AK Kuchibhotla"
+	// 		},
+	// 		{
+	// 			"name": "Aaditya Ramdas"
+	// 		}
+	// 	],
+	// 	"use": true,
+	// 	"topic":[
+	// 		{
+	// 			"topic": "Conformal Prediction"
+	// 		}
+	// 	],
+	// 	"description": "This paper considers conformal prediction based on a nested sequence of sets rather than a function estimate. An element of the nested sequence is obtained based on the data to have the required coverage properties. This framework includes several of the existing conformal procedures and naturally provides an extension of jackknife+ recently introduced."
+	// }
 ]
