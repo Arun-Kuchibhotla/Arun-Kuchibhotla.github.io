@@ -4,7 +4,7 @@ title: Talks
 nav_order: 3
 ---
 
-## Talks
+# Talks
 {: .no_toc }
 
 <!-- {% assign sorted_talk = site.data.publications | where:"type",type | sort: 'year' %}
@@ -34,18 +34,18 @@ nav_order: 3
     {% assign talk = talk_hash[1] %}
     <div class="card border-light">
       <div class="card-body">
-        <h5 class="card-title">{{ talk.title }}</h5>
-        <h6 class="card-subtitle mb text-muted pb-1"> 
+        <h3 class="card-title">{{ talk.title }}</h3>
+        <h5 class="card-subtitle mb text-muted pb-1"> 
           {{ talk.type }} at <b>{{ talk.meeting }} {{ talk.time }}</b>, {{ talk.place }} 
-        </h6>
-        <h6 class="card-text">
+        </h5>
+        <h5 class="card-text">
           [<a href="/assets/others/{{ talk.pdf_link }}">
             Slides
           </a>]
           [<a href="{{ talk.url }}">
             Website
           </a>]
-        </h6>
+        </h5>
       </div>
     </div>  
     {% endfor %}   
@@ -61,8 +61,8 @@ nav_order: 3
     cardContainer = document.getElementById("myItems");
     cards = cardContainer.getElementsByClassName("card");
     for (i = 0; i < cards.length; i++) {
-        title = cards[i].querySelector(".card-body h5.card-title");
-        authors = cards[i].querySelector(".card-body h6.card-subtitle");
+        title = cards[i].querySelector(".card-body h3.card-title");
+        authors = cards[i].querySelector(".card-body h5.card-subtitle");
         if (title.innerText.toUpperCase().indexOf(filter) > -1 | authors.innerText.toUpperCase().indexOf(filter) > -1) {
             cards[i].style.display = "";
         } else {
