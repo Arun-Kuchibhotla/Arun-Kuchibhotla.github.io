@@ -16,7 +16,7 @@ permalink: /
 				Welcome to my homepage! 
 			</p>
 			<p class="text-justify">
-				I am a fifth-year Ph.D. candidate in the <a href="https://statistics.wharton.upenn.edu">Statistics Department</a> at the Wharton School of the University of Pennsylvania. My advisors are <a href="http://www-stat.wharton.upenn.edu/~lbrown/">Lawrence D. Brown</a> and <a href="http://www-stat.wharton.upenn.edu/~buja/">Andreas Buja</a>.
+				I am a fifth-year doctoral candidate in the <a href="https://statistics.wharton.upenn.edu">Statistics Department</a> at the Wharton School of the University of Pennsylvania. My advisors are <a href="http://www-stat.wharton.upenn.edu/~lbrown/">Lawrence D. Brown</a> and <a href="http://www-stat.wharton.upenn.edu/~buja/">Andreas Buja</a>.
 			</p>
 <!-- 			<p class="text-justify">
 				I completed B.Stat (2010--2013) and M.Stat (2013--2015) in statistics in <a href="https://www.isical.ac.in">Indian Statistical Institute</a>, Kolkata.
