@@ -703,5 +703,30 @@
 			}
 		],
 		"description": "This paper considers conformal prediction based on a nested sequence of sets rather than a function estimate. An element of the nested sequence is obtained based on the data to have the required coverage properties. This framework includes several of the existing conformal procedures and naturally provides an extension of jackknife+ recently introduced."
+	},
+	{
+		"type": "Working paper",
+		"work_type": "Working paper",
+		"id":24,
+		"title": "Model-agnostic Semiparametric Inference",
+		"year": 2019,
+		"authors": [
+			{
+				"name": "AK Kuchibhotla"
+			},
+			{
+				"name": "Eric J. Tchetgen Tchetgen"
+			}
+		],
+		"use": true,
+		"topic":[
+			{
+				"topic": "Semiparametric Inference"
+			},
+			{
+				"topic": "Post-selection Inference"
+			}
+		],
+		"description": "This paper considers an application of deterministic inequalities for linear and logistic regression for causal estimands."
 	}
 ]
