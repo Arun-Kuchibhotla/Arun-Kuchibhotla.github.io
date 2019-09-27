@@ -16,14 +16,14 @@ permalink: /
 				Welcome to my homepage! 
 			</p>
 			<p class="text-justify">
-				I am a fifth-year doctoral candidate in the <a href="https://statistics.wharton.upenn.edu">Statistics Department</a> at the Wharton School of the University of Pennsylvania. My advisors are <a href="http://www-stat.wharton.upenn.edu/~lbrown/">Lawrence D. Brown</a> and <a href="http://www-stat.wharton.upenn.edu/~buja/">Andreas Buja</a>.
-			</p>
-<!-- 			<p class="text-justify">
+				I am a fifth-year doctoral candidate in the <a href="https://statistics.wharton.upenn.edu">Statistics Department</a> at the Wharton School of the University of Pennsylvania. My advisors are <a href="http://www-stat.wharton.upenn.edu/~lbrown/">Lawrence D. Brown</a> and <a href="http://www-stat.wharton.upenn.edu/~buja/">Andreas Buja</a>. My doctoral reseach concentrates on a unified framework for post-selection inference.
+<!-- 			</p>
+ 			<p class="text-justify">
 				I completed B.Stat (2010--2013) and M.Stat (2013--2015) in statistics in <a href="https://www.isical.ac.in">Indian Statistical Institute</a>, Kolkata.
-			</p> -->
-			<p class="text-justify">
-				My doctoral reseach concentrates on a unified framework for post-selection inference. I am currently working on applications of my work in causal settings. Other interests of mine include conformal prediction, concentration inequalities for both independent and dependent data, and central limit theorems (with finite sample bounds).  
 			</p>
+			<p class="text-justify">
+				 I am currently working on applications of my work in causal settings. Other interests of mine include conformal prediction, concentration inequalities for both independent and dependent data, and central limit theorems (with finite sample bounds).  
+			</p> -->
 		</div>
 	</div>
 </div>
