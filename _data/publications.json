@@ -21,7 +21,7 @@
 				"name": "Linda Zhao"
 			}
 		],
-		"source": "arXiv:1802.05801",
+		"source": "arXiv:1802.05801. Submitted to Econometric Theory. Invited paper for Festschrift on the occasion of Benedikt Poetscher's 65th birthday",
 		"year": 2018,
 		"volume": 5801,
 		"citation_url": "https://arxiv.org/abs/1802.05801",
@@ -96,6 +96,7 @@
 		"startpage": 68,
 		"endpage": 74,
 		"citation_url": "https://www.sciencedirect.com/science/article/pii/S0167715214003083",
+		"journal_url": "https://www.sciencedirect.com/science/article/pii/S0167715214003083",
 		"cites_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=4149858368467716897",
 		"cites": 9,
 		"ecc": 9,
@@ -200,7 +201,7 @@
 				"name": "Rohit Kumar Patra"
 			}
 		],
-		"source": "arXiv:1612.00068",
+		"source": "arXiv:1612.00068. Revision submitted to Bernoulli.",
 		"year": 2016,
 		"volume": 68,
 		"citation_url": "https://arxiv.org/abs/1612.00068",
@@ -286,7 +287,7 @@
 				"name": "Linda Zhao"
 			}
 		],
-		"source": "arXiv:1806.04119",
+		"source": "arXiv:1806.04119. Major revision submitted to Annals of Statistics",
 		"year": 2018,
 		"volume": 4119,
 		"citation_url": "https://arxiv.org/abs/1806.04119",
@@ -362,6 +363,7 @@
 		"startpage": 481,
 		"endpage": 502,
 		"citation_url": "https://link.springer.com/article/10.1007/s11749-016-0520-4",
+		"journal_url": "https://link.springer.com/article/10.1007/s11749-016-0520-4",
 		"cites_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=8999149679345435611",
 		"cites": 2,
 		"ecc": 2,
@@ -446,7 +448,7 @@
 	},
 	{
 		"id": 12,
-		"work_type": "Prerprint",
+		"work_type": "Preprint",
 		"title": "A minimum distance weighted likelihood method of estimation",
 		"authors": [
 			{
@@ -456,7 +458,7 @@
 				"name": "Ayanendranath Basu"
 			}
 		],
-		"source": "Technical report, Interdisciplinary Statistical Research Unit (ISRU), Indian …",
+		"source": "Technical report, Interdisciplinary Statistical Research Unit (ISRU), Indian Statistical Institute",
 		"year": 2018,
 		"citation_url": "https://faculty.wharton.upenn.edu/wp-content/uploads/2018/02/attemptv4p1.pdf?_ga=2.82169622.1886152885.1569090151-93526264.1463923455",
 		"cites_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=7859755060604478349",
@@ -606,7 +608,7 @@
 				"name": "Debapratim Banerjee"
 			}
 		],
-		"source": "arXiv:1806.06153",
+		"source": "arXiv:1806.06153. Revision submitted to Bernoulli",
 		"year": 2018,
 		"volume": 6153,
 		"citation_url": "https://arxiv.org/abs/1806.06153",
@@ -703,5 +705,30 @@
 			}
 		],
 		"description": "This paper considers conformal prediction based on a nested sequence of sets rather than a function estimate. An element of the nested sequence is obtained based on the data to have the required coverage properties. This framework includes several of the existing conformal procedures and naturally provides an extension of jackknife+ recently introduced."
+	},
+	{
+		"type": "Working paper",
+		"work_type": "Working paper",
+		"id":24,
+		"title": "Model-agnostic Semiparametric Inference",
+		"year": 2019,
+		"authors": [
+			{
+				"name": "AK Kuchibhotla"
+			},
+			{
+				"name": "Eric J. Tchetgen Tchetgen"
+			}
+		],
+		"use": true,
+		"topic":[
+			{
+				"topic": "Semiparametric Inference"
+			},
+			{
+				"topic": "Post-selection Inference"
+			}
+		],
+		"description": "This paper considers an application of deterministic inequalities for linear and logistic regression for causal estimands."
 	}
 ]
