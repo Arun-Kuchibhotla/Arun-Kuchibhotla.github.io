@@ -24,7 +24,7 @@
     "homepage": "https://statistics.wharton.upenn.edu/profile/abhich/"
   },
   {
-    "name": "Rohit Kumar Patra",
+    "name": "Rohit K Patra",
     "homepage": "https://stat.ufl.edu/~rohitpatra/"
   },
   {
@@ -54,5 +54,13 @@
   {
     "name": "Weijie Su",
     "homepage": "http://www-stat.wharton.upenn.edu/~suw/"
+  },
+  {
+    "name": "Eric J. Tchetgen Tchetgen",
+    "homepage": "https://statistics.wharton.upenn.edu/profile/ett/"
+  },
+  {
+    "name": "Junhui Cai",
+    "homepage": "https://statistics.wharton.upenn.edu/profile/junhui/"
   }
 ]

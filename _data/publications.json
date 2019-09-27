@@ -120,7 +120,7 @@
 				"name": "Arun Kumar Kuchibhotla"
 			},
 			{
-				"name": "Rohit Kumar Patra"
+				"name": "Rohit K. Patra"
 			},
 			{
 				"name": "Bodhisattva Sen"
@@ -198,7 +198,7 @@
 				"name": "Arun Kumar Kuchibhotla"
 			},
 			{
-				"name": "Rohit Kumar Patra"
+				"name": "Rohit K. Patra"
 			}
 		],
 		"source": "arXiv:1612.00068. Revision submitted to Bernoulli.",
@@ -279,6 +279,9 @@
 			},
 			{
 				"name": "Andreas Buja"
+			},
+			{
+				"name": "Junhui Cai"
 			},
 			{
 				"name": "Edward I. George"
@@ -484,7 +487,7 @@
 				"name": "Arun Kumar Kuchibhotla"
 			},
 			{
-				"name": "Rohit Kumar Patra"
+				"name": "Rohit K. Patra"
 			}
 		],
 		"source": "R package version 0.6,",
@@ -511,7 +514,7 @@
 				"name": "Arun Kumar Kuchibhotla"
 			},
 			{
-				"name": "Rohit Kumar Patra"
+				"name": "Rohit K. Patra"
 			}
 		],
 		"source": "arXiv:1909.02088",
@@ -635,7 +638,7 @@
 				"name": "Arun Kumar Kuchibhotla"
 			},
 			{
-				"name": "Rohit Kumar Patra"
+				"name": "Rohit K. Patra"
 			},
 			{
 				"name": "Bodhisattva Sen"
@@ -714,7 +717,7 @@
 		"year": 2019,
 		"authors": [
 			{
-				"name": "AK Kuchibhotla"
+				"name": "Arun Kumar Kuchibhotla"
 			},
 			{
 				"name": "Eric J. Tchetgen Tchetgen"
