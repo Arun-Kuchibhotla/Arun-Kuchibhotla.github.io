@@ -21,5 +21,14 @@
 			}
 		],
 		"more": "http://cccfran.github.io/dsl2019/"
+	},
+	{
+		"title": "STAT 111 - INTRODUCTORY STATISTICS",
+		"type": "TA",
+		"time": [
+			{
+				"time": "Fall 2017"
+			}
+		]
 	}
 ]
