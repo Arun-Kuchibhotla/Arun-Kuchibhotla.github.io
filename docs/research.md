@@ -46,6 +46,7 @@ nav_order: 2
     </div>
   </div>
 </div>
+
 <div class="row" id="myItems">
   {% assign types = "Working paper, Preprint, Journal publication" | split: ", " %}
   {% for type in types %}
@@ -62,12 +63,12 @@ nav_order: 2
         <h5 class="card-subtitle mb-2 text-muted pb-1"> 
           {% for author in paper.authors %}
             {% if forloop.index < paper.authors.size %} 
-              {% if author.name == 'AK Kuchibhotla' %}
+              {% if author.name == 'Arun Kumar Kuchibhotla' %}
                 <b>{{ author.name }}</b>,
               {% else %} {{ author.name }},
               {% endif %}
             {% else %} 
-              {% if author.name == 'AK Kuchibhotla' %}
+              {% if author.name == 'Arun Kumar Kuchibhotla' %}
                 <b>{{ author.name }}</b>
               {% else %} {{ author.name }}
               {% endif %}
@@ -122,6 +123,7 @@ nav_order: 2
   </div>
   {% endfor %}
 </div>
+
 
 
 <script>
