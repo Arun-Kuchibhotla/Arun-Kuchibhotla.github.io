@@ -6,19 +6,19 @@
 		"title": "A Model Free Perspective for Linear Regression: Uniform-in-model Bounds for Post Selection Inference",
 		"authors": [
 			{
-				"name": "AK Kuchibhotla"
+				"name": "Arun Kumar Kuchibhotla"
 			},
 			{
-				"name": "LD Brown"
+				"name": "Lawrence D. Brown"
 			},
 			{
-				"name": "A Buja"
+				"name": "Andreas Buja"
 			},
 			{
-				"name": "EI George"
+				"name": "Edward I. George"
 			},
 			{
-				"name": "L Zhao"
+				"name": "Linda Zhao"
 			}
 		],
 		"source": "arXiv:1802.05801",
@@ -54,10 +54,10 @@
 		"title": "Moving Beyond Sub-Gaussianity in High-dimensional Statistics: Applications in Covariance Estimation and Linear Regression",
 		"authors": [
 			{
-				"name": "AK Kuchibhotla"
+				"name": "Arun Kumar Kuchibhotla"
 			},
 			{
-				"name": "A Chakrabortty"
+				"name": "Abhishek Chakrabortty"
 			}
 		],
 		"source": "arXiv:1804.02605",
@@ -84,10 +84,10 @@
 		"title": "A general set up for minimum disparity estimation",
 		"authors": [
 			{
-				"name": "AK Kuchibhotla"
+				"name": "Arun Kumar Kuchibhotla"
 			},
 			{
-				"name": "A Basu"
+				"name": "Ayanendranath Basu"
 			}
 		],
 		"source": "Statistics & Probability Letters",
@@ -116,13 +116,13 @@
 		"title": "Least Squares Estimation in a Single Index Model with Convex Lipschitz link",
 		"authors": [
 			{
-				"name": "AK Kuchibhotla"
+				"name": "Arun Kumar Kuchibhotla"
 			},
 			{
-				"name": "RK Patra"
+				"name": "Rohit Kumar Patra"
 			},
 			{
-				"name": "B Sen"
+				"name": "Bodhisattva Sen"
 			}
 		],
 		"source": "arXiv:1708.00145",
@@ -152,22 +152,22 @@
 		"title": "Models as Approximations---Part II: A General Theory of Model-Robust Regression",
 		"authors": [
 			{
-				"name": "A Buja"
+				"name": "Andreas Buja"
 			},
 			{
-				"name": "R Berk"
+				"name": "Richard Berk"
 			},
 			{
-				"name": "L Brown"
+				"name": "Lawrence D. Brown"
 			},
 			{
-				"name": "E George"
+				"name": "Edward I. George"
 			},
 			{
-				"name": "AK Kuchibhotla"
+				"name": "Arun Kumar Kuchibhotla"
 			},
 			{
-				"name": "L Zhao"
+				"name": "Linda Zhao"
 			}
 		],
 		"source": "arXiv:1612.03257",
@@ -194,10 +194,10 @@
 		"title": "Efficient Estimation in Single Index Models through Smoothing splines",
 		"authors": [
 			{
-				"name": "AK Kuchibhotla"
+				"name": "Arun Kumar Kuchibhotla"
 			},
 			{
-				"name": "RK Patra"
+				"name": "Rohit Kumar Patra"
 			}
 		],
 		"source": "arXiv:1612.00068",
@@ -224,25 +224,25 @@
 		"title": "Assumption lean regression",
 		"authors": [
 			{
-				"name": "R Berk"
+				"name": "Richard Berk"
 			},
 			{
-				"name": "A Buja"
+				"name": "Andreas Buja"
 			},
 			{
-				"name": "L Brown"
+				"name": "Lawrence D. Brown"
 			},
 			{
-				"name": "E George"
+				"name": "Edward I. George"
 			},
 			{
-				"name": "AK Kuchibhotla"
+				"name": "Arun Kumar Kuchibhotla"
 			},
 			{
-				"name": "W Su"
+				"name": "Weijie Su"
 			},
 			{
-				"name": "L Zhao"
+				"name": "Linda Zhao"
 			}
 		],
 		"source": "The American Statistician",
@@ -271,19 +271,19 @@
 		"title": "Valid Post-selection Inference in Assumption-lean Linear Regression",
 		"authors": [
 			{
-				"name": "AK Kuchibhotla"
+				"name": "Arun Kumar Kuchibhotla"
 			},
 			{
-				"name": "LD Brown"
+				"name": "Lawrence D. Brown"
 			},
 			{
-				"name": "A Buja"
+				"name": "Andreas Buja"
 			},
 			{
-				"name": "EI George"
+				"name": "Edward I. George"
 			},
 			{
-				"name": "L Zhao"
+				"name": "Linda Zhao"
 			}
 		],
 		"source": "arXiv:1806.04119",
@@ -316,7 +316,7 @@
 		"title": "Deterministic Inequalities for Smooth M-estimators",
 		"authors": [
 			{
-				"name": "AK Kuchibhotla"
+				"name": "Arun Kumar Kuchibhotla"
 			}
 		],
 		"source": "arXiv:1809.05172",
@@ -349,10 +349,10 @@
 		"title": "On the asymptotics of minimum disparity estimation",
 		"authors": [
 			{
-				"name": "AK Kuchibhotla"
+				"name": "Arun Kumar Kuchibhotla"
 			},
 			{
-				"name": "A Basu"
+				"name": "Ayanendranath Basu"
 			}
 		],
 		"source": "TEST: An Official Journal of the Spanish Society of Statistics and Operations Research",
@@ -382,13 +382,13 @@
 		"title": "Statistical inference based on bridge divergences",
 		"authors": [
 			{
-				"name": "AK Kuchibhotla"
+				"name": "Arun Kumar Kuchibhotla"
 			},
 			{
-				"name": "S Mukherjee"
+				"name": "Somabha Mukherjee"
 			},
 			{
-				"name": "A Basu"
+				"name": "Ayanendranath Basu"
 			}
 		],
 		"source": "Annals of the Institute of Statistical Mathematics",
@@ -420,10 +420,10 @@
 		"title": "First order expansion of convex regularized estimators",
 		"authors": [
 			{
-				"name": "P Bellec"
+				"name": "Pierre C. Bellec"
 			},
 			{
-				"name": "AK Kuchibhotla"
+				"name": "Arun Kumar Kuchibhotla"
 			}
 		],
 		"source": "Advances in Neural Information Processing Systems",
@@ -450,10 +450,10 @@
 		"title": "A minimum distance weighted likelihood method of estimation",
 		"authors": [
 			{
-				"name": "A Kuchibhotla"
+				"name": "Arun Kumar Kuchibhotla"
 			},
 			{
-				"name": "A Basu"
+				"name": "Ayanendranath Basu"
 			}
 		],
 		"source": "Technical report, Interdisciplinary Statistical Research Unit (ISRU), Indian …",
@@ -479,10 +479,10 @@
 		"year": 2016,
 		"authors": [
 			{
-				"name": "AK Kuchibhotla"
+				"name": "Arun Kumar Kuchibhotla"
 			},
 			{
-				"name": "RK Patra"
+				"name": "Rohit Kumar Patra"
 			}
 		],
 		"source": "R package version 0.6,",
@@ -506,10 +506,10 @@
 		"title": "On Least Squares Estimation under Heteroscedastic and Heavy-Tailed Errors",
 		"authors": [
 			{
-				"name": "AK Kuchibhotla"
+				"name": "Arun Kumar Kuchibhotla"
 			},
 			{
-				"name": "RK Patra"
+				"name": "Rohit Kumar Patra"
 			}
 		],
 		"source": "arXiv:1909.02088",
@@ -536,10 +536,10 @@
 		"title": "Tail Bounds for Canonical U-Statistics and U-Processes with Unbounded Kernels",
 		"authors": [
 			{
-				"name": "A Chakrabortty"
+				"name": "Abhishek Chakrabortty"
 			},
 			{
-				"name": "AK Kuchibhotla"
+				"name": "Arun Kumar Kuchibhotla"
 			}
 		],
 		"year": 2018,
@@ -564,13 +564,13 @@
 		"title": "Model-free Study of Ordinary Least Squares Linear Regression",
 		"authors": [
 			{
-				"name": "AK Kuchibhotla"
+				"name": "Arun Kumar Kuchibhotla"
 			},
 			{
-				"name": "LD Brown"
+				"name": "Lawrence D. Brown"
 			},
 			{
-				"name": "A Buja"
+				"name": "Andreas Buja"
 			}
 		],
 		"source": "arXiv:1809.10538",
@@ -597,13 +597,13 @@
 		"title": "High-dimensional CLT: Improvements, Non-uniform Extensions and Large Deviations",
 		"authors": [
 			{
-				"name": "AK Kuchibhotla"
+				"name": "Arun Kumar Kuchibhotla"
 			},
 			{
-				"name": "S Mukherjee"
+				"name": "Somabha Mukherjee"
 			},
 			{
-				"name": "D Banerjee"
+				"name": "Debapratim Banerjee"
 			}
 		],
 		"source": "arXiv:1806.06153",
@@ -630,13 +630,13 @@
 		"title": "On single index models with convex link",
 		"authors": [
 			{
-				"name": "AK Kuchibhotla"
+				"name": "Arun Kumar Kuchibhotla"
 			},
 			{
-				"name": "RK Patra"
+				"name": "Rohit Kumar Patra"
 			},
 			{
-				"name": "B Sen"
+				"name": "Bodhisattva Sen"
 			}
 		],
 		"source": "Previous version of Least Squares Estimation in a Single Index Model with Convex Lipschitz link",
@@ -665,7 +665,7 @@
 		"year": 2013, 
 		"authors": [
 			{
-				"name": "AK Kuchibhotla"
+				"name": "Arun Kumar Kuchibhotla"
 			}
 		],
 		"citation_url": "https://faculty.wharton.upenn.edu/wp-content/uploads/2015/12/kuchibhotla2.pdf?_ga=2.259498890.1886152885.1569090151-93526264.1463923455",
@@ -690,7 +690,7 @@
 		"year": 2019,
 		"authors": [
 			{
-				"name": "AK Kuchibhotla"
+				"name": "Arun Kumar Kuchibhotla"
 			},
 			{
 				"name": "Aaditya Ramdas"
