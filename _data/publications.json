@@ -21,7 +21,7 @@
 				"name": "L Zhao"
 			}
 		],
-		"source": "arXiv:1802.05801",
+		"source": "arXiv:1802.05801. Submitted to Econometric Theory. Invited paper for Festschrift on the occasion of Benedikt Poetscher's 65th birthday",
 		"year": 2018,
 		"volume": 5801,
 		"citation_url": "https://arxiv.org/abs/1802.05801",
@@ -96,6 +96,7 @@
 		"startpage": 68,
 		"endpage": 74,
 		"citation_url": "https://www.sciencedirect.com/science/article/pii/S0167715214003083",
+		"journal_url": "https://www.sciencedirect.com/science/article/pii/S0167715214003083",
 		"cites_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=4149858368467716897",
 		"cites": 9,
 		"ecc": 9,
@@ -200,7 +201,7 @@
 				"name": "RK Patra"
 			}
 		],
-		"source": "arXiv:1612.00068",
+		"source": "arXiv:1612.00068. Revision submitted to Bernoulli.",
 		"year": 2016,
 		"volume": 68,
 		"citation_url": "https://arxiv.org/abs/1612.00068",
@@ -286,7 +287,7 @@
 				"name": "L Zhao"
 			}
 		],
-		"source": "arXiv:1806.04119",
+		"source": "arXiv:1806.04119. Major revision submitted to Annals of Statistics",
 		"year": 2018,
 		"volume": 4119,
 		"citation_url": "https://arxiv.org/abs/1806.04119",
@@ -362,6 +363,7 @@
 		"startpage": 481,
 		"endpage": 502,
 		"citation_url": "https://link.springer.com/article/10.1007/s11749-016-0520-4",
+		"journal_url": "https://link.springer.com/article/10.1007/s11749-016-0520-4",
 		"cites_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=8999149679345435611",
 		"cites": 2,
 		"ecc": 2,
@@ -606,7 +608,7 @@
 				"name": "D Banerjee"
 			}
 		],
-		"source": "arXiv:1806.06153",
+		"source": "arXiv:1806.06153. Revision submitted to Bernoulli",
 		"year": 2018,
 		"volume": 6153,
 		"citation_url": "https://arxiv.org/abs/1806.06153",
