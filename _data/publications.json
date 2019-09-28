@@ -266,10 +266,10 @@
 		"description": "This paper is a non-technical version of the papers: Models as approximation parts 1 and 2."
 	},
 	{
-		"type": "Preprint",
-		"work_type": "Preprint",
+		"type": "Journal article",
+		"work_type": "Journal publication",
 		"id": 8,
-		"title": "Valid Post-selection Inference in Assumption-lean Linear Regression",
+		"title": "Valid Post-selection Inference in Model-free Linear Regression",
 		"authors": [
 			{
 				"name": "Arun Kumar Kuchibhotla"
@@ -290,7 +290,7 @@
 				"name": "Linda Zhao"
 			}
 		],
-		"source": "arXiv:1806.04119. Major revision submitted to Annals of Statistics",
+		"source": "Annals of Statistics. Accepted",
 		"year": 2018,
 		"volume": 4119,
 		"citation_url": "https://arxiv.org/abs/1806.04119",
@@ -431,11 +431,11 @@
 				"name": "Arun Kumar Kuchibhotla"
 			}
 		],
-		"source": "Advances in Neural Information Processing Systems",
+		"source": "Advances in Neural Information Processing Systems. Accepted",
 		"year": 2019,
 		"volume": 33,
-		"citation_url": "https://nips.cc/Conferences/2019/Journal publicationPapersInitial",
-		"cites_url": "https://nips.cc/Conferences/2019/Journal publicationPapersInitial",
+		"citation_url": "https://neurips.cc/Conferences/2019/AcceptedPapersInitial",
+		"cites_url": "https://neurips.cc/Conferences/2019/AcceptedPapersInitial",
 		"cites": 1,
 		"ecc": 1,
 		"rank": 11,
