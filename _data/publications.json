@@ -733,5 +733,31 @@
 			}
 		],
 		"description": "This paper considers an application of deterministic inequalities for linear and logistic regression for causal estimands."
+	},
+	{
+		"type": "Working paper",
+		"work_type": "Working paper",
+		"id":25,
+		"title": "A Weighted Likelihood Approach Based on Statistical Data Depths",
+		"year": 2019,
+		"authors": [
+			{
+				"name": "Claudio Agostinelli"
+			},
+			{
+				"name": "Ayanendranath Basu"
+			},
+			{
+				"name": "Arun Kumar Kuchibhotla"
+			}
+		],
+		"use": true,
+		"topic":[
+			{
+				"topic": "Robust Statistics"
+			}
+		],
+		"abstract": "We propose a general approach to construct weighted likelihood estimating equations with the aim of obtain robust estimates. The weight, attached to each score contribution, is evaluated by comparing the statistical data depth at the model with that of the sample in a given point. Observations are considered regular when the ratio of these two depths is close to one, whereas, when the ratio is large the corresponding score contribution may be downweigthed. Details and examples are provided for the robust estimation of the parameters in the multivariate normal model. Because of the form of the weights, we expect that, there will be no downweighting under the true model leading to highly efficient estimators. Robustness is illustrated using two real data sets.",
+		"description": "This paper extends the minimum distance weighted likelihood estimator for the multivariate case using data depth."
 	}
 ]
