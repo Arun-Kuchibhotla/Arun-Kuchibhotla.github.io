@@ -35,12 +35,12 @@ nav_order: 2
       <div class="input-group-append">
         <button class="btn btn-outline-secondary dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">All Topics</button>
         <div class="dropdown-menu">
+          <a class="dropdown-item" href="#" onclick="categorySelector('All')">All Topics</a>
+          <div role="separator" class="dropdown-divider"></div>
           {% assign categories = "Concentration Inequalities, Conformal Prediction, Dependent Data, High-dimensional Statistics, Misspecification, Nonparametric Statistics, Post-selection Inference, Robust Statistics, Semi-parametric Inference, Shape-constrained Inference" | split: ", " %} 
           {% for category in categories %}
             <a class="dropdown-item" href="#" onclick="categorySelector('{{ category }}')">{{ category }}</a>  
           {% endfor %}
-          <div role="separator" class="dropdown-divider"></div>
-          <a class="dropdown-item" href="#" onclick="categorySelector('All')">All Topics</a>
         </div>
       </div>
     </div>
@@ -49,6 +49,7 @@ nav_order: 2
 
 <div class="row" id="myItems">
   {% assign types = "Working paper, Preprint, Journal publication" | split: ", " %}
+  {% assign counter = 0 %}
   {% for type in types %}
   <div class="col-sm-12 mb-3">
     <span id="{{ type | join: '_' }}"></span>
@@ -57,9 +58,10 @@ nav_order: 2
     {% assign sorted_publications = site.data.publications | where:"work_type",type | sort: 'year' | reverse %}
     {% for paper in sorted_publications %}
     {% assign paper = paper_hash[1] %}
+    {% assign counter = counter | plus: 1 %}
     <div class="card border-light">
       <div class="card-body">
-        <h3 class="card-title">{{ paper.title }}</h3>
+        <h3 class="card-title">{{ counter }}. {{ paper.title }}</h3>
         <h5 class="card-subtitle mb-2 text-muted pb-1"> 
           {% for author in paper.authors %}
             {% if forloop.index < paper.authors.size %} 
@@ -96,9 +98,11 @@ nav_order: 2
           [<a data-toggle="collapse" data-target="#collapseAbstract{{ paper.id }}" aria-expanded="false" aria-controls="collapseAbstract{{ paper.id }}" href="">
             Abstract
           </a>]
-          [<a href="{{ paper.citation_url }}">
-            arXiv
-          </a>]
+          {% if paper.citation_url %}
+            [<a href="{{ paper.citation_url }}">
+              arXiv
+            </a>]
+          {% endif %}
           {% if paper.journal_url %}
             [<a href="{{ paper.journal_url }}">
               Published version
