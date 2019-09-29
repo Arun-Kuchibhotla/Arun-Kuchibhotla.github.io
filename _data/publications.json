@@ -446,7 +446,7 @@
 	},
 	{
 		"id": 13,
-		"work_type": "Preprint",
+		"work_type": "Journal publication",
 		"title": "simest: Single Index Model Estimation with Constraints on Link Function",
 		"year": 2016,
 		"authors": [
@@ -457,7 +457,7 @@
 				"name": "Rohit K. Patra"
 			}
 		],
-		"source": "R package version 0.6,",
+		"source": "CRAN. R package version 0.6,",
 		"citation_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=k2uOCu0AAAAJ&pagesize=100&citation_for_view=k2uOCu0AAAAJ:UebtZRa9Y70C",
 		"cites_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=5299991146738598591",
 		"cites": 1,
