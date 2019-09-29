@@ -78,39 +78,6 @@
 		"description": "Concentration inequalities are well-known under sub-Gaussian and sub-exponential conditions. In some examples these do not hold. For example, in the case of sandwich variance in linear regression we encounter $XX'(Y - X'\\beta)^2$ which is a quartic function of random variables. Even if we assume sub-Gaussianity of X and Y this quartic function is only sub-Weibull(1/2). In this paper, we consider tail bounds for these kind of random variables. After an exposition of these concentration inequalities, we consider four statistical applications."
 	},
 	{
-		"type": "Journal article",
-		"work_type": "Journal publication",
-		"id": 3,
-		"title": "A general set up for minimum disparity estimation",
-		"authors": [
-			{
-				"name": "Arun Kumar Kuchibhotla"
-			},
-			{
-				"name": "Ayanendranath Basu"
-			}
-		],
-		"source": "Statistics & Probability Letters",
-		"year": 2015,
-		"volume": 96,
-		"startpage": 68,
-		"endpage": 74,
-		"citation_url": "https://www.sciencedirect.com/science/article/pii/S0167715214003083",
-		"journal_url": "https://www.sciencedirect.com/science/article/pii/S0167715214003083",
-		"cites_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=4149858368467716897",
-		"cites": 9,
-		"ecc": 9,
-		"rank": 3,
-		"use": true,
-		"topic":[
-			{
-				"topic": "Robust Statistics"
-			}		
-		],
-		"abstract": "Lindsay (1994) provided a general set up in discrete models for minimum disparity estimation. Such a set up eludes us in continuous models. We provide such a general result and hence fill up a major gap in the literature.",
-		"description": "Lindsay (1994) provided a general set up in discrete models for minimum disparity estimation. Such a set up eludes us in continuous models. We provide such a general result and hence fill up a major gap in the literature."
-	},
-	{
 		"type": "Preprint",
 		"work_type": "Preprint",
 		"id": 4,
@@ -221,53 +188,6 @@
 	{
 		"type": "Journal article",
 		"work_type": "Journal publication",
-		"id": 7,
-		"title": "Assumption lean regression",
-		"authors": [
-			{
-				"name": "Richard Berk"
-			},
-			{
-				"name": "Andreas Buja"
-			},
-			{
-				"name": "Lawrence D. Brown"
-			},
-			{
-				"name": "Edward I. George"
-			},
-			{
-				"name": "Arun Kumar Kuchibhotla"
-			},
-			{
-				"name": "Weijie Su"
-			},
-			{
-				"name": "Linda Zhao"
-			}
-		],
-		"source": "The American Statistician",
-		"year": 2019,
-		"startpage": 1,
-		"endpage": 23,
-		"citation_url": "https://arxiv.org/abs/1806.09014",
-		"journal_url": "https://www.tandfonline.com/doi/full/10.1080/00031305.2019.1592781",
-		"cites_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=4392421106441485919",
-		"cites": 4,
-		"ecc": 4,
-		"rank": 7,
-		"use": true,
-		"topic":[
-			{
-				"topic": "Misspecification"
-			}		
-		],
-		"abstract": "It is well known that models used in conventional regression analysis are commonly misspecified. A standard response is little more than a shrug. Data analysts invoke Box’s maxim that all models are wrong and then proceed as if the results are useful nevertheless. In this paper, we provide an alternative. Regression models are treated explicitly as approximations of a true response surface that can have a number of desir- able statistical properties, including estimates that are asymptotically unbiased. Valid statistical inference follows. We generalize the formulation to include regression func- tionals, which broadens substantially the range of potential applications. An empirical application is provided to illustrate the paper’s key concepts.",
-		"description": "This paper is a non-technical version of the papers: Models as approximation parts 1 and 2."
-	},
-	{
-		"type": "Journal article",
-		"work_type": "Journal publication",
 		"id": 8,
 		"title": "Valid Post-selection Inference in Model-free Linear Regression",
 		"authors": [
@@ -349,36 +269,49 @@
 	{
 		"type": "Journal article",
 		"work_type": "Journal publication",
-		"id": 10,
-		"title": "On the asymptotics of minimum disparity estimation",
+		"id": 7,
+		"title": "Assumption lean regression",
 		"authors": [
+			{
+				"name": "Richard Berk"
+			},
+			{
+				"name": "Andreas Buja"
+			},
+			{
+				"name": "Lawrence D. Brown"
+			},
+			{
+				"name": "Edward I. George"
+			},
 			{
 				"name": "Arun Kumar Kuchibhotla"
 			},
 			{
-				"name": "Ayanendranath Basu"
+				"name": "Weijie Su"
+			},
+			{
+				"name": "Linda Zhao"
 			}
 		],
-		"source": "TEST: An Official Journal of the Spanish Society of Statistics and Operations Research",
-		"year": 2017,
-		"volume": 26,
-		"issue": 3,
-		"startpage": 481,
-		"endpage": 502,
-		"citation_url": "https://link.springer.com/article/10.1007/s11749-016-0520-4",
-		"journal_url": "https://link.springer.com/article/10.1007/s11749-016-0520-4",
-		"cites_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=8999149679345435611",
-		"cites": 2,
-		"ecc": 2,
-		"rank": 10,
+		"source": "The American Statistician",
+		"year": 2019,
+		"startpage": 1,
+		"endpage": 23,
+		"citation_url": "https://arxiv.org/abs/1806.09014",
+		"journal_url": "https://www.tandfonline.com/doi/full/10.1080/00031305.2019.1592781",
+		"cites_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=4392421106441485919",
+		"cites": 4,
+		"ecc": 4,
+		"rank": 7,
 		"use": true,
 		"topic":[
 			{
-				"topic": "Robust Statistics"
+				"topic": "Misspecification"
 			}		
 		],
-		"abstract": "Inference procedures based on the minimization of divergences are popular statistical tools. Beran (Ann stat 5(3):445–463, 1977) proved consistency and asymptotic normality of the minimum Hellinger distance (MHD) estimator. This method was later extended to the large class of disparities in discrete models by Lindsay (Ann stat 22(2):1081–1114, 1994) who proved existence of a sequence of roots of the estimating equation which is consistent and asymptotically normal. However, the current literature does not provide a general asymptotic result about the minimizer of a generic disparity. In this paper, we prove, under very general conditions, an asymptotic representation of the minimum disparity estimator itself (and not just for a root of the estimating equation), thus generalizing the results of Beran (Ann stat 5(3):445–463, 1977) and Lindsay (Ann stat 22(2):1081–1114, 1994). This leads to a general framework for minimum disparity estimation encompassing both discrete and continuous models.",
-		"description": "This paper provides a unified framework for the asymptotics of the minimum disparity estimators. This paper does not assume any model or dependence structure on the data. Hence it is similar in spirit to my paper: Determinisitic Inequalities for Smooth M-estimators."
+		"abstract": "It is well known that models used in conventional regression analysis are commonly misspecified. A standard response is little more than a shrug. Data analysts invoke Box’s maxim that all models are wrong and then proceed as if the results are useful nevertheless. In this paper, we provide an alternative. Regression models are treated explicitly as approximations of a true response surface that can have a number of desir- able statistical properties, including estimates that are asymptotically unbiased. Valid statistical inference follows. We generalize the formulation to include regression func- tionals, which broadens substantially the range of potential applications. An empirical application is provided to illustrate the paper’s key concepts.",
+		"description": "This paper is a non-technical version of the papers: Models as approximation parts 1 and 2."
 	},
 	{
 		"type": "Journal article",
@@ -417,6 +350,40 @@
 		"use": true,
 		"abstract": "M-estimators offer simple robust alternatives to the maximum likelihood estimator. The density power divergence (DPD) and the logarithmic density power divergence (LDPD) measures provide two classes of robust M-estimators which contain the MLE as a special case. In each of these families, the robustness of the estimator is achieved through a density power down-weighting of outlying observations. Even though the families have proved to be useful in robust inference, the relation and hierarchy between these two families are yet to be fully established. In this paper, we present a generalized family of divergences that provides a smooth bridge between DPD and LDPD measures. This family helps to clarify and settle several longstanding issues in the relation between the important families of DPD and LDPD, apart from being an important tool in different areas of statistical inference in its own right.",
 		"description": "There are many robust estimators for location and scale estimators. For general parametric families, there are two prominent alternatives based on density power divergences and logarithmic density power divergences. These two classes have very different properties and in this paper we combine these two families to get a better family of estimators."
+	},
+	{
+		"type": "Journal article",
+		"work_type": "Journal publication",
+		"id": 10,
+		"title": "On the asymptotics of minimum disparity estimation",
+		"authors": [
+			{
+				"name": "Arun Kumar Kuchibhotla"
+			},
+			{
+				"name": "Ayanendranath Basu"
+			}
+		],
+		"source": "TEST: An Official Journal of the Spanish Society of Statistics and Operations Research",
+		"year": 2017,
+		"volume": 26,
+		"issue": 3,
+		"startpage": 481,
+		"endpage": 502,
+		"citation_url": "https://link.springer.com/article/10.1007/s11749-016-0520-4",
+		"journal_url": "https://link.springer.com/article/10.1007/s11749-016-0520-4",
+		"cites_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=8999149679345435611",
+		"cites": 2,
+		"ecc": 2,
+		"rank": 10,
+		"use": true,
+		"topic":[
+			{
+				"topic": "Robust Statistics"
+			}		
+		],
+		"abstract": "Inference procedures based on the minimization of divergences are popular statistical tools. Beran (Ann stat 5(3):445–463, 1977) proved consistency and asymptotic normality of the minimum Hellinger distance (MHD) estimator. This method was later extended to the large class of disparities in discrete models by Lindsay (Ann stat 22(2):1081–1114, 1994) who proved existence of a sequence of roots of the estimating equation which is consistent and asymptotically normal. However, the current literature does not provide a general asymptotic result about the minimizer of a generic disparity. In this paper, we prove, under very general conditions, an asymptotic representation of the minimum disparity estimator itself (and not just for a root of the estimating equation), thus generalizing the results of Beran (Ann stat 5(3):445–463, 1977) and Lindsay (Ann stat 22(2):1081–1114, 1994). This leads to a general framework for minimum disparity estimation encompassing both discrete and continuous models.",
+		"description": "This paper provides a unified framework for the asymptotics of the minimum disparity estimators. This paper does not assume any model or dependence structure on the data. Hence it is similar in spirit to my paper: Determinisitic Inequalities for Smooth M-estimators."
 	},
 	{
 		"type": "Conference proceedings",
@@ -759,5 +726,38 @@
 		],
 		"abstract": "We propose a general approach to construct weighted likelihood estimating equations with the aim of obtain robust estimates. The weight, attached to each score contribution, is evaluated by comparing the statistical data depth at the model with that of the sample in a given point. Observations are considered regular when the ratio of these two depths is close to one, whereas, when the ratio is large the corresponding score contribution may be downweigthed. Details and examples are provided for the robust estimation of the parameters in the multivariate normal model. Because of the form of the weights, we expect that, there will be no downweighting under the true model leading to highly efficient estimators. Robustness is illustrated using two real data sets.",
 		"description": "This paper extends the minimum distance weighted likelihood estimator for the multivariate case using data depth."
+	},
+	{
+		"type": "Journal article",
+		"work_type": "Journal publication",
+		"id": 3,
+		"title": "A general set up for minimum disparity estimation",
+		"authors": [
+			{
+				"name": "Arun Kumar Kuchibhotla"
+			},
+			{
+				"name": "Ayanendranath Basu"
+			}
+		],
+		"source": "Statistics & Probability Letters",
+		"year": 2015,
+		"volume": 96,
+		"startpage": 68,
+		"endpage": 74,
+		"citation_url": "https://www.sciencedirect.com/science/article/pii/S0167715214003083",
+		"journal_url": "https://www.sciencedirect.com/science/article/pii/S0167715214003083",
+		"cites_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=4149858368467716897",
+		"cites": 9,
+		"ecc": 9,
+		"rank": 3,
+		"use": true,
+		"topic":[
+			{
+				"topic": "Robust Statistics"
+			}		
+		],
+		"abstract": "Lindsay (1994) provided a general set up in discrete models for minimum disparity estimation. Such a set up eludes us in continuous models. We provide such a general result and hence fill up a major gap in the literature.",
+		"description": "Lindsay (1994) provided a general set up in discrete models for minimum disparity estimation. Such a set up eludes us in continuous models. We provide such a general result and hence fill up a major gap in the literature."
 	}
 ]
