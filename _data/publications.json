@@ -114,8 +114,8 @@
 		"description": "This paper consider estimation and inference in a single index model when the link function is constrained to be convex and Lipschitz. This paper proves a general result that helps find rate of convergence of nonparametric least squares under finite number of moments."
 	},
 	{
-		"type": "Preprint",
-		"work_type": "Preprint",
+		"type": "Journal article",
+		"work_type": "Journal publication",
 		"id": 5,
 		"title": "Models as Approximations---Part II: A General Theory of Model-Robust Regression",
 		"authors": [
@@ -138,7 +138,7 @@
 				"name": "Linda Zhao"
 			}
 		],
-		"source": "arXiv:1612.03257",
+		"source": "Statistical Science. Accepted",
 		"year": 2016,
 		"volume": 3257,
 		"citation_url": "https://arxiv.org/abs/1612.03257",
