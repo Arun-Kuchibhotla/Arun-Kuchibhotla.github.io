@@ -48,6 +48,79 @@
 		"description": "This paper proves finite sample results for convergence of OLS estimators uniform over all subset of covariates. The results apply for both independent and dependent observations. The dependence setting considered is functional dependence introduced by Wu (2005)."
 	},
 	{
+		"type": "Working paper",
+		"work_type": "Working paper",
+		"id":23,
+		"title": "Nested conformal prediction and the generalized jackknife+",
+		"year": 2019,
+		"authors": [
+			{
+				"name": "Arun Kumar Kuchibhotla"
+			},
+			{
+				"name": "Aaditya Ramdas"
+			}
+		],
+		"use": true,
+		"topic":[
+			{
+				"topic": "Conformal Prediction"
+			}
+		],
+		"description": "This paper considers conformal prediction based on a nested sequence of sets rather than a function estimate. An element of the nested sequence is obtained based on the data to have the required coverage properties. This framework includes several of the existing conformal procedures and naturally provides an extension of jackknife+ recently introduced."
+	},
+	{
+		"type": "Working paper",
+		"work_type": "Working paper",
+		"id":24,
+		"title": "Model-agnostic Semiparametric Inference",
+		"year": 2019,
+		"authors": [
+			{
+				"name": "Arun Kumar Kuchibhotla"
+			},
+			{
+				"name": "Eric J. Tchetgen Tchetgen"
+			}
+		],
+		"use": true,
+		"topic":[
+			{
+				"topic": "Semiparametric Inference"
+			},
+			{
+				"topic": "Post-selection Inference"
+			}
+		],
+		"description": "This paper considers an application of deterministic inequalities for linear and logistic regression for causal estimands."
+	},
+	{
+		"type": "Working paper",
+		"work_type": "Working paper",
+		"id":25,
+		"title": "A Weighted Likelihood Approach Based on Statistical Data Depths",
+		"year": 2019,
+		"authors": [
+			{
+				"name": "Claudio Agostinelli"
+			},
+			{
+				"name": "Ayanendranath Basu"
+			},
+			{
+				"name": "Arun Kumar Kuchibhotla"
+			}
+		],
+		"use": true,
+		"topic":[
+			{
+				"topic": "Robust Statistics"
+			}
+		],
+		"abstract": "We propose a general approach to construct weighted likelihood estimating equations with the aim of obtain robust estimates. The weight, attached to each score contribution, is evaluated by comparing the statistical data depth at the model with that of the sample in a given point. Observations are considered regular when the ratio of these two depths is close to one, whereas, when the ratio is large the corresponding score contribution may be downweigthed. Details and examples are provided for the robust estimation of the parameters in the multivariate normal model. Because of the form of the weights, we expect that, there will be no downweighting under the true model leading to highly efficient estimators. Robustness is illustrated using two real data sets.",
+		"description": "This paper extends the minimum distance weighted likelihood estimator for the multivariate case using data depth."
+	},
+	{
 		"type": "Preprint",
 		"work_type": "Preprint",
 		"id": 2,
@@ -114,48 +187,6 @@
 		"description": "This paper consider estimation and inference in a single index model when the link function is constrained to be convex and Lipschitz. This paper proves a general result that helps find rate of convergence of nonparametric least squares under finite number of moments."
 	},
 	{
-		"type": "Journal article",
-		"work_type": "Journal publication",
-		"id": 5,
-		"title": "Models as Approximations---Part II: A General Theory of Model-Robust Regression",
-		"authors": [
-			{
-				"name": "Andreas Buja"
-			},
-			{
-				"name": "Lawrence D. Brown"
-			},
-			{
-				"name": "Arun Kumar Kuchibhotla"
-			},
-			{
-				"name": "Richard Berk"
-			},
-			{
-				"name": "Edward I. George"
-			},
-			{
-				"name": "Linda Zhao"
-			}
-		],
-		"source": "Statistical Science. To Appear (with discussion)",
-		"year": 2016,
-		"volume": 3257,
-		"citation_url": "https://arxiv.org/abs/1612.03257",
-		"cites_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=16495760639311084209",
-		"cites": 6,
-		"ecc": 6,
-		"rank": 5,
-		"use": true,
-		"topic":[
-			{
-				"topic": "Misspecification"
-			}		
-		],
-		"abstract": "We develop a model-free theory of general types of parametric regression for iid observations. The theory replaces the parameters of parametric models with statistical functionals, to be called regression functionals, defined on large non-parametric classes of joint $(X, Y)$ distributions, without assuming a correct model. Parametric models are reduced to heuristics to suggest plausible objective functions. An example of a regression functional is the vector of slopes of linear equations fitted by OLS to largely arbitrary $(X, Y)$ distributions, without assuming a linear model (see Part~I). More generally, regression functionals can be defined by minimizing objective functions or solving estimating equations at joint $(X, Y)$ distributions. In this framework it is possible to achieve the following: (1)~define a notion of well-specification for regression functionals that replaces the notion of correct specification of models, (2)~propose a well-specification diagnostic for regression functionals based on reweighting distributions and data, (3)~decompose sampling variability of regression functionals into two sources, one due to the conditional response distribution and another due to the regressor distribution interacting with misspecification, both of order $N^{-1/2}$, (4)~exhibit plug-in/sandwich estimators of standard error as limit cases of $(X, Y)$ bootstrap estimators, and (5)~provide theoretical heuristics to indicate that $(X, Y)$ bootstrap standard errors may generally be more stable than sandwich estimators.",
-		"description": "This provides provides the theory and interpretation of M-estimators under misspecification."
-	},
-	{
 		"type": "Preprint",
 		"work_type": "Preprint",
 		"id": 6,
@@ -184,54 +215,6 @@
 		],
 		"abstract": "We consider estimation and inference in a single index regression model with an unknown but smooth link function. In contrast to the standard approach of using kernels or regression splines, we use smoothing splines to estimate the smooth link function. We develop a method to compute the penalized least squares estimators (PLSEs) of the parametric and the nonparametric components given independent and identically distributed (i.i.d.)~data. We prove the consistency and find the rates of convergence of the estimators. We establish asymptotic normality under under mild assumption and prove asymptotic efficiency of the parametric component under homoscedastic errors. A finite sample simulation corroborates our asymptotic theory. We also analyze a car mileage data set and a Ozone concentration data set. The identifiability and existence of the PLSEs are also investigated.",
 		"description": "This paper considers estimation and inference in a single index model using a smoothing spline estimator of the link function."
-	},
-	{
-		"type": "Journal article",
-		"work_type": "Journal publication",
-		"id": 8,
-		"title": "Valid Post-selection Inference in Model-free Linear Regression",
-		"authors": [
-			{
-				"name": "Arun Kumar Kuchibhotla"
-			},
-			{
-				"name": "Lawrence D. Brown"
-			},
-			{
-				"name": "Andreas Buja"
-			},
-			{
-				"name": "Junhui Cai"
-			},
-			{
-				"name": "Edward I. George"
-			},
-			{
-				"name": "Linda Zhao"
-			}
-		],
-		"source": "Annals of Statistics. Accepted",
-		"year": 2019,
-		"volume": 4119,
-		"citation_url": "https://arxiv.org/abs/1806.04119",
-		"cites_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=10014366546700290406",
-		"cites": 3,
-		"ecc": 3,
-		"rank": 8,
-		"use": true,
-		"topic":[
-			{
-				"topic": "Post-selection Inference"
-			},
-			{
-				"topic": "High-dimensional Statistics"
-			},
-			{
-				"topic": "Dependent Data"
-			}
-		],
-		"abstract": "Modern data-driven approaches to modeling make extensive use of covariate/model selection.  Such selection incurs a cost: it invalidates classical statistical inference.  A conservative remedy to the problem was proposed by Berk et al. (2013) and further extended by Bachoc et al. (2016). These proposals, labeled ``PoSI methods'', provide valid inference after arbitrary model selection.  They are computationally NP-hard and have certain limitations in their theoretical justifications.  We therefore propose computationally efficient PoSI confidence regions and prove large-$p$ asymptotics for them.  We do this for linear OLS regression allowing misspecification of the normal linear model, for both fixed and random covariates, and for independent as well as some types of dependent data.  We start by proving a general equivalence result for the post-selection inference problem and a simultaneous inference problem in a setting that strips inessential features still present in a related result of Berk et al. (2013). We then construct valid PoSI confidence regions that are the first to have vastly improved computational efficiency in that the required computation times grow only quadratically rather than exponentially with the total number $p$ of covariates. These are also the first PoSI confidence regions with guaranteed asymptotic validity when the total number of covariates~$p$ diverges (almost exponentially) with the sample size~$n$.  Under standard tail assumptions, we only require $(\\log p)^7 = o(n)$ and $k = o(\\sqrt{n/\\log p})$ where $k (\\le p)$ is the largest number of covariates (model size) considered for selection.  We study various properties of these confidence regions, including their Lebesgue measures, and compare them (theoretically) with those proposed previously.",
-		"description": "This paper prvides the first ever computationally efficient simultaneous inference for all sub-models in linear regression without assuming linearity, independence of observations."
 	},
 	{
 		"type": "Preprint",
@@ -267,156 +250,6 @@
 		"description": "This paper proves deterministic inequalities for estimator defined by smooth estimating equations without assuming any model or dependence structure on the data. The examples include ordinary least squares, generalized linear models, Cox proportional hazards model, non-linear least squares and equality constrained estimators."
 	},
 	{
-		"type": "Journal article",
-		"work_type": "Journal publication",
-		"id": 7,
-		"title": "Assumption lean regression",
-		"authors": [
-			{
-				"name": "Richard Berk"
-			},
-			{
-				"name": "Andreas Buja"
-			},
-			{
-				"name": "Lawrence D. Brown"
-			},
-			{
-				"name": "Edward I. George"
-			},
-			{
-				"name": "Arun Kumar Kuchibhotla"
-			},
-			{
-				"name": "Weijie Su"
-			},
-			{
-				"name": "Linda Zhao"
-			}
-		],
-		"source": "The American Statistician",
-		"year": 2019,
-		"startpage": 1,
-		"endpage": 23,
-		"citation_url": "https://arxiv.org/abs/1806.09014",
-		"journal_url": "https://www.tandfonline.com/doi/full/10.1080/00031305.2019.1592781",
-		"cites_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=4392421106441485919",
-		"cites": 4,
-		"ecc": 4,
-		"rank": 7,
-		"use": true,
-		"topic":[
-			{
-				"topic": "Misspecification"
-			}		
-		],
-		"abstract": "It is well known that models used in conventional regression analysis are commonly misspecified. A standard response is little more than a shrug. Data analysts invoke Box’s maxim that all models are wrong and then proceed as if the results are useful nevertheless. In this paper, we provide an alternative. Regression models are treated explicitly as approximations of a true response surface that can have a number of desir- able statistical properties, including estimates that are asymptotically unbiased. Valid statistical inference follows. We generalize the formulation to include regression func- tionals, which broadens substantially the range of potential applications. An empirical application is provided to illustrate the paper’s key concepts.",
-		"description": "This paper is a non-technical version of the papers: Models as approximation parts 1 and 2."
-	},
-	{
-		"type": "Journal article",
-		"work_type": "Journal publication",
-		"id": 11,
-		"title": "Statistical inference based on bridge divergences",
-		"authors": [
-			{
-				"name": "Arun Kumar Kuchibhotla"
-			},
-			{
-				"name": "Somabha Mukherjee"
-			},
-			{
-				"name": "Ayanendranath Basu"
-			}
-		],
-		"source": "Annals of the Institute of Statistical Mathematics",
-		"year": 2019,
-		"volume": 71,
-		"issue": 3,
-		"startpage": 627,
-		"endpage": 656,
-		"citation_url": "https://arxiv.org/abs/1706.05745",
-		"journal_url": "https://link.springer.com/article/10.1007/s10463-018-0665-x",
-		"cites_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=103179556759016315",
-		"cites": 1,
-		"ecc": 1,
-		"rank": 11,
-		"use": true,
-		"topic":[
-			{
-				"topic": "Robust Statistics"
-			}		
-		],
-		"use": true,
-		"abstract": "M-estimators offer simple robust alternatives to the maximum likelihood estimator. The density power divergence (DPD) and the logarithmic density power divergence (LDPD) measures provide two classes of robust M-estimators which contain the MLE as a special case. In each of these families, the robustness of the estimator is achieved through a density power down-weighting of outlying observations. Even though the families have proved to be useful in robust inference, the relation and hierarchy between these two families are yet to be fully established. In this paper, we present a generalized family of divergences that provides a smooth bridge between DPD and LDPD measures. This family helps to clarify and settle several longstanding issues in the relation between the important families of DPD and LDPD, apart from being an important tool in different areas of statistical inference in its own right.",
-		"description": "There are many robust estimators for location and scale estimators. For general parametric families, there are two prominent alternatives based on density power divergences and logarithmic density power divergences. These two classes have very different properties and in this paper we combine these two families to get a better family of estimators."
-	},
-	{
-		"type": "Journal article",
-		"work_type": "Journal publication",
-		"id": 10,
-		"title": "On the asymptotics of minimum disparity estimation",
-		"authors": [
-			{
-				"name": "Arun Kumar Kuchibhotla"
-			},
-			{
-				"name": "Ayanendranath Basu"
-			}
-		],
-		"source": "TEST: An Official Journal of the Spanish Society of Statistics and Operations Research",
-		"year": 2017,
-		"volume": 26,
-		"issue": 3,
-		"startpage": 481,
-		"endpage": 502,
-		"citation_url": "https://link.springer.com/article/10.1007/s11749-016-0520-4",
-		"journal_url": "https://link.springer.com/article/10.1007/s11749-016-0520-4",
-		"cites_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=8999149679345435611",
-		"cites": 2,
-		"ecc": 2,
-		"rank": 10,
-		"use": true,
-		"topic":[
-			{
-				"topic": "Robust Statistics"
-			}		
-		],
-		"abstract": "Inference procedures based on the minimization of divergences are popular statistical tools. Beran (Ann stat 5(3):445–463, 1977) proved consistency and asymptotic normality of the minimum Hellinger distance (MHD) estimator. This method was later extended to the large class of disparities in discrete models by Lindsay (Ann stat 22(2):1081–1114, 1994) who proved existence of a sequence of roots of the estimating equation which is consistent and asymptotically normal. However, the current literature does not provide a general asymptotic result about the minimizer of a generic disparity. In this paper, we prove, under very general conditions, an asymptotic representation of the minimum disparity estimator itself (and not just for a root of the estimating equation), thus generalizing the results of Beran (Ann stat 5(3):445–463, 1977) and Lindsay (Ann stat 22(2):1081–1114, 1994). This leads to a general framework for minimum disparity estimation encompassing both discrete and continuous models.",
-		"description": "This paper provides a unified framework for the asymptotics of the minimum disparity estimators. This paper does not assume any model or dependence structure on the data. Hence it is similar in spirit to my paper: Determinisitic Inequalities for Smooth M-estimators."
-	},
-	{
-		"type": "Conference proceedings",
-		"work_type": "Journal publication",
-		"id": 22,
-		"title": "First order expansion of convex regularized estimators",
-		"authors": [
-			{
-				"name": "Pierre C. Bellec"
-			},
-			{
-				"name": "Arun Kumar Kuchibhotla"
-			}
-		],
-		"source": "Advances in Neural Information Processing Systems. Accepted",
-		"year": 2019,
-		"volume": 33,
-		"citation_url": "https://neurips.cc/Conferences/2019/AcceptedPapersInitial",
-		"cites_url": "https://neurips.cc/Conferences/2019/AcceptedPapersInitial",
-		"cites": 1,
-		"ecc": 1,
-		"rank": 11,
-		"use": true,
-		"topic":[
-			{
-				"topic": "High-dimensional Statistics"
-			}		
-		],
-		"use": true,
-		"abstract": "We consider first order expansions of convex penalized estimators in high-dimensional regression problems with random designs. Our setting includes linear regression and logistic regression as special cases. For a given penalty function $h$ and the corresponding penalized estimator $\\hbeta$, we construct a quantity $\\eta$, the first order expansion of $\\hbeta$, such that the distance between $\\hbeta$ and $\\eta$ is an order of magnitude smaller than the estimation error $\\|\\hat{\beta} - \beta^*\\|$. In this sense, the first order expansion $\\eta$ can be thought of as a generalization of influence functions from the mathematical statistics literature to regularized estimators in high-dimensions. Such first order expansion implies that the risk of $\\hat{\beta}$ is asymptotically the same as the risk of $\\eta$ which leads to a precise characterization of the MSE of $\\hbeta$; this characterization takes a particularly simple form for isotropic design. Such first order expansion also leads to inference results based on $\\hat{\beta}$. We provide sufficient conditions for the existence of such first order expansion for three regularizers: the Lasso in its constrained form, the lasso in its penalized form, and the Group-Lasso. The results apply to general loss functions under some conditions and those conditions are satisfied for the squared loss in linear regression and for the logistic loss in the logistic model.",
-		"description": "This paper provides a first order influence function expansion for penalized estimators. The classical influence function expansion shows M-estimators properly centered behaves like a centered average and in this paper, we show the penalized estimator behaves like a shrinked version of the true parameter shifted by a centered average."
-	},
-	{
 		"id": 12,
 		"work_type": "Preprint",
 		"title": "A minimum distance weighted likelihood method of estimation",
@@ -443,33 +276,6 @@
 		],
 		"abstract": "Over the last several decades, minimum distance (or minimum divergence, minimum disparity, minimum discrepancy) estimation methods have been studied in different statistical settings as an alternative to the method of maximum likelihood. The initial motivation was probably to exhibit that there exists other estimators apart from the maximum likelihood estimator (MLE) which has full asymptotic efficiency at the model. As the scope of and interest in the area of robust inference grew, many of these estimators were found to be particularly useful in that respect and performed better than the MLE under contamination. Later, a weighted likelihood variant of the method was developed in the same spirit, which was substantially simpler to implement. In the statistics literature the method of minimum disparity estimation and the corresponding weighted likelihood estimation methods have distinct identities. Despite their similarities, they have some basic differences. In this paper we propose a method of estimation which is simultaneously a minimum disparity method and a weighted likelihood method, and may be viewed as a method that combines the positive aspects of both. We refer to the estimator as the minimum distance weighted likelihood (MDWL) estimator, investigate its properties, and illustrate the same through real data examples and simulations. We briefly explore the applicability of the method in robust tests of hypothesis.",
 		"description": "This paper provides a version of weighted likelihood estimator that corresponds to a minimum disparity estimator. This estimator is both robust to outliers and asymptotically efficient under the true model."
-	},
-	{
-		"id": 13,
-		"work_type": "Journal publication",
-		"title": "simest: Single Index Model Estimation with Constraints on Link Function",
-		"year": 2016,
-		"authors": [
-			{
-				"name": "Arun Kumar Kuchibhotla"
-			},
-			{
-				"name": "Rohit K. Patra"
-			}
-		],
-		"source": "CRAN. R package version 0.6,",
-		"citation_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=k2uOCu0AAAAJ&pagesize=100&citation_for_view=k2uOCu0AAAAJ:UebtZRa9Y70C",
-		"cites_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=5299991146738598591",
-		"cites": 1,
-		"ecc": 1,
-		"rank": 13,
-		"use": true,
-		"topic":[
-			{
-				"topic": "Semi-parametric Inference"
-			}		
-		],
-		"description": "This package implements the estimators from the papers on single index model with Rohit Patra and Bodhisattva Sen."
 	},
 	{
 		"type": "Preprint",
@@ -655,77 +461,271 @@
 		"description": "This paper was awarded second prize in ISI Jan Tinbergen Awards 2015. The paper considers the problem of testing between projection pursuit models and ACE models."
 	},
 	{
-		"type": "Working paper",
-		"work_type": "Working paper",
-		"id":23,
-		"title": "Nested conformal prediction and the generalized jackknife+",
-		"year": 2019,
+		"type": "Journal article",
+		"work_type": "Journal publication",
+		"id": 22,
+		"title": "Valid Post-selection Inference in Model-free Linear Regression",
 		"authors": [
 			{
 				"name": "Arun Kumar Kuchibhotla"
 			},
 			{
-				"name": "Aaditya Ramdas"
-			}
-		],
-		"use": true,
-		"topic":[
+				"name": "Lawrence D. Brown"
+			},
 			{
-				"topic": "Conformal Prediction"
+				"name": "Andreas Buja"
+			},
+			{
+				"name": "Junhui Cai"
+			},
+			{
+				"name": "Edward I. George"
+			},
+			{
+				"name": "Linda Zhao"
 			}
 		],
-		"description": "This paper considers conformal prediction based on a nested sequence of sets rather than a function estimate. An element of the nested sequence is obtained based on the data to have the required coverage properties. This framework includes several of the existing conformal procedures and naturally provides an extension of jackknife+ recently introduced."
-	},
-	{
-		"type": "Working paper",
-		"work_type": "Working paper",
-		"id":24,
-		"title": "Model-agnostic Semiparametric Inference",
+		"source": "Annals of Statistics. Accepted",
 		"year": 2019,
-		"authors": [
-			{
-				"name": "Arun Kumar Kuchibhotla"
-			},
-			{
-				"name": "Eric J. Tchetgen Tchetgen"
-			}
-		],
+		"volume": 4119,
+		"citation_url": "https://arxiv.org/abs/1806.04119",
+		"cites_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=10014366546700290406",
+		"cites": 3,
+		"ecc": 3,
+		"rank": 8,
 		"use": true,
 		"topic":[
-			{
-				"topic": "Semiparametric Inference"
-			},
 			{
 				"topic": "Post-selection Inference"
+			},
+			{
+				"topic": "High-dimensional Statistics"
+			},
+			{
+				"topic": "Dependent Data"
 			}
 		],
-		"description": "This paper considers an application of deterministic inequalities for linear and logistic regression for causal estimands."
+		"abstract": "Modern data-driven approaches to modeling make extensive use of covariate/model selection.  Such selection incurs a cost: it invalidates classical statistical inference.  A conservative remedy to the problem was proposed by Berk et al. (2013) and further extended by Bachoc et al. (2016). These proposals, labeled ``PoSI methods'', provide valid inference after arbitrary model selection.  They are computationally NP-hard and have certain limitations in their theoretical justifications.  We therefore propose computationally efficient PoSI confidence regions and prove large-$p$ asymptotics for them.  We do this for linear OLS regression allowing misspecification of the normal linear model, for both fixed and random covariates, and for independent as well as some types of dependent data.  We start by proving a general equivalence result for the post-selection inference problem and a simultaneous inference problem in a setting that strips inessential features still present in a related result of Berk et al. (2013). We then construct valid PoSI confidence regions that are the first to have vastly improved computational efficiency in that the required computation times grow only quadratically rather than exponentially with the total number $p$ of covariates. These are also the first PoSI confidence regions with guaranteed asymptotic validity when the total number of covariates~$p$ diverges (almost exponentially) with the sample size~$n$.  Under standard tail assumptions, we only require $(\\log p)^7 = o(n)$ and $k = o(\\sqrt{n/\\log p})$ where $k (\\le p)$ is the largest number of covariates (model size) considered for selection.  We study various properties of these confidence regions, including their Lebesgue measures, and compare them (theoretically) with those proposed previously.",
+		"description": "This paper prvides the first ever computationally efficient simultaneous inference for all sub-models in linear regression without assuming linearity, independence of observations."
 	},
 	{
-		"type": "Working paper",
-		"work_type": "Working paper",
-		"id":25,
-		"title": "A Weighted Likelihood Approach Based on Statistical Data Depths",
-		"year": 2019,
+		"type": "Conference proceedings",
+		"work_type": "Journal publication",
+		"id": 8,
+		"title": "First order expansion of convex regularized estimators",
 		"authors": [
 			{
-				"name": "Claudio Agostinelli"
+				"name": "Pierre C. Bellec"
+			},
+			{
+				"name": "Arun Kumar Kuchibhotla"
+			}
+		],
+		"source": "Advances in Neural Information Processing Systems. Accepted",
+		"year": 2019,
+		"volume": 33,
+		"citation_url": "https://neurips.cc/Conferences/2019/AcceptedPapersInitial",
+		"cites_url": "https://neurips.cc/Conferences/2019/AcceptedPapersInitial",
+		"cites": 1,
+		"ecc": 1,
+		"rank": 11,
+		"use": true,
+		"topic":[
+			{
+				"topic": "High-dimensional Statistics"
+			}		
+		],
+		"use": true,
+		"abstract": "We consider first order expansions of convex penalized estimators in high-dimensional regression problems with random designs. Our setting includes linear regression and logistic regression as special cases. For a given penalty function $h$ and the corresponding penalized estimator $\\hbeta$, we construct a quantity $\\eta$, the first order expansion of $\\hbeta$, such that the distance between $\\hbeta$ and $\\eta$ is an order of magnitude smaller than the estimation error $\\|\\hat{\beta} - \beta^*\\|$. In this sense, the first order expansion $\\eta$ can be thought of as a generalization of influence functions from the mathematical statistics literature to regularized estimators in high-dimensions. Such first order expansion implies that the risk of $\\hat{\beta}$ is asymptotically the same as the risk of $\\eta$ which leads to a precise characterization of the MSE of $\\hbeta$; this characterization takes a particularly simple form for isotropic design. Such first order expansion also leads to inference results based on $\\hat{\beta}$. We provide sufficient conditions for the existence of such first order expansion for three regularizers: the Lasso in its constrained form, the lasso in its penalized form, and the Group-Lasso. The results apply to general loss functions under some conditions and those conditions are satisfied for the squared loss in linear regression and for the logistic loss in the logistic model.",
+		"description": "This paper provides a first order influence function expansion for penalized estimators. The classical influence function expansion shows M-estimators properly centered behaves like a centered average and in this paper, we show the penalized estimator behaves like a shrinked version of the true parameter shifted by a centered average."
+	},
+	{
+		"type": "Journal article",
+		"work_type": "Journal publication",
+		"id": 5,
+		"title": "Models as Approximations---Part II: A General Theory of Model-Robust Regression",
+		"authors": [
+			{
+				"name": "Andreas Buja"
+			},
+			{
+				"name": "Lawrence D. Brown"
+			},
+			{
+				"name": "Arun Kumar Kuchibhotla"
+			},
+			{
+				"name": "Richard Berk"
+			},
+			{
+				"name": "Edward I. George"
+			},
+			{
+				"name": "Linda Zhao"
+			}
+		],
+		"source": "Statistical Science. To Appear (with discussion)",
+		"year": 2016,
+		"volume": 3257,
+		"citation_url": "https://arxiv.org/abs/1612.03257",
+		"cites_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=16495760639311084209",
+		"cites": 6,
+		"ecc": 6,
+		"rank": 5,
+		"use": true,
+		"topic":[
+			{
+				"topic": "Misspecification"
+			}		
+		],
+		"abstract": "We develop a model-free theory of general types of parametric regression for iid observations. The theory replaces the parameters of parametric models with statistical functionals, to be called regression functionals, defined on large non-parametric classes of joint $(X, Y)$ distributions, without assuming a correct model. Parametric models are reduced to heuristics to suggest plausible objective functions. An example of a regression functional is the vector of slopes of linear equations fitted by OLS to largely arbitrary $(X, Y)$ distributions, without assuming a linear model (see Part~I). More generally, regression functionals can be defined by minimizing objective functions or solving estimating equations at joint $(X, Y)$ distributions. In this framework it is possible to achieve the following: (1)~define a notion of well-specification for regression functionals that replaces the notion of correct specification of models, (2)~propose a well-specification diagnostic for regression functionals based on reweighting distributions and data, (3)~decompose sampling variability of regression functionals into two sources, one due to the conditional response distribution and another due to the regressor distribution interacting with misspecification, both of order $N^{-1/2}$, (4)~exhibit plug-in/sandwich estimators of standard error as limit cases of $(X, Y)$ bootstrap estimators, and (5)~provide theoretical heuristics to indicate that $(X, Y)$ bootstrap standard errors may generally be more stable than sandwich estimators.",
+		"description": "This provides provides the theory and interpretation of M-estimators under misspecification."
+	},
+	{
+		"type": "Journal article",
+		"work_type": "Journal publication",
+		"id": 7,
+		"title": "Assumption lean regression",
+		"authors": [
+			{
+				"name": "Richard Berk"
+			},
+			{
+				"name": "Andreas Buja"
+			},
+			{
+				"name": "Lawrence D. Brown"
+			},
+			{
+				"name": "Edward I. George"
+			},
+			{
+				"name": "Arun Kumar Kuchibhotla"
+			},
+			{
+				"name": "Weijie Su"
+			},
+			{
+				"name": "Linda Zhao"
+			}
+		],
+		"source": "The American Statistician",
+		"year": 2019,
+		"startpage": 1,
+		"endpage": 23,
+		"citation_url": "https://arxiv.org/abs/1806.09014",
+		"journal_url": "https://www.tandfonline.com/doi/full/10.1080/00031305.2019.1592781",
+		"cites_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=4392421106441485919",
+		"cites": 4,
+		"ecc": 4,
+		"rank": 7,
+		"use": true,
+		"topic":[
+			{
+				"topic": "Misspecification"
+			}		
+		],
+		"abstract": "It is well known that models used in conventional regression analysis are commonly misspecified. A standard response is little more than a shrug. Data analysts invoke Box’s maxim that all models are wrong and then proceed as if the results are useful nevertheless. In this paper, we provide an alternative. Regression models are treated explicitly as approximations of a true response surface that can have a number of desir- able statistical properties, including estimates that are asymptotically unbiased. Valid statistical inference follows. We generalize the formulation to include regression func- tionals, which broadens substantially the range of potential applications. An empirical application is provided to illustrate the paper’s key concepts.",
+		"description": "This paper is a non-technical version of the papers: Models as approximation parts 1 and 2."
+	},
+	{
+		"type": "Journal article",
+		"work_type": "Journal publication",
+		"id": 11,
+		"title": "Statistical inference based on bridge divergences",
+		"authors": [
+			{
+				"name": "Arun Kumar Kuchibhotla"
+			},
+			{
+				"name": "Somabha Mukherjee"
 			},
 			{
 				"name": "Ayanendranath Basu"
-			},
-			{
-				"name": "Arun Kumar Kuchibhotla"
 			}
 		],
+		"source": "Annals of the Institute of Statistical Mathematics",
+		"year": 2019,
+		"volume": 71,
+		"issue": 3,
+		"startpage": 627,
+		"endpage": 656,
+		"citation_url": "https://arxiv.org/abs/1706.05745",
+		"journal_url": "https://link.springer.com/article/10.1007/s10463-018-0665-x",
+		"cites_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=103179556759016315",
+		"cites": 1,
+		"ecc": 1,
+		"rank": 11,
 		"use": true,
 		"topic":[
 			{
 				"topic": "Robust Statistics"
+			}		
+		],
+		"use": true,
+		"abstract": "M-estimators offer simple robust alternatives to the maximum likelihood estimator. The density power divergence (DPD) and the logarithmic density power divergence (LDPD) measures provide two classes of robust M-estimators which contain the MLE as a special case. In each of these families, the robustness of the estimator is achieved through a density power down-weighting of outlying observations. Even though the families have proved to be useful in robust inference, the relation and hierarchy between these two families are yet to be fully established. In this paper, we present a generalized family of divergences that provides a smooth bridge between DPD and LDPD measures. This family helps to clarify and settle several longstanding issues in the relation between the important families of DPD and LDPD, apart from being an important tool in different areas of statistical inference in its own right.",
+		"description": "There are many robust estimators for location and scale estimators. For general parametric families, there are two prominent alternatives based on density power divergences and logarithmic density power divergences. These two classes have very different properties and in this paper we combine these two families to get a better family of estimators."
+	},
+	{
+		"type": "Journal article",
+		"work_type": "Journal publication",
+		"id": 10,
+		"title": "On the asymptotics of minimum disparity estimation",
+		"authors": [
+			{
+				"name": "Arun Kumar Kuchibhotla"
+			},
+			{
+				"name": "Ayanendranath Basu"
 			}
 		],
-		"abstract": "We propose a general approach to construct weighted likelihood estimating equations with the aim of obtain robust estimates. The weight, attached to each score contribution, is evaluated by comparing the statistical data depth at the model with that of the sample in a given point. Observations are considered regular when the ratio of these two depths is close to one, whereas, when the ratio is large the corresponding score contribution may be downweigthed. Details and examples are provided for the robust estimation of the parameters in the multivariate normal model. Because of the form of the weights, we expect that, there will be no downweighting under the true model leading to highly efficient estimators. Robustness is illustrated using two real data sets.",
-		"description": "This paper extends the minimum distance weighted likelihood estimator for the multivariate case using data depth."
+		"source": "TEST: An Official Journal of the Spanish Society of Statistics and Operations Research",
+		"year": 2017,
+		"volume": 26,
+		"issue": 3,
+		"startpage": 481,
+		"endpage": 502,
+		"citation_url": "https://link.springer.com/article/10.1007/s11749-016-0520-4",
+		"journal_url": "https://link.springer.com/article/10.1007/s11749-016-0520-4",
+		"cites_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=8999149679345435611",
+		"cites": 2,
+		"ecc": 2,
+		"rank": 10,
+		"use": true,
+		"topic":[
+			{
+				"topic": "Robust Statistics"
+			}		
+		],
+		"abstract": "Inference procedures based on the minimization of divergences are popular statistical tools. Beran (Ann stat 5(3):445–463, 1977) proved consistency and asymptotic normality of the minimum Hellinger distance (MHD) estimator. This method was later extended to the large class of disparities in discrete models by Lindsay (Ann stat 22(2):1081–1114, 1994) who proved existence of a sequence of roots of the estimating equation which is consistent and asymptotically normal. However, the current literature does not provide a general asymptotic result about the minimizer of a generic disparity. In this paper, we prove, under very general conditions, an asymptotic representation of the minimum disparity estimator itself (and not just for a root of the estimating equation), thus generalizing the results of Beran (Ann stat 5(3):445–463, 1977) and Lindsay (Ann stat 22(2):1081–1114, 1994). This leads to a general framework for minimum disparity estimation encompassing both discrete and continuous models.",
+		"description": "This paper provides a unified framework for the asymptotics of the minimum disparity estimators. This paper does not assume any model or dependence structure on the data. Hence it is similar in spirit to my paper: Determinisitic Inequalities for Smooth M-estimators."
+	},
+	{
+		"id": 13,
+		"work_type": "Journal publication",
+		"title": "simest: Single Index Model Estimation with Constraints on Link Function",
+		"year": 2016,
+		"authors": [
+			{
+				"name": "Arun Kumar Kuchibhotla"
+			},
+			{
+				"name": "Rohit K. Patra"
+			}
+		],
+		"source": "CRAN. R package version 0.6,",
+		"citation_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=k2uOCu0AAAAJ&pagesize=100&citation_for_view=k2uOCu0AAAAJ:UebtZRa9Y70C",
+		"cites_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=5299991146738598591",
+		"cites": 1,
+		"ecc": 1,
+		"rank": 13,
+		"use": true,
+		"topic":[
+			{
+				"topic": "Semi-parametric Inference"
+			}		
+		],
+		"description": "This package implements the estimators from the papers on single index model with Rohit Patra and Bodhisattva Sen."
 	},
 	{
 		"type": "Journal article",
