@@ -47,9 +47,11 @@ nav_order: 4
     {% endif %}
   {% endfor %}
   </h5>
+  {% if course.more %}
   <h5 class="card-text"> 
   	<a href="{{ course.more }}">Data Science Live (DSL)</a>
   </h5>
+  {% endif %}
 </div>
 </div>
 {% endfor %}
