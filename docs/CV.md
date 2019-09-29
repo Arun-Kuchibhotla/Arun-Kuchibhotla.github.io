@@ -1,7 +1,7 @@
 ---
 layout: default
 title: CV
-nav_order: 4
+nav_order: 5
 ---
 
 <a href="{{
@@ -12,7 +12,7 @@ nav_order: 4
 	<div class="row">
 		<div class="col">
 <object data="{{
- '/assets/others/CV.pdf' | prepend: site.baseurl }}" width="700" height="1000" type='application/pdf'/>
+ '/assets/others/CV.pdf' | prepend: site.baseurl }}" width="900" height="1000" type='application/pdf'/>
 </object>
 </div>
 </div>
