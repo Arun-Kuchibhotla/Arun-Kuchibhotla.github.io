@@ -60,7 +60,7 @@ permalink: /
 
 <script>
   function lastNameSort(a,b) {
-    return a.split(" ").pop()[0] > b.split(" ").pop()[0]
+    return a.split(" ").pop()[0] > b.split(" ").pop()[0] ? 1 : -1;
   };
 
   var pubs = {{ site.data.publications | jsonify }}, 
