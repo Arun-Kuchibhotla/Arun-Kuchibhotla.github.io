@@ -55,9 +55,10 @@ nav_order: 2
     <span id="{{ type | join: '_' }}"></span>
     <h2 style="display:inline;"> {{ type }}s </h2>
     <h5 style="text-align:right;float:right;"><a href="#top">[ Top ]</a></h5> 
-    {% assign sorted_publications = site.data.publications | where:"work_type",type | sort: 'year' | reverse %}
-    {% for paper in sorted_publications %}
-    {% assign paper = paper_hash[1] %}
+    {% assign sorted_publications_year = site.data.publications | where:"work_type",type | group_by: 'year' %}
+    {% for paper_year in sorted_publications_year %}
+    {% assign papers = paper_year.items | sort: 'order' %}
+    {% for paper in papers %}
     {% assign counter = counter | plus: 1 %}
     <div class="card border-light">
       <div class="card-body">
@@ -123,6 +124,7 @@ nav_order: 2
         </div>
       </div>
     </div>  
+    {% endfor %}
     {% endfor %}
   </div>
   {% endfor %}
