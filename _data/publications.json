@@ -121,6 +121,34 @@
 		"description": "This paper extends the minimum distance weighted likelihood estimator for the multivariate case using data depth."
 	},
 	{
+		"type": "Working paper",
+		"work_type": "Working paper",
+		"id":26,
+		"title": "Central Limit Theorems and Confidence Intervals for OLS Coefficients in Moderate Dimensions",
+		"year": 2019,
+		"authors": [
+			{
+				"name": "Arun Kumar Kuchibhotla"
+			},
+			{
+				"name": "Alessandro Rinaldo"
+			},
+			{
+				"name": "Larry Wasserman"
+			}
+		],
+		"use": true,
+		"topic":[
+			{
+				"topic": "Misspecification"
+			},
+			{
+				"topic": "High-dimensional Inference"
+			}
+		],
+		"description": "This paper provides finite sample Berry--Esseen bounds for the ordinary least squares linear regression estimator when the dimension is allowed to grow with the sample size (p/n converges to zero). We consider the implications of the classical multivariate bounds and of the high-dimensional central limit theorem results. We also consider the validity of boostrap for inference."
+	},
+	{
 		"type": "Preprint",
 		"work_type": "Preprint",
 		"id": 2,
