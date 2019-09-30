@@ -18,13 +18,16 @@ permalink: /
 			<p class="text-justify">
 				I am a fifth-year doctoral candidate in the <a href="https://statistics.wharton.upenn.edu">Statistics</a> <a href="https://statistics.wharton.upenn.edu">Department</a> at the Wharton School of the University of Pennsylvania. My advisors are <a href="http://www-stat.wharton.upenn.edu/~lbrown/">Lawrence D. Brown</a> and <a href="http://www-stat.wharton.upenn.edu/~buja/">Andreas Buja</a>. My doctoral reseach concentrates on a unified framework for post-selection inference.
 			</p>
+			<p class="text-justify">
+				My research interests include post-selection inference, large sample thoery, robust statistics, semi-parametric statistics, non-parametric statistics, concentration inequalities, high-dimensional CLT, and dependent data.
+			</p>
 		</div>
 	</div>
 </div>
 
 <br>
 
-<div class="container">
+<!-- <div class="container">
 	<div class="row">
 		<div class="col">
 			<h2> Research Interests </h2>
@@ -39,24 +42,30 @@ permalink: /
 				<li> Dependent data </li>
 			</ul>
 		</div>
-		<div class="col-6">
-			<h2> Collaborators </h2>
+		<div class="col-7">
+			<h2> Co-authors (by number of collaborations) </h2>
 			<div class="panel panel-default">
 			  <div class="panel-body" id="coauthors">
 			  </div>
 			</div>
 		</div>
 	</div>
-</div>
+</div> -->
 
 
 ## Contact
 
-- Email: arunku *at* wharton *dot* upenn *dot* edu
+- Email: [arunku@wharton.upenn.edu](arunku@wharton.upenn.edu)
 - Address: 450 Jon M. Huntsman Hall, 3730 Walnut Street, Philadelphia, 19104
 - [Google Scholar](https://scholar.google.com.hk/citations?user=k2uOCu0AAAAJ&hl=en&oi=ao)
 
-
+## Co-authors (by number of collaborations)
+<div>
+	<div class="panel panel-default">
+	  <div class="panel-body" id="coauthors">
+	  </div>
+	</div>
+</div>
 
 <script>
   function lastNameSort(a,b) {
