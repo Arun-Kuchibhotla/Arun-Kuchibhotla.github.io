@@ -17,17 +17,19 @@ layout: table_wrappers
   <div class="page-wrap">
     <div class="side-bar">
       <div class="site-header">
-        <a href="{{ site.url }}{{ site.baseurl }}" class="site-title lh-tight">{% include title.html %}</a>
+        <!-- <a href="{{ site.url }}{{ site.baseurl }}" class="site-title lh-tight">{% include title.html %}</a> -->
         <button class="menu-button fs-3 js-main-nav-trigger" data-text-toggle="Hide" type="button">Menu</button>
       </div>
-
+      <div class="site-header">
+        <a href="{{ site.url }}{{ site.baseurl }}" class="site-title lh-tight">{% include title.html %}</a>
+      </div>
       <div class="navigation main-nav js-main-nav">
         {% include nav.html %}
       </div>
     </div>
     <div class="main-content-wrap js-main-content" tabindex="0">
       <div class="main-content">
-        <div class="page-header js-page-header">
+        <!-- <div class="page-header js-page-header">
           {% if site.search_enabled != false %}
           <div class="search">
             <div class="search-input-wrap">
@@ -44,8 +46,8 @@ layout: table_wrappers
               {% endfor %}
             </ul>
           {% endif %}
-        </div>
-        <div class="page">
+        </div> -->
+        <div class="page mt-4">
           {% unless page.url == "/" %}
             {% if page.parent %}
               <nav class="breadcrumb-nav">

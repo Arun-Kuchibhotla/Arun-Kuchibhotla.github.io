@@ -16,7 +16,7 @@ permalink: /
 				Welcome to my homepage! 
 			</p>
 			<p class="text-justify">
-				I am a fifth-year doctoral candidate in the <a href="https://statistics.wharton.upenn.edu">Statistics Department</a> at the Wharton School of the University of Pennsylvania. My advisors are <a href="http://www-stat.wharton.upenn.edu/~lbrown/">Lawrence D. Brown</a> and <a href="http://www-stat.wharton.upenn.edu/~buja/">Andreas Buja</a>. My doctoral reseach concentrates on a unified framework for post-selection inference.
+				I am a fifth-year doctoral candidate in the <a href="https://statistics.wharton.upenn.edu">Statistics</a> <a href="https://statistics.wharton.upenn.edu">Department</a> at the Wharton School of the University of Pennsylvania. My advisors are <a href="http://www-stat.wharton.upenn.edu/~lbrown/">Lawrence D. Brown</a> and <a href="http://www-stat.wharton.upenn.edu/~buja/">Andreas Buja</a>. My doctoral reseach concentrates on a unified framework for post-selection inference.
 			</p>
 		</div>
 	</div>
@@ -60,7 +60,7 @@ permalink: /
 
 <script>
   function lastNameSort(a,b) {
-    return a.split(" ").pop()[0] > b.split(" ").pop()[0]
+    return a.split(" ").pop()[0] > b.split(" ").pop()[0] ? 1 : -1;
   };
 
   var pubs = {{ site.data.publications | jsonify }}, 
@@ -76,7 +76,6 @@ permalink: /
   }
   sorted_authors = authors.sort(lastNameSort);
   var author_obj = {};
-  var counter = [];
   for(var author, i = 0; author = sorted_authors[i++];) {
   	if(author in author_obj) {
   		author_obj[author]++;
