@@ -59,6 +59,8 @@ permalink: /
 - Address: 450 Jon M. Huntsman Hall, 3730 Walnut Street, Philadelphia, 19104
 - [Google Scholar](https://scholar.google.com.hk/citations?user=k2uOCu0AAAAJ&hl=en&oi=ao)
 
+<br>
+
 ## Co-authors (by number of collaborations)
 <div>
 	<div class="panel panel-default">
@@ -100,7 +102,7 @@ permalink: /
 
   var parsed = "<p class='text-justify'>";
   for(var item, i = 0; item = merged[i++];) {
-    parsed += '<a href="' + item.homepage + '" style="font-size:' + (1+item.count/10)*15 + 'px">' +
+    parsed += '<a href="' + item.homepage + '" style="font-size:' + (1+item.count/15)*15 + 'px">' +
         item.name + '</a>';
     if(i < merged.length) {parsed += ",\t ";}
   }
