@@ -46,6 +46,51 @@
 		],
 		"abstract": "For the last two decades, high-dimensional data and methods have proliferated throughout the literature. The classical technique of linear regression, however, has not lost its touch in applications. Most high-dimensional estimation techniques can be seen as variable selection tools which lead to a smaller set of variables where classical linear regression technique applies. In this paper, we prove estimation error and linear representation bounds for the linear regression estimator uniformly over (many) subsets of variables.  Based on deterministic inequalities, our results provide ``good'' rates when applied to both independent and dependent data. These results are useful in correctly interpreting the linear regression estimator obtained after exploring the data and also in post model-selection inference. All the results are derived under no model assumptions and are non-asymptotic in nature.",
 		"description": "This paper proves finite sample results for convergence of OLS estimators uniform over all subset of covariates. The results apply for both independent and dependent observations. The dependence setting considered is functional dependence introduced by Wu (2005)."
+	},	
+	{
+		"type": "Preprint",
+		"work_type": "Preprint",
+		"id": 27,
+		"title": "All of Linear Regression",
+		"authors": [
+			{
+				"name": "Arun Kumar Kuchibhotla"
+			},
+			{
+				"name": "Lawrence D. Brown"
+			},
+			{
+				"name": "Andreas Buja"
+			},
+			{
+				"name": "Junhui Cai"
+			}
+		],
+		"source": "",
+		"year": 2019,
+		"volume": "",
+		"citation_url": "https://arxiv.org/abs/1802.05801",
+		"cites_url": "https://arxiv.org/abs/1802.05801",
+		"cites": 15,
+		"ecc": 15,
+		"rank": 1,
+		"use": true,
+		"topic":[
+			{
+				"topic": "Post-selection Inference"
+			}, 
+			{
+				"topic": "Misspecification"
+			},
+			{
+				"topic": "High-dimensional Statistics"
+			},
+			{
+				"topic": "Dependent Data"
+			}
+		],
+		"abstract": "Least squares linear regression is one of the oldest and widely used data analysis tools. Although the theoretical analysis of ordinary least squares (OLS) estimator is as old, several fundamental questions are yet to be answered. Suppose regression observations $(X_1,Y_1),...,(X_n,Y_n)$ (not necessarily independent) are available. Some of the questions we deal with are as follows: under what conditions, does the OLS estimator converge and what is the limit? What happens if the dimension is allowed to grow with $n$? What happens if the observations are dependent with dependence possibly strengthening with $n$? How to do statistical inference under these kinds of misspecification? What happens to OLS estimator under variable selection? How to do inference under misspecification and variable selection? We answer all the questions raised above with one simple deterministic inequality which holds for any set of observations and any sample size. This implies that all our results are finite sample (non-asymptotic) in nature. At the end, one only needs to bound certain random quantities under specific settings of interest to get concrete rates and we derive these bounds for the case of independent observations. In particular the problem of inference after variable selection is studied, for the first time, when $d$, the number of covariates increases (almost exponentially) with sample size $n$. We provide comments on the ``right'' statistic to consider for inference under variable selection and efficient computation of quantiles.",
+		"description": "This paper provides a complete study of the ordinary least squares linear regression estimator starting from misspecified case and leading upto inference after variable selection. All the results are valid for any set of observations, possibly dependent. Exact rates are derived for independent observations."
 	},
 	{
 		"type": "Working paper",
