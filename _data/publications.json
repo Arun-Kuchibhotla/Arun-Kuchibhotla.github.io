@@ -550,11 +550,11 @@
 				"name": "Arun Kumar Kuchibhotla"
 			}
 		],
-		"source": "Advances in Neural Information Processing Systems. Accepted",
+		"source": "Advances in Neural Information Processing Systems (NeurIPS'19). Accepted",
 		"year": 2019,
 		"order": 2, 
 		"volume": 33,
-		"citation_url": "https://neurips.cc/Conferences/2019/AcceptedPapersInitial",
+		"citation_url": "https://arxiv.org/abs/1910.05480",
 		"cites_url": "https://neurips.cc/Conferences/2019/AcceptedPapersInitial",
 		"cites": 1,
 		"ecc": 1,
