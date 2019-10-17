@@ -659,6 +659,48 @@
 	{
 		"type": "Journal article",
 		"work_type": "Journal publication",
+		"id": 28,
+		"title": "Models as Approximations---Rejoinder",
+		"authors": [
+			{
+				"name": "Andreas Buja"
+			},
+			{
+				"name": "Arun Kumar Kuchibhotla"
+			},
+			{
+				"name": "Richard Berk"
+			},
+			{
+				"name": "Edward I. George"
+			},
+			{
+				"name": "Eric J. Tchetgen Tchetgen"
+			},
+			{
+				"name": "Linda Zhao"
+			}
+		],
+		"source": "Statistical Science. To Appear",
+		"year": 2019,
+		"volume": 3257,
+		"citation_url": "",
+		"cites_url": "",
+		"cites": 6,
+		"ecc": 6,
+		"rank": 5,
+		"use": true,
+		"topic":[
+			{
+				"topic": "Misspecification"
+			}		
+		],
+		"abstract": "Rejoinder to the discussants",
+		"description": "Rejoinder to the discussants."
+	},
+	{
+		"type": "Journal article",
+		"work_type": "Journal publication",
 		"id": 7,
 		"title": "Assumption lean regression",
 		"authors": [
