@@ -93,8 +93,8 @@
 		"description": "This paper provides a complete study of the ordinary least squares linear regression estimator starting from misspecified case and leading upto inference after variable selection. All the results are valid for any set of observations, possibly dependent. Exact rates are derived for independent observations."
 	},
 	{
-		"type": "Working paper",
-		"work_type": "Working paper",
+		"type": "Preprint",
+		"work_type": "Preprint",
 		"id":23,
 		"title": "Nested conformal prediction and the generalized jackknife+",
 		"year": 2019,
@@ -112,7 +112,17 @@
 				"topic": "Conformal Prediction"
 			}
 		],
-		"description": "This paper considers conformal prediction based on a nested sequence of sets rather than a function estimate. An element of the nested sequence is obtained based on the data to have the required coverage properties. This framework includes several of the existing conformal procedures and naturally provides an extension of jackknife+ recently introduced."
+		"source": "arXiv:1910.10562",
+		"year": 2019,
+		"volume": "",
+		"citation_url": "https://arxiv.org/abs/1910.10562",
+		"cites_url": "https://arxiv.org/abs/1910.10562",
+		"cites": 15,
+		"ecc": 15,
+		"rank": 1,
+		"use": true,
+		"description": "This paper considers conformal prediction based on a nested sequence of sets rather than a function estimate. An element of the nested sequence is obtained based on the data to have the required coverage properties. This framework includes several of the existing conformal procedures and naturally provides an extension of jackknife+ recently introduced.",
+		"abstract": "We provide an alternate unified framework for conformal prediction, which is a framework to provide assumption-free prediction intervals. Instead of beginning by choosing a conformity score, our framework starts with a sequence of nested sets $\\{\\mathcal{F}_t(x)\\}_{t\\in\\mathcal{T}}$ for some ordered set $\\mathcal{T}$ that specifies all potential prediction sets. We show that most proposed conformity scores in the literature, including several based on quantiles, straightforwardly result in nested families. Then, we argue that what conformal prediction does is find a mapping $\\alpha \\mapsto t(\\alpha)$, meaning that it calibrates or rescales $\\mathcal{T}$ to $[0,1]$. Nestedness is a natural and intuitive requirement because the optimal prediction sets (eg: level sets of conditional densities) are also nested, but we also formally prove that nested sets are universal, meaning that any conformal prediction method can be represented in our framework.  Finally, to demonstrate its utility, we show how to develop the full conformal, split conformal, cross-conformal and the recent jackknife+ methods within our nested framework, thus immediately generalizing the latter two classes of methods to new settings. Specifically, we prove validity of the leave-one-out, $K$-fold, subsampling and bootstrap variants of the latter two methods for any nested family."
 	},
 	{
 		"type": "Working paper",
