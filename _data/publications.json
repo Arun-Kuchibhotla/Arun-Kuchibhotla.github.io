@@ -610,7 +610,7 @@
 		"order": 2, 
 		"volume": 33,
 		"citation_url": "https://arxiv.org/abs/1910.05480",
-		"cites_url": "https://neurips.cc/Conferences/2019/AcceptedPapersInitial",
+		"cites_url": "https://papers.nips.cc/paper/8606-first-order-expansion-of-convex-regularized-estimators",
 		"cites": 1,
 		"ecc": 1,
 		"rank": 11,
