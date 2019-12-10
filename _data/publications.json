@@ -270,8 +270,8 @@
 		"description": "This paper consider estimation and inference in a single index model when the link function is constrained to be convex and Lipschitz. This paper proves a general result that helps find rate of convergence of nonparametric least squares under finite number of moments."
 	},
 	{
-		"type": "Preprint",
-		"work_type": "Preprint",
+		"type": "Journal article",
+		"work_type": "Journal publication",
 		"id": 6,
 		"title": "Efficient Estimation in Single Index Models through Smoothing splines",
 		"authors": [
@@ -282,7 +282,7 @@
 				"name": "Rohit K. Patra"
 			}
 		],
-		"source": "arXiv:1612.00068. Minor Revision submitted to Bernoulli.",
+		"source": "Bernoulli (to appear).",
 		"year": 2016,
 		"volume": 68,
 		"citation_url": "https://arxiv.org/abs/1612.00068",
