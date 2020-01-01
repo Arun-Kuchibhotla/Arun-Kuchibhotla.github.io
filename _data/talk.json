@@ -1,5 +1,14 @@
 [
 	{
+		"title": "Valid Post-selection Inference in Model-free Linear Regression",
+		"type": "Invited talk",
+		"time": 2019-12-14,
+		"meeting": "MCP",
+		"place": "National Taiwan University, Taipei, Taiwan",
+		"pdf_link": "MCP_2019_Arun.pdf",
+		"url": "http://www.mcp-conference.org/hp/2019/"
+	},
+	{
 		"title": "Randomness-free Study of M-estimators: NBK Inequalities",
 		"type": "Invited talk",
 		"time": 2019-07-03,
