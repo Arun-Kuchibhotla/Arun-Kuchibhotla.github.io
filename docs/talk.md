@@ -29,22 +29,24 @@ nav_order: 3
 </div>
 <div class="row" id="myItems">
   <div class="col-sm-12 mb-3">
-    {% assign sorted_talk = site.data.talk | sort: 'time' | reverse %}
+    {% assign sorted_talk = site.data.talk | sort: 'id' | reverse %}
     {% for talk in sorted_talk %}
     {% assign talk = talk_hash[1] %}
     <div class="card border-light">
       <div class="card-body">
         <h3 class="card-title">{{ talk.title }}</h3>
         <h5 class="card-subtitle mb text-muted pb-1"> 
-          {{ talk.type }} at <b>{{ talk.meeting }} {{ talk.time }}</b>, {{ talk.place }} 
+          {{ talk.type }} {% if talk.meeting %} at {% endif %} <b>{{ talk.meeting }} {{ talk.time }}</b>{% if talk.place %}, {% endif %}{{ talk.place }}
         </h5>
         <h5 class="card-text">
           [<a href="/assets/others/{{ talk.pdf_link }}">
             Slides
           </a>]
+          {% if talk.url %}
           [<a href="{{ talk.url }}">
             Website
           </a>]
+          {% endif %}
         </h5>
       </div>
     </div>  

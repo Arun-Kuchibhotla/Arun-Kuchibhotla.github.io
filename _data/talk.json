@@ -1,5 +1,13 @@
 [
 	{
+		"id": 13,
+		"title": "Valid Post-selection Inference: Why and How",
+		"type": "Job talk",
+		"time": "",
+		"pdf_link": "JobTalk_covariate_selection_only.pdf"
+	},
+	{
+		"id": 12,
 		"title": "Valid Post-selection Inference in Model-free Linear Regression",
 		"type": "Invited talk",
 		"time": 2019-12-14,
@@ -9,6 +17,7 @@
 		"url": "http://www.mcp-conference.org/hp/2019/"
 	},
 	{
+		"id": 11,
 		"title": "Randomness-free Study of M-estimators: NBK Inequalities",
 		"type": "Invited talk",
 		"time": 2019-07-03,
@@ -18,6 +27,7 @@
 		"url": "http://www.icsa.org/icsa/events/2019-icsa-china-conference"
 	},
 	{
+		"id": 10,
 		"title": "Post-selection Inference for all (using NBK Inequalities)",
 		"type": "Invited talk",
 		"time": 2019-08-19,
@@ -27,6 +37,7 @@
 		"url": "https://www.math.wustl.edu/~kuffner/WHOA-PSI-4.html"
 	},
 	{
+		"id": 9,
 		"title": "Randomness-free Study of M-estimators: NBK Inequalities",
 		"type": "Invited talk",
 		"time": 2019-07-30,
@@ -36,6 +47,7 @@
 		"url": ""
 	},
 	{
+		"id": 8,
 		"title": "Construction of PoSI Statistics",
 		"type": "Shared a talk with Andreas Buja",
 		"time": 2018,
@@ -45,6 +57,7 @@
 		"url": "https://www.math.wustl.edu/~kuffner/WHOA-PSI-3.html"
 	},
 	{
+		"id": 7,
 		"title": "Uniform Linear Representation for Post-selection Inference",
 		"type": "Invited talk representing Larry Brown",
 		"time": 2018,
@@ -54,6 +67,7 @@
 		"url": " https://www.univie.ac.at/seam/inference2018/"
 	},
 	{
+		"id": 6,
 		"title": "Recent Developments in Post-selection Inference",
 		"type": "Invited talk",
 		"time": 2018,
@@ -63,6 +77,7 @@
 		"url": "https://cccfran.github.io/larrybrown2018/"
 	},
 	{
+		"id": 5,
 		"title": "Post-Selection Inference and Misspecification",
 		"type": "Shared a talk with Andreas Buja",
 		"time": 2018,
@@ -72,6 +87,7 @@
 		"url": "https://publish.illinois.edu/sldsc2018/"
 	},
 	{
+		"id": 4,
 		"title": "Validity First, Optimality Next",
 		"type": "Shared a talk with Andreas Buja",
 		"time": 2017,
@@ -81,6 +97,7 @@
 		"url": "https://www.math.wustl.edu/~kuffner/WHOA-PSI-2.html"
 	},
 	{
+		"id": 3,
 		"title": "Testing in Additive and Projection Pursuit Models",
 		"type": "Special Topics Session",
 		"time": 2015,
@@ -90,6 +107,7 @@
 		"url": "http://www.isi2015.ibge.gov.br/"
 	},
 	{
+		"id": 2,
 		"title": "Robust Non-Parametric Curve Estimation using Density Power Divergences",
 		"type": "Contributed talk",
 		"time": 2015,
@@ -99,6 +117,7 @@
 		"url": "https://www.isical.ac.in/~icors2015/"
 	},
 	{
+		"id": 1,
 		"title": "Minimum Distance Weighted Likelihood",
 		"type": "Contributed talk",
 		"time": 2014,
