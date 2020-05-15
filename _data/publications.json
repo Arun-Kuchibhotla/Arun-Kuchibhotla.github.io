@@ -2,6 +2,32 @@
 	{
 		"type": "Preprint",
 		"work_type": "Preprint",
+		"id":30,
+		"title": "Exchangeability, Conformal Prediction and Rank Tests",
+		"year": 2020,
+		"authors": [
+			{
+				"name": "Arun Kumar Kuchibhotla"
+			}
+		],
+		"use": true,
+		"topic":[
+			{
+				"topic": "Conformal Prediction"
+			},
+			{
+				"topic": "Rank Tests"
+			}
+		],
+		"source": "arXiv:2005.06095",
+		"volume": "",
+		"citation_url": "https://arxiv.org/abs/2005.06095",
+		"cites_url": "https://arxiv.org/abs/2005.06095",
+		"description": "The paper explores the concept of exchangeability and shows how some of its basic implications fuel the topics of conformal prediction as well as non-parametric rank tests."
+	},
+	{
+		"type": "Preprint",
+		"work_type": "Preprint",
 		"id": 1,
 		"title": "A Model Free Perspective for Linear Regression: Uniform-in-model Bounds for Post Selection Inference",
 		"authors": [
@@ -452,8 +478,8 @@
 		"description": "This paper provides a thorough study of the OLS estimator under misspecification. All the results are finite sample in nature backed by Berry-Esseen bounds. Validity of different bootstrap methods is also discussed."
 	},
 	{
-		"type": "Preprint",
-		"work_type": "Preprint",
+		"type": "Journal article",
+		"work_type": "Journal publication",
 		"id": 18,
 		"title": "High-dimensional CLT: Improvements, Non-uniform Extensions and Large Deviations",
 		"authors": [
@@ -467,7 +493,7 @@
 				"name": "Debapratim Banerjee"
 			}
 		],
-		"source": "arXiv:1806.06153. Major revision at Bernoulli",
+		"source": "arXiv:1806.06153. Accepted at Bernoulli",
 		"year": 2018,
 		"volume": 6153,
 		"citation_url": "https://arxiv.org/abs/1806.06153",
