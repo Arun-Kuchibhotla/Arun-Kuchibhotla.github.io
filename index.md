@@ -16,7 +16,7 @@ permalink: /
 				Welcome to my homepage! 
 			</p>
 			<p class="text-justify">
-				I am a fifth-year doctoral candidate in the <a href="https://statistics.wharton.upenn.edu">Statistics</a> <a href="https://statistics.wharton.upenn.edu">Department</a> at the Wharton School of the University of Pennsylvania. My advisors are <a href="http://www-stat.wharton.upenn.edu/~lbrown/">Lawrence D. Brown</a> and <a href="http://www-stat.wharton.upenn.edu/~buja/">Andreas Buja</a>. My doctoral reseach concentrates on a unified framework for post-selection inference.
+				I graduated from the Wharton School of the University of Pennsylvania on May 17, 2020 with a Ph.D. in <a href="https://statistics.wharton.upenn.edu">Statistics</a>. My advisors are <a href="http://www-stat.wharton.upenn.edu/~lbrown/">Lawrence D. Brown</a> and <a href="http://www-stat.wharton.upenn.edu/~buja/">Andreas Buja</a>. My doctoral reseach concentrates on a unified framework for post-selection inference.
 			</p>
 			<p class="text-justify">
 				My research interests include post-selection inference, large sample thoery, robust statistics, semi-parametric statistics, non-parametric statistics, concentration inequalities, high-dimensional CLT, and dependent data.
