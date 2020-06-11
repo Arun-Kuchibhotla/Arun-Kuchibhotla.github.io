@@ -2,6 +2,35 @@
 	{
 		"type": "Preprint",
 		"work_type": "Preprint",
+		"id":31,
+		"title": "Near-Optimal Confidence Sequences for Bounded Random Variables",
+		"year": 2020,
+		"authors": [
+			{
+				"name": "Arun Kumar Kuchibhotla"
+			},
+			{
+				"name": "Qinqing Zheng"
+			}
+		],
+		"use": true,
+		"topic":[
+			{
+				"topic": "Concentration Inequalities"
+			},
+			{
+				"topic": "Sequential Inference"
+			}
+		],
+		"source": "arXiv:2006.05022",
+		"volume": "",
+		"citation_url": "https://arxiv.org/abs/2006.05022",
+		"cites_url": "https://arxiv.org/abs/2006.05022",
+		"description": "The paper provides confidence sequences, i.e., a sequence of confidence intervals that are valid simultaneously over all the sample sizes. This allows sequential/adaptive sampling schemes. The confidence intervals are finite sample valid under boundedness assumptions and are based on near-optimal concentration inequalities of Bentkus (2002, 2004)."
+	},
+	{
+		"type": "Preprint",
+		"work_type": "Preprint",
 		"id":30,
 		"title": "Exchangeability, Conformal Prediction and Rank Tests",
 		"year": 2020,
