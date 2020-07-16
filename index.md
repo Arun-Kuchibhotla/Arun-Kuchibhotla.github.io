@@ -55,8 +55,8 @@ permalink: /
 
 ## Contact
 
-- Email: [arunku@wharton.upenn.edu](arunku@wharton.upenn.edu)
-- Address: 450 Jon M. Huntsman Hall, 3730 Walnut Street, Philadelphia, 19104
+- Email: [karun3kumar@gmail.com](karun3kumar@gmail.com)
+- Address: Department of Statistics, Baker Hall, 4909 Frew St, Pittsburgh, PA 15213.
 - [Google Scholar](https://scholar.google.com.hk/citations?user=k2uOCu0AAAAJ&hl=en&oi=ao)
 
 <br>
