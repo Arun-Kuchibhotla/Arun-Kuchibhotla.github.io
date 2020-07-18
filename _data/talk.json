@@ -1,4 +1,14 @@
-[
+[	{
+		"id": 14,
+		"title": "Optimality in Universal Post-selection Inference ",
+		"meeting": "ISSI",
+		"type": "Invited talk",
+		"time": 2020-07-16,
+		"pdf_weblink": "https://drive.google.com/file/d/1jFiJdCdyTrngTPxyWqjTSgeFTOcdc564/view",
+		"record_link": "https://drive.google.com/file/d/1Ce41mU5J_9BTJp__1xhKNMDPCjpYS_Ah/view",
+		"notes_link": "https://drive.google.com/file/d/1_kis-fb3RbJRE0bLmOrmkOhc3tW111PF/view",
+		"url": "https://www.selectiveinferenceseminar.com/home"
+	},
 	{
 		"id": 13,
 		"title": "Valid Post-selection Inference: Why and How",

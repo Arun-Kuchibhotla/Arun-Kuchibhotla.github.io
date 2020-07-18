@@ -36,12 +36,29 @@ nav_order: 3
       <div class="card-body">
         <h3 class="card-title">{{ talk.title }}</h3>
         <h5 class="card-subtitle mb text-muted pb-1"> 
-          {{ talk.type }} {% if talk.meeting %} at {% endif %} <b>{{ talk.meeting }} {{ talk.time }}</b>{% if talk.place %}, {% endif %}{{ talk.place }}
+          {{ talk.type }} {% if talk.meeting %} at {% endif %} <b>{{ talk.meeting }}</b> {{ talk.time }}{% if talk.place %}, {% endif %}{{ talk.place }}
         </h5>
         <h5 class="card-text">
+          {% if talk.pdf_link %}
           [<a href="/assets/others/{{ talk.pdf_link }}">
             Slides
           </a>]
+          {% endif %}
+          {% if talk.pdf_weblink %}
+          [<a href="{{ talk.pdf_weblink }}">
+            Slides
+          </a>]
+          {% endif %}
+          {% if talk.notes_link %}
+          [<a href="{{ talk.notes_link }}">
+            Notes
+          </a>]
+          {% endif %}
+          {% if talk.record_link %}
+          [<a href="{{ talk.record_link }}">
+            Recording
+          </a>]
+          {% endif %}
           {% if talk.url %}
           [<a href="{{ talk.url }}">
             Website
