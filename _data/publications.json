@@ -3,7 +3,7 @@
 		"type": "Preprint",
 		"work_type": "Preprint",
 		"id": 32,
-		"title": "",
+		"title": "Berry-Esseen Bounds for Projection Parameters and Partial Correlations with Increasing Dimension",
 		"year": 2020,
 		"authors":[
 			{
@@ -32,6 +32,7 @@
 		"volume": "",
 		"citation_url": "https://arxiv.org/abs/2007.09751",
 		"cites_url": "https://arxiv.org/abs/2007.09751",
+		"abstract": "The linear regression model can be used even when the true regression function is not linear. The resulting estimated linear function is the best linear approximation to the regression function and the vector β of the coefficients of this linear approximation are the projection parameter. We provide finite sample bounds on the Normal approximation to the law of the least squares estimator of the projection parameters normalized by the sandwich-based standard error. Our results hold in the increasing dimension setting and under minimal assumptions on the distribution of the response variable. Furthermore, we construct confidence sets for β in the form of hyper-rectangles and establish rates on their coverage accuracy. We provide analogous results for partial correlations among the entries of sub-Gaussian vectors.",
 		"description": "The paper provides sharp requirements on the dimension with respect to the sample size for valid confidence intervals for ordinary least squares estimator and partial correlations. We derive these based on Berry-Esseen bounds and proving finite-sample bounds for multiplier bootstrap."
 	},
 	{
@@ -61,6 +62,7 @@
 		"volume": "",
 		"citation_url": "https://arxiv.org/abs/2006.05022",
 		"cites_url": "https://arxiv.org/abs/2006.05022",
+		"abstract": "Many inference problems, such as sequential decision problems like A/B testing, adaptive sampling schemes like bandit selection, are often online in nature. The fundamental problem for online inference is to provide a sequence of confidence intervals that are valid uniformly over the growing-into-infinity sample sizes. To address this question, we provide a near-optimal confidence sequence for bounded random variables by utilizing Bentkus' concentration results. We show that it improves on the existing approaches that use the Cram{é}r-Chernoff technique such as the Hoeffding, Bernstein, and Bennett inequalities. The resulting confidence sequence is confirmed to be favorable in both synthetic coverage problems and an application to adaptive stopping algorithms.",
 		"description": "The paper provides confidence sequences, i.e., a sequence of confidence intervals that are valid simultaneously over all the sample sizes. This allows sequential/adaptive sampling schemes. The confidence intervals are finite sample valid under boundedness assumptions and are based on near-optimal concentration inequalities of Bentkus (2002, 2004)."
 	},
 	{
@@ -87,6 +89,7 @@
 		"volume": "",
 		"citation_url": "https://arxiv.org/abs/2005.06095",
 		"cites_url": "https://arxiv.org/abs/2005.06095",
+		"abstract": "Conformal prediction has been a very popular method of distribution-free predictive inference in recent years in machine learning and statistics. The main reason for its popularity comes from the fact that it works as a wrapper around any prediction algorithm such as neural networks or random forests. Exchangeability is at the core of the validity of conformal prediction. The concept of exchangeability is also at the core of rank tests widely known in nonparametric statistics. In this paper, we review the concept of exchangeability and discuss its implications for rank tests and conformal prediction. Although written as an exposition, the main message of the paper is to show that similar to conformal prediction, rank tests can also be used as a wrapper around any dimension reduction algorithm.",
 		"description": "The paper explores the concept of exchangeability and shows how some of its basic implications fuel the topics of conformal prediction as well as non-parametric rank tests."
 	},
 	{
