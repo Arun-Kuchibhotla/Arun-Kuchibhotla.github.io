@@ -19,7 +19,7 @@
 				"topic": "Conformal Prediction"
 			}
 		],
-		"citation_url": "conformal_bootstrap.pdf",
+		"citation_link": "conformal_bootstrap.pdf",
 		"abstract": "This note describes a deficiency of traditional proofs of consistency of resampling techniques for statistical inference and provides a simple solution based on conformal prediction.",
 		"description": "Traditional bootstrap consistency results have a gap and do not complete the proof of consistency of such inference because the practical bootstrap technique is limited by finite computational power. In this paper, we discuss this issue in detail and provide an alternative solution that does not require empirical bootstrap distribution to converge to the true bootstrap distribution conditional on the data."
 	},
