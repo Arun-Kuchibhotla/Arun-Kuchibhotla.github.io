@@ -109,6 +109,11 @@ nav_order: 2
               Published version
             </a>]
           {% endif %}
+          {% if paper.code_url %}
+            [<a href="{{ paper.code_url }}">
+              Code
+            </a>]
+          {% endif %}
         </h5>
         <div class="collapse" id="collapseAbstract{{ paper.id }}">
           <div class="container">
