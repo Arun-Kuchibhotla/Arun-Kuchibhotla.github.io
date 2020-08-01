@@ -104,9 +104,19 @@ nav_order: 2
               arXiv
             </a>]
           {% endif %}
+          {% if paper.citation_link %}
+            [<a href="/assets/others/{{ paper.citation_link }}">
+              arXiv
+            </a>]
+          {% endif %}
           {% if paper.journal_url %}
             [<a href="{{ paper.journal_url }}">
               Published version
+            </a>]
+          {% endif %}
+          {% if paper.code_url %}
+            [<a href="{{ paper.code_url }}">
+              Code
             </a>]
           {% endif %}
         </h5>
