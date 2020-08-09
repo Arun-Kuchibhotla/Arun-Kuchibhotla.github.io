@@ -55,7 +55,7 @@ permalink: /
 
 ## Contact
 
-- Email: [karun3kumar@gmail.com](karun3kumar@gmail.com)
+- Email: [arunku@stat.cmu.edu](karun3kumar@gmail.com)
 - Address: Baker Hall, 4909 Frew St, Pittsburgh, PA 15213
 - [Google Scholar](https://scholar.google.com.hk/citations?user=k2uOCu0AAAAJ&hl=en&oi=ao)
 
