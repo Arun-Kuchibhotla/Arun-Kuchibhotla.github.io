@@ -16,7 +16,6 @@ permalink: /
 				Welcome to my homepage! 
 			</p>
 			<p class="text-justify">
-				From September 2020, I am an Assistant Professor at the Department of Statistics and Data Science, Carnegie Mellon University.
 				I graduated from the Wharton School of the University of Pennsylvania on May 17, 2020 with a Ph.D. in <a href="https://statistics.wharton.upenn.edu">Statistics</a>. My advisors are <a href="http://www-stat.wharton.upenn.edu/~lbrown/">Lawrence D. Brown</a> and <a href="http://www-stat.wharton.upenn.edu/~buja/">Andreas Buja</a>. My doctoral research concentrates on a unified framework for post-selection inference.
 			</p>
 			<p class="text-justify">
