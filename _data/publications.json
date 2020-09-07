@@ -62,6 +62,36 @@
 	{
 		"type": "Preprint",
 		"work_type": "Preprint",
+		"id": 34,
+		"title": "Improving Fairness in Criminal Justice Algorithmic Risk Assessments Using Conformal Prediction Sets",
+		"year": 2020,
+		"authors":[
+			{
+				"name": "Richard Berk"
+			},
+			{
+				"name": "Arun Kumar Kuchibhotla"
+			}
+		],
+		"use": true,
+		"topic":[
+			{
+				"topic": "Fairness"
+			},
+			{
+				"topic": "Conformal Prediction"
+			}
+		],
+		"source": "arXiv:2008.11664",
+		"volume": "",
+		"citation_url": "https://arxiv.org/abs/2008.11664",
+		"cites_url": "https://arxiv.org/abs/2008.11664",
+		"abstract": "Risk assessment algorithms have been correctly criticized for potential unfairness, and there is an active cottage industry trying to make repairs. In this paper, we adopt a framework from conformal prediction sets to remove unfairness from risk algorithms themselves and the covariates used for forecasting. From a sample of 300,000 offenders at their arraignments, we construct a confusion table and its derived measures of fairness that are effectively free any meaningful differences between Black and White offenders. We also produce fair forecasts for individual offenders coupled with valid probability guarantees that the forecasted outcome is the true outcome. We see our work as a demonstration of concept for application in a wide variety of criminal justice decisions. The procedures provided can be routinely implemented in jurisdictions with the usual criminal justice datasets used by administrators. The requisite procedures can be found in the scripting software R. However, whether stakeholders will accept our approach as a means to achieve risk assessment fairness is unknown. There also are legal issues that would need to be resolved although we offer a Pareto improvement.",
+		"description": "The paper uses weighted exchangeability for conformal prediction under covariate shift to attain fair prediction."
+	},
+	{
+		"type": "Preprint",
+		"work_type": "Preprint",
 		"id":31,
 		"title": "Near-Optimal Confidence Sequences for Bounded Random Variables",
 		"year": 2020,
