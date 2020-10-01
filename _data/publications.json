@@ -92,6 +92,33 @@
 	{
 		"type": "Preprint",
 		"work_type": "Preprint",
+		"id": 35,
+		"title": "High-dimensional CLT for Sums of Non-degenerate Random Vectors: $n^{−1/2}$-rate",
+		"year": 2020,
+		"authors":[
+			{
+				"name": "Arun Kumar Kuchibhotla"
+			},
+			{
+				"name": "Alessandro Rinaldo"
+			}
+		],
+		"use": true,
+		"topic":[
+			{
+				"topic": "High-dimensional CLT"
+			}
+		],
+		"source": "arXiv:2009.13673",
+		"volume": "",
+		"citation_url": "https://arxiv.org/abs/2009.13673",
+		"cites_url": "https://arxiv.org/abs/2009.13673",
+		"abstract": "In this note, we provide a Berry--Esseen bounds for rectangles in high-dimensions when the random vectors have non-singular covariance matrices. Under this assumption of non-singularity, we prove an $n^{−1/2}$ scaling for the Berry--Esseen bound for sums of mean independent random vectors with a finite third moment. The proof is essentially the method of compositions proof of multivariate Berry--Esseen bound from Senatov (2011). Similar to other existing works (Kuchibhotla et al. 2018, Fang and Koike 2020a), this note considers the applicability and effectiveness of classical CLT proof techniques for the high-dimensional case.",
+		"description": "This paper provides a central limit theorem in the high-dimensional context with an root-n rate of convergence, assuming only a finite third moment on the random vectors and degeneracy."
+	},
+	{
+		"type": "Preprint",
+		"work_type": "Preprint",
 		"id":31,
 		"title": "Near-Optimal Confidence Sequences for Bounded Random Variables",
 		"year": 2020,
