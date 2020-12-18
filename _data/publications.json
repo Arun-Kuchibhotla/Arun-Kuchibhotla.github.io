@@ -174,8 +174,8 @@
 		"description": "The paper explores the concept of exchangeability and shows how some of its basic implications fuel the topics of conformal prediction as well as non-parametric rank tests."
 	},
 	{
-		"type": "Preprint",
-		"work_type": "Preprint",
+		"type": "Journal article",
+		"work_type": "Journal publication",
 		"id": 1,
 		"title": "A Model Free Perspective for Linear Regression: Uniform-in-model Bounds for Post Selection Inference",
 		"authors": [
@@ -195,7 +195,7 @@
 				"name": "Linda Zhao"
 			}
 		],
-		"source": "arXiv:1802.05801. Minor Revision Econometric Theory. Invited paper for Festschrift on the occasion of Benedikt Potscher's 65th birthday",
+		"source": "arXiv:1802.05801. Accepted at Econometric Theory.",
 		"year": 2018,
 		"volume": 5801,
 		"citation_url": "https://arxiv.org/abs/1802.05801",
