@@ -270,9 +270,12 @@
 		"type": "Preprint",
 		"work_type": "Preprint",
 		"id":23,
-		"title": "Nested conformal prediction and the generalized jackknife+",
+		"title": "Nested conformal prediction and quantile out-of-bag ensemble methods",
 		"year": 2019,
 		"authors": [
+			{
+				"name": "Chirag Gupta"
+			},
 			{
 				"name": "Arun Kumar Kuchibhotla"
 			},
