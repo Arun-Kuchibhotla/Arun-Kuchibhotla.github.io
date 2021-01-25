@@ -383,10 +383,10 @@
 		"description": "Concentration inequalities are well-known under sub-Gaussian and sub-exponential conditions. In some examples these do not hold. For example, in the case of sandwich variance in linear regression we encounter $XX'(Y - X'\\beta)^2$ which is a quartic function of random variables. Even if we assume sub-Gaussianity of X and Y this quartic function is only sub-Weibull(1/2). In this paper, we consider tail bounds for these kind of random variables. After an exposition of these concentration inequalities, we consider four statistical applications."
 	},
 	{
-		"type": "Preprint",
-		"work_type": "Preprint",
+		"type": "Journal article",
+		"work_type": "Journal publication",
 		"id": 4,
-		"title": "Least Squares Estimation in a Single Index Model with Convex Lipschitz link",
+		"title": "Semiparametric Efficiency in Convexity Constrained Single Index Model",
 		"authors": [
 			{
 				"name": "Arun Kumar Kuchibhotla"
@@ -398,7 +398,7 @@
 				"name": "Bodhisattva Sen"
 			}
 		],
-		"source": "arXiv:1708.00145",
+		"source": "arXiv:1708.00145. Accepted at Journal of the American Statistical Association.",
 		"year": 2017,
 		"volume": 145,
 		"citation_url": "https://arxiv.org/abs/1708.00145",
