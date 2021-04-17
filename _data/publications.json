@@ -267,8 +267,8 @@
 		"description": "This paper provides a complete study of the ordinary least squares linear regression estimator starting from misspecified case and leading upto inference after variable selection. All the results are valid for any set of observations, possibly dependent. Exact rates are derived for independent observations."
 	},
 	{
-		"type": "Preprint",
-		"work_type": "Preprint",
+		"type": "Journal article",
+		"work_type": "Journal publication",
 		"id":23,
 		"title": "Nested conformal prediction and quantile out-of-bag ensemble methods",
 		"year": 2019,
@@ -289,7 +289,7 @@
 				"topic": "Conformal Prediction"
 			}
 		],
-		"source": "arXiv:1910.10562",
+		"source": "arXiv:1910.10562. Accepted at Pattern Recognition",
 		"year": 2019,
 		"volume": "",
 		"citation_url": "https://arxiv.org/abs/1910.10562",
