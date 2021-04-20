@@ -93,6 +93,37 @@
 		"type": "Preprint",
 		"work_type": "Preprint",
 		"id": 35,
+		"title": "Nested Conformal Prediction Sets for Classification with Applications to Probation Data",
+		"year": 2021,
+		"authors":[
+			{
+				"name": "Arun Kumar Kuchibhotla"
+			},
+			{
+				"name": "Richard Berk"
+			}
+			
+		],
+		"use": true,
+		"topic":[
+			{
+				"topic": "Classification"
+			},
+			{
+				"topic": "Conformal Prediction"
+			}
+		],
+		"source": "arXiv:2104.09358",
+		"volume": "",
+		"citation_url": "https://arxiv.org/abs/2104.09358",
+		"cites_url": "https://arxiv.org/abs/2104.09358",
+		"abstract": "Risk assessments to help inform criminal justice decisions have been used in the United States since the 1920s. Over the past several years, statistical learning risk algorithms have been introduced amid much controversy about fairness, transparency and accuracy. In this paper, we focus on accuracy for a large department of probation and parole that is considering a major revision of its current, statistical learning risk methods. Because the content of each offender's supervision is substantially shaped by a forecast of subsequent conduct, forecasts have real consequences. Here we consider the probability that risk forecasts are correct. We augment standard statistical learning estimates of forecasting uncertainty (i.e., confusion tables) with uncertainty estimates from nested conformal prediction sets. In a demonstration of concept using data from the department of probation and parole, we show that the standard uncertainty measures and uncertainty measures from nested conformal prediction sets can differ dramatically in concept and output. We also provide a modification of nested conformal called the localized conformal method to match confusion tables more closely when possible. A strong case can be made favoring the nested and localized conformal approach. As best we can tell, our formulation of such comparisons and consequent recommendations is novel.",
+		"description": "The paper explains nested conformal prediction for classification with application to probation data. The discussion is most non-technical and didactic in nature."
+	},
+	{
+		"type": "Preprint",
+		"work_type": "Preprint",
+		"id": 35,
 		"title": "High-dimensional CLT for Sums of Non-degenerate Random Vectors: $n^{−1/2}$-rate",
 		"year": 2020,
 		"authors":[
