@@ -148,11 +148,11 @@
 		"description": "This paper provides a central limit theorem in the high-dimensional context with an root-n rate of convergence, assuming only a finite third moment on the random vectors and degeneracy."
 	},
 	{
-		"type": "Preprint",
-		"work_type": "Preprint",
+		"type": "Conference proceedings",
+		"work_type": "Journal publication",
 		"id":31,
 		"title": "Near-Optimal Confidence Sequences for Bounded Random Variables",
-		"year": 2020,
+		"year": 2021,
 		"authors": [
 			{
 				"name": "Arun Kumar Kuchibhotla"
@@ -170,7 +170,7 @@
 				"topic": "Sequential Inference"
 			}
 		],
-		"source": "arXiv:2006.05022",
+		"source": "Accepted at International Conference on Machine Learning (ICML 2021). arXiv:2006.05022",
 		"volume": "",
 		"citation_url": "https://arxiv.org/abs/2006.05022",
 		"cites_url": "https://arxiv.org/abs/2006.05022",
