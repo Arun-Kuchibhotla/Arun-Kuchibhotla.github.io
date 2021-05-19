@@ -1,4 +1,13 @@
 [	{
+		"id": 15,
+		"title": "The HulC: Hull based Confidence Regions",
+		"meeting": "IISA 2021",
+		"type": "Invited talk",
+		"time": 2021-05-20,
+		"pdf_link": "The_HulC_IISA_2021.pdf",
+		"url": "https://www.intindstat.org/summerConference2021/scprogCommittee"
+	},
+	{
 		"id": 14,
 		"title": "Optimality in Universal Post-selection Inference ",
 		"meeting": "ISSI",
