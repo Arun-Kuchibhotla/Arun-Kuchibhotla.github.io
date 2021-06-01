@@ -62,6 +62,74 @@
 	{
 		"type": "Preprint",
 		"work_type": "Preprint",
+		"id": 37,
+		"title": "Finite-sample Efficient Conformal Prediction",
+		"year": 2021,
+		"authors":[
+			{
+				"name": "Yachong Yang"
+			},
+			{
+				"name": "Arun Kumar Kuchibhotla"
+			}
+			
+		],
+		"use": true,
+		"topic":[
+			{
+				"topic": "Conformal Prediction"
+			},
+			{
+				"topic": "Efficiency"
+			}
+		],
+		"source": "arXiv:2104.13871",
+		"volume": "",
+		"citation_url": "https://arxiv.org/abs/2104.13871",
+		"cites_url": "https://arxiv.org/abs/2104.13871",
+		"abstract": "Conformal prediction is a generic methodology for finite-sample valid distribution-free prediction. This technique has garnered a lot of attention in the literature partly because it can be applied with any machine learning algorithm that provides point predictions to yield valid prediction regions. Of course, the efficiency (width/volume) of the resulting prediction region depends on the performance of the machine learning algorithm. In this paper, we consider the problem of obtaining the smallest conformal prediction region given a family of machine learning algorithms. We provide two general-purpose selection algorithms and consider coverage as well as width properties of the final prediction region. The first selection method yields the smallest width prediction region among the family of conformal prediction regions for all sample sizes, but only has an approximate coverage guarantee. The second selection method has a finite sample coverage guarantee but only attains close to the smallest width. The approximate optimal width property of the second method is quantified via an oracle inequality. Asymptotic oracle inequalities are also considered when the family of algorithms is given by ridge regression with different penalty parameters.",
+		"description": "This paper develops two algorithms to tune tuning parameters of machine learning methods to obtain smallest width prediction sets from (split) conformal prediction. The first algorithm is as widely applicable as the split conformal method and yields the smallest width prediction set but with approximate validity. The second algorithm gets finite sample validity but only approximately the smallest width."
+	},
+	{
+		"type": "Preprint",
+		"work_type": "Preprint",
+		"id": 38,
+		"title": "The HulC: Confidence Regions from Convex Hulls",
+		"year": 2021,
+		"authors":[
+			{
+				"name": "Arun Kumar Kuchibhotla"
+			},
+			{
+				"name": "Sivaraman Balakrishnan"
+			},
+			{
+				"name": "Larry Wasserman"
+			}
+			
+		],
+		"use": true,
+		"topic":[
+			{
+				"topic": "Statistical Inference"
+			},
+			{
+				"topic": "Convex Hull"
+			},
+			{
+				"topic": "Shape-constrained"
+			}
+		],
+		"source": "arXiv:2105.14577",
+		"volume": "",
+		"citation_url": "https://arxiv.org/abs/2105.14577",
+		"cites_url": "https://arxiv.org/abs/2105.14577",
+		"abstract": "We develop and analyze the HulC, an intuitive and general method for constructing confidence sets using the convex hull of estimates constructed from subsets of the data. Unlike classical methods which are based on estimating the (limiting) distribution of an estimator, the HulC is often simpler to use and effectively bypasses this step. In comparison to the bootstrap, the HulC requires fewer regularity conditions and succeeds in many examples where the bootstrap provably fails. Unlike subsampling, the HulC does not require knowledge of the rate of convergence of the estimators on which it is based. The validity of the HulC requires knowledge of the (asymptotic) median-bias of the estimators. We further analyze a variant of our basic method, called the Adaptive HulC, which is fully data-driven and estimates the median-bias using subsampling. We show that the Adaptive HulC retains the aforementioned strengths of the HulC. In certain cases where the underlying estimators are pathologically asymmetric the HulC and Adaptive HulC can fail to provide useful confidence sets. We propose a final variant, the Unimodal HulC, which can salvage the situation in cases where the distribution of the underlying estimator is (asymptotically) unimodal. We discuss these methods in the context of several challenging inferential problems which arise in parametric, semi-parametric, and non-parametric inference. Although our focus is on validity under weak regularity conditions, we also provide some general results on the width of the HulC confidence sets, showing that in many cases the HulC confidence sets have near-optimal width.",
+		"description": "This paper develops a very simple procedure for constructing confidence intervals for functionals/parameters. Despite the simplicity, it is as generally applicable as bootstrap and subsampling, if not more."
+	},
+	{
+		"type": "Preprint",
+		"work_type": "Preprint",
 		"id": 35,
 		"title": "Nested Conformal Prediction Sets for Classification with Applications to Probation Data",
 		"year": 2021,
@@ -93,7 +161,7 @@
 	{
 		"type": "Preprint",
 		"work_type": "Preprint",
-		"id": 35,
+		"id": 36,
 		"title": "High-dimensional CLT for Sums of Non-degenerate Random Vectors: $n^{−1/2}$-rate",
 		"year": 2020,
 		"authors":[
