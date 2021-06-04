@@ -130,6 +130,31 @@
 	{
 		"type": "Preprint",
 		"work_type": "Preprint",
+		"id": 39,
+		"title": "Median bias of M-estimators",
+		"year": 2021,
+		"authors":[
+			{
+				"name": "Arun Kumar Kuchibhotla"
+			}
+			
+		],
+		"use": true,
+		"topic":[
+			{
+				"topic": "M-estimators"
+			}
+		],
+		"source": "arXiv:2106.00164",
+		"volume": "",
+		"citation_url": "https://arxiv.org/abs/2105.00164",
+		"cites_url": "https://arxiv.org/abs/2105.00164",
+		"abstract": "In this note, we derive bounds on the median bias of univariate M-estimators under mild regularity conditions. These requirements are not sufficient to imply convergence in distribution of the M-estimators. We also discuss median bias of some multivariate M-estimators.",
+		"description": "This paper provides simple bounds on the median bias of M-estimators."
+	},
+	{
+		"type": "Preprint",
+		"work_type": "Preprint",
 		"id": 35,
 		"title": "Nested Conformal Prediction Sets for Classification with Applications to Probation Data",
 		"year": 2021,
