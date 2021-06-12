@@ -604,8 +604,8 @@
 		"description": "This paper provides a version of weighted likelihood estimator that corresponds to a minimum disparity estimator. This estimator is both robust to outliers and asymptotically efficient under the true model."
 	},
 	{
-		"type": "Preprint",
-		"work_type": "Preprint",
+		"type": "Journal article",
+		"work_type": "Journal publication",
 		"id": 14,
 		"title": "On Least Squares Estimation under Heteroscedastic and Heavy-Tailed Errors",
 		"authors": [
