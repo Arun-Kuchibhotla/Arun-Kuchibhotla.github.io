@@ -1,4 +1,14 @@
 [	{
+		"id": 16,
+		"title": "The HulC: Hull based Confidence Regions",
+		"meeting": "WSC 2021",
+		"type": "Invited talk",
+		"time": 2021-07-16,
+		"pdf_weblink": "https://docs.google.com/presentation/d/1NQAMv_Er5Mq7ZirqOzVPE0mOeSHF60kl7lzSy_QgtU8/edit?usp=sharing",
+		"record_link": "https://youtu.be/BQEywOvNEGw",
+		"url": "https://www.isi2021.org/"
+	},
+	{
 		"id": 15,
 		"title": "The HulC: Hull based Confidence Regions",
 		"meeting": "IISA 2021",
