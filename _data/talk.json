@@ -1,4 +1,14 @@
 [	{
+		"id": 17,
+		"title": "Post-selection inference: some answers and some questions",
+		"meeting": "ICSA 2021: APPLIED STATISTICS SYMPOSIUM",
+		"type": "Invited talk",
+		"time": 2021-09-13,
+		"pdf_weblink": "",
+		"record_link": "",
+		"url": "https://symposium2021.icsa.org/program/"
+	},
+	{
 		"id": 16,
 		"title": "The HulC: Hull based Confidence Regions",
 		"meeting": "WSC 2021",
