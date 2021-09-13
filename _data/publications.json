@@ -1,5 +1,5 @@
 ﻿[	
-		{
+	{
 		"type": "Working paper",
 		"work_type": "Working paper",
 		"id":33,
@@ -93,7 +93,7 @@
 	{
 		"type": "Preprint",
 		"work_type": "Preprint",
-		"id": 39,
+		"id": 40,
 		"title": "maars: Tidy Inference under the 'Models as Approximations' Framework in R",
 		"year": 2021,
 		"authors":[
@@ -124,7 +124,7 @@
 		"volume": "",
 		"citation_url": "https://arxiv.org/abs/2106.11188",
 		"cites_url": "https://arxiv.org/abs/2106.11188",
-		"abstract": "Linear regression using ordinary least squares (OLS) is a critical part of every statistician's toolkit. In R, this is elegantly implemented via lm() and its related functions. However, the statistical inference output from this suite of functions is based on the assumption that the model is well specified. This assumption is often unrealistic and at best satisfied approximately. In the statistics and econometrics literature, this has long been recognized and a large body of work provides inference for OLS under more practical assumptions. This can be seen as model-free inference. In this paper, we introduce our package maars ("models as approximations") that aims at bringing research on model-free inference to R via a comprehensive workflow. The maars package differs from other packages that also implement variance estimation, such as sandwich, in three key ways. First, all functions in maars follow a consistent grammar and return output in tidy format, with minimal deviation from the typical lm() workflow. Second, maars contains several tools for inference including empirical, multiplier, residual bootstrap, and subsampling, for easy comparison. Third, maars is developed with pedagogy in mind. For this, most of its functions explicitly return the assumptions under which the output is valid. This key innovation makes maars useful in teaching inference under misspecification and also a powerful tool for applied researchers. We hope our default feature of explicitly presenting assumptions will become a de facto standard for most statistical modeling in R.",
+		"abstract": "Linear regression using ordinary least squares (OLS) is a critical part of every statistician's toolkit. In R, this is elegantly implemented via lm() and its related functions. However, the statistical inference output from this suite of functions is based on the assumption that the model is well specified. This assumption is often unrealistic and at best satisfied approximately. In the statistics and econometrics literature, this has long been recognized and a large body of work provides inference for OLS under more practical assumptions. This can be seen as model-free inference. In this paper, we introduce our package maars (\"models as approximations\") that aims at bringing research on model-free inference to R via a comprehensive workflow. The maars package differs from other packages that also implement variance estimation, such as sandwich, in three key ways. First, all functions in maars follow a consistent grammar and return output in tidy format, with minimal deviation from the typical lm() workflow. Second, maars contains several tools for inference including empirical, multiplier, residual bootstrap, and subsampling, for easy comparison. Third, maars is developed with pedagogy in mind. For this, most of its functions explicitly return the assumptions under which the output is valid. This key innovation makes maars useful in teaching inference under misspecification and also a powerful tool for applied researchers. We hope our default feature of explicitly presenting assumptions will become a de facto standard for most statistical modeling in R.",
 		"description": "This paper introduces the maars package in R for misspecification inference for OLS."	
 	},
 	{
