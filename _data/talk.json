@@ -1,4 +1,15 @@
-[	{
+[	
+	{
+		"id": 18,
+		"title": "The HulC: Hull based Confidence Regions",
+		"meeting": "IIM, Bangalore",
+		"type": "Department Seminar",
+		"time": 2021-07-16,
+		"pdf_link": "HulC_IIMB2021.pdf",
+		"record_link": "",
+		"url": "https://www.isi2021.org/"
+	},
+	{
 		"id": 17,
 		"title": "Post-selection inference: some answers and some questions",
 		"meeting": "ICSA 2021: Applied Statistics Symposium",
