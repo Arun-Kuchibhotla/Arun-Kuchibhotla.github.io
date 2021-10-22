@@ -1,5 +1,35 @@
 [	
 	{
+		"id": 21,
+		"title": "The HulC: Hull based Confidence Regions",
+		"meeting": "Department of Statistics, University of Wisconsin-Madison",
+		"type": "Department Seminar",
+		"time": 2021-11-03,
+		"pdf_link": "HulC_JHU2021.pdf",
+		"record_link": "",
+		"url": ""
+	},
+	{
+		"id": 20,
+		"title": "The HulC: Hull based Confidence Regions",
+		"meeting": "Department of Biostatistics, Johns Hopkins University",
+		"type": "Department Seminar",
+		"time": 2021-10-18,
+		"pdf_link": "HulC_JHU2021.pdf",
+		"record_link": "",
+		"url": "https://publichealth.jhu.edu/departments/biostatistics/news-and-events/current-seminars"
+	},
+	{
+		"id": 19,
+		"title": "The HulC: Hull based Confidence Regions",
+		"meeting": "Department of Statistics, McGill University",
+		"type": "Department Seminar",
+		"time": 2021-10-01,
+		"pdf_link": "HulC_IIMB2021.pdf",
+		"record_link": "",
+		"url": "https://mcgillstat.github.io/"
+	},
+	{
 		"id": 18,
 		"title": "The HulC: Hull based Confidence Regions",
 		"meeting": "IIM, Bangalore",
@@ -7,7 +37,7 @@
 		"time": 2021-07-16,
 		"pdf_link": "HulC_IIMB2021.pdf",
 		"record_link": "",
-		"url": "https://www.isi2021.org/"
+		"url": "https://www.iimb.ac.in/ds-webinar-series-2021-22"
 	},
 	{
 		"id": 17,
