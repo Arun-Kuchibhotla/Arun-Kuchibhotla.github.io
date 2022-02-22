@@ -1,4 +1,14 @@
 [	
+		{
+		"id": 22,
+		"title": "Median bias, HulC, and Valid Inference",
+		"meeting": "Department of Statistics, University of Bristol",
+		"type": "Department Seminar",
+		"time": 2021-02-18,
+		"pdf_link": "HulC_valid_inference.pdf",
+		"record_link": "",
+		"url": "https://www.bristolmathsresearch.org/events/statistics/"
+	},
 	{
 		"id": 21,
 		"title": "The HulC: Hull based Confidence Regions",
