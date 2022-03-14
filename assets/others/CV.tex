@@ -1,505 +1,351 @@
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%%%%%%%%%%%%%%%%%%%%%% Simple LaTeX CV Template %%%%%%%%%%%%%%%%%%%%%%%%
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%% NOTE: If you find that it says                                     %%
-%%                                                                    %%
-%%                           1 of ??                                  %%
-%%                                                                    %%
-%% at the bottom of your first page, this means that the AUX file     %%
-%% was not available when you ran LaTeX on this source. Simply RERUN  %%
-%% LaTeX to get the ``??'' replaced with the number of the last page  %%
-%% of the document. The AUX file will be generated on the first run   %%
-%% of LaTeX and used on the second run to fill in all of the          %%
-%% references.                                                        %%
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%% Document Setup %%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-% Don't like 10pt? Try 11pt or 12pt
 \documentclass[10pt]{article}
+\usepackage[compact,small]{titlesec}
+% \def\baselinestretch{.965}
 
-% The automated optical recognition software used to digitize resume
-% information works best with fonts that do not have serifs. This
-% command uses a sans serif font throughout. Uncomment both lines (or at
-% least the second) to restore a Roman font (i.e., a font with serifs).
-%\usepackage{times}
-%\renewcommand{\familydefault}{\sfdefault}
+\usepackage[margin=1in]{geometry}
+\usepackage[utf8]{inputenc}
+% \usepackage{fullpage}
+\usepackage[square, numbers]{natbib}
+% \usepackage{natbib}
+\setlength{\bibsep}{0.5pt}
+\usepackage{mathtools}
+\mathtoolsset{showonlyrefs}
+\usepackage[font=itshape]{quoting}
+% \geometry{landscape} % set up the page for landscape
+%   read geometry.pdf for detailed page layout information
+% \usepackage{setspace}
+% \doublespacing
+\usepackage[ruled,linesnumbered, vlined, noend]{algorithm2e}         
+\usepackage{amsthm, amsfonts, amssymb, amsmath,enumitem, bbm, mathabx}
+\newtheorem{thm}{Theorem}
+\newtheorem{lem}{Lemma}
+\newtheorem{cor}{Corollary}
+\newtheorem{prop}{Proposition}
+\newtheorem{conjecture}{Conjecture}
+\newcounter{myalgctr}
+\newenvironment{rem}{%      define a custom environment
+   \vskip1mm\indent%         create a vertical offset to previous material
+   \refstepcounter{myalgctr}% increment the environment's counter
+   \textbf{Remark \themyalgctr}% or \textbf, \textit, ...
+   }{\hfill$\diamond$\par}  %          create a vertical offset to following material
+\numberwithin{myalgctr}{section}
+% \providecommand{\norm}[1]{\left\lVert#1\right\rVert}
+\DeclareMathOperator*{\argmin}{arg\,min}
+\DeclareRobustCommand{\rchi}{{\mathpalette\irchi\relax}}
+\newcommand{\irchi}[2]{\raisebox{\depth}{$#1\chi$}}
+\usepackage{graphicx} % support the \includegraphics command and options
+\usepackage{color, float}
+% \usepackage[parfill]{parskip} % Activate to begin paragraphs with an empty line rather than an indent
 
-% This is a helpful package that puts math inside length specifications
-\usepackage{calc}
-\usepackage{comment}
-
-% Simpler bibsection for CV sections
-% (thanks to natbib for inspiration)
+%%% PACKAGES
+% \usepackage{booktabs} % for much better looking tables
+% \usepackage{array} % for better arrays (eg matrices) in maths
+%\usepackage{paralist} % very flexible & customisable lists (eg. enumerate/itemize, etc.)
+% \usepackage{verbatim} % adds environment for commenting out blocks of text & for better verbatim
+% \usepackage{subfig} % make it possible to include more than one captioned figure/table in a single float
+% These packages are all incorporated in the memoir class to one degree or another...
+\usepackage[colorlinks=true, a4paper=true, pdfstartview=FitV,
+linkcolor=blue, citecolor=blue, urlcolor=blue]{hyperref}
+\usepackage{authblk}
+%%% HEADERS & FOOTERS
+% \usepackage{fancyhdr} % This should be set AFTER setting up the page geometry
+% \pagestyle{fancy} % options: empty , plain , fancy
+% \renewcommand{\headrulewidth}{0pt} % customise the layout...
+% \lhead{}\chead{}\rhead{}
+% \lfoot{}\cfoot{\thepage}\rfoot{}
+%% The following for description environment referencing
 \makeatletter
-\newlength{\bibhang}
-\setlength{\bibhang}{1em} %1em}
-\newlength{\bibsep}
- {\@listi \global\bibsep\itemsep \global\advance\bibsep by\parsep}
-\newenvironment{bibsection}%
-        {\begin{enumerate}{}{%
-%        {\begin{list}{}{%
-       \setlength{\leftmargin}{\bibhang}%
-       \setlength{\itemindent}{-\leftmargin}%
-       \setlength{\itemsep}{\bibsep}%
-       \setlength{\parsep}{\z@}%
-        \setlength{\partopsep}{0pt}%
-        \setlength{\topsep}{0pt}}}
-        {\end{enumerate}\vspace{-.6\baselineskip}}
-%        {\end{list}\vspace{-.6\baselineskip}}
+\def\namedlabel#1#2{\begingroup
+    #2%
+    \def\@currentlabel{#2}%
+    \phantomsection\label{#1}\endgroup
+}
 \makeatother
+% \newcommand{\vertiii}[1]{{\left\vert\kern-0.25ex\left\vert\kern-0.25ex\left\vert #1 
+%     \right\vert\kern-0.25ex\right\vert\kern-0.25ex\right\vert}}
+% %%% SECTION TITLE APPEARANCE
+% \usepackage{sectsty}
+% \allsectionsfont{\sffamily\mdseries\upshape} % (See the fntguide.pdf for font help)
+% % (This matches ConTeXt defaults)
 
-% Layout: Puts the section titles on left side of page
-\reversemarginpar
-
-%
-%         PAPER SIZE, PAGE NUMBER, AND DOCUMENT LAYOUT NOTES:
-%
-% The next \usepackage line changes the layout for CV style section
-% headings as marginal notes. It also sets up the paper size as either
-% letter or A4. By default, letter was used. If A4 paper is desired,
-% comment out the letterpaper lines and uncomment the a4paper lines.
-%
-% As you can see, the margin widths and section title widths can be
-% easily adjusted.
-%
-% ALSO: Notice that the includefoot option can be commented OUT in order
-% to put the PAGE NUMBER *IN* the bottom margin. This will make the
-% effective text area larger.
-%
-% IF YOU WISH TO REMOVE THE ``of LASTPAGE'' next to each page number,
-% see the note about the +LP and -LP lines below. Comment out the +LP
-% and uncomment the -LP.
-%
-% IF YOU WISH TO REMOVE PAGE NUMBERS, be sure that the includefoot line
-% is uncommented and ALSO uncomment the \pagestyle{empty} a few lines
-% below.
-%
-
-%% Use these lines for letter-sized paper
-\usepackage[paper=letterpaper,
-            %includefoot, % Uncomment to put page number above margin
-            marginparwidth=1.2in,     % Length of section titles
-            marginparsep=.05in,       % Space between titles and text
-            margin=1in,               % 1 inch margins
-            includemp]{geometry}
-
-%% Use these lines for A4-sized paper
-%\usepackage[paper=a4paper,
-%            %includefoot, % Uncomment to put page number above margin
-%            marginparwidth=30.5mm,    % Length of section titles
-%            marginparsep=1.5mm,       % Space between titles and text
-%            margin=25mm,              % 25mm margins
-%            includemp]{geometry}
-
-%% More layout: Get rid of indenting throughout entire document
-\setlength{\parindent}{0in}
-
-\usepackage[shortlabels]{enumitem}
-
-%% Reference the last page in the page number
-%
-% NOTE: comment the +LP line and uncomment the -LP line to have page
-%       numbers without the ``of ##'' last page reference)
-%
-% NOTE: uncomment the \pagestyle{empty} line to get rid of all page
-%       numbers (make sure includefoot is commented out above)
-%
-\usepackage{fancyhdr,lastpage}
-\pagestyle{fancy}
-%\pagestyle{empty}      % Uncomment this to get rid of page numbers
-\fancyhf{}\renewcommand{\headrulewidth}{0pt}
-\fancyfootoffset{\marginparsep+\marginparwidth}
-\newlength{\footpageshift}
-\setlength{\footpageshift}
-          {0.5\textwidth+0.5\marginparsep+0.5\marginparwidth-2in}
-\lfoot{\hspace{\footpageshift}%
-       \parbox{4in}{\, \hfill %
-                    \arabic{page} of \protect\pageref*{LastPage} % +LP
-%                    \arabic{page}                               % -LP
-                    \hfill \,}}
-
-% Finally, give us PDF bookmarks
-\usepackage{color,hyperref}
-\definecolor{darkblue}{rgb}{0.0,0.0,0.3}
-\hypersetup{colorlinks,breaklinks,
-            linkcolor=darkblue,urlcolor=darkblue,
-            anchorcolor=darkblue,citecolor=darkblue}
-
-%%%%%%%%%%%%%%%%%%%%%%%% End Document Setup %%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%% Helper Commands %%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-% The title (name) with a horizontal rule under it
-% (optional argument typesets an object right-justified across from name
-%  as well)
-%
-% Usage: \makeheading{name}
-%        OR
-%        \makeheading[right_object]{name}
-%
-% Place at top of document. It should be the first thing.
-% If ``right_object'' is provided in the square-braced optional
-% argument, it will be right justified on the same line as ``name'' at
-% the top of the CV. For example:
-%
-%       \makeheading[\emph{Curriculum vitae}]{Your Name}
-%
-% will put an emphasized ``Curriculum vitae'' at the top of the document
-% as a title. Likewise, a picture could be included:
-%
-%   \makeheading[\includegraphics[height=1.5in]{my_picutre}]{Your Name}
-%
-% the picture will be flush right across from the name.
-\newcommand{\makeheading}[2][]%
-        {\hspace*{-\marginparsep minus \marginparwidth}%
-         \begin{minipage}[t]{\textwidth+\marginparwidth+\marginparsep}%
-             {\large \bfseries #2 \hfill #1}\\[-0.15\baselineskip]%
-                 \rule{\columnwidth}{1pt}%
-         \end{minipage}}
-
-% The section headings
-%
-% Usage: \section{section name}
-\renewcommand{\section}[1]{\pagebreak[3]%
-    \hyphenpenalty=10000%
-    \vspace{1.3\baselineskip}%
-    \phantomsection\addcontentsline{toc}{section}{#1}%
-    \noindent\llap{\scshape\smash{\parbox[t]{\marginparwidth}{\raggedright #1}}}%
-    \vspace{-\baselineskip}\par}
-
-% An itemize-style list with lots of space between items
-\newenvironment{outerlist}[1][\enskip\textbullet]%
-        {\begin{itemize}[#1,leftmargin=*]}{\end{itemize}%
-         \vspace{-.6\baselineskip}}
-
-% An environment IDENTICAL to outerlist that has better pre-list spacing
-% when used as the first thing in a \section
-\newenvironment{lonelist}[1][\enskip\textbullet]%
-        {\begin{list}{#1}{%
-        \setlength{\partopsep}{0pt}%
-        \setlength{\topsep}{0pt}}}
-        {\end{list}\vspace{-.6\baselineskip}}
-
-% An itemize-style list with little space between items
-\newenvironment{innerlist}[1][\enskip\textbullet]%
-        {\begin{itemize}[#1,leftmargin=*,parsep=0pt,itemsep=0pt,topsep=0pt,partopsep=0pt]}
-        {\end{itemize}}
-
-% An environment IDENTICAL to innerlist that has better pre-list spacing
-% when used as the first thing in a \section
-\newenvironment{loneinnerlist}[1][\enskip\textbullet]%
-        {\begin{itemize}[#1,leftmargin=*,parsep=0pt,itemsep=0pt,topsep=0pt,partopsep=0pt]}
-        {\end{itemize}\vspace{-.6\baselineskip}}
-
-% To add some paragraph space between lines.
-% This also tells LaTeX to preferably break a page on one of these gaps
-% if there is a needed pagebreak nearby.
-\newcommand{\blankline}{\quad\pagebreak[3]}
-\newcommand{\halfblankline}{\quad\vspace{-0.5\baselineskip}\pagebreak[3]}
-
-% Uses hyperref to link DOI
-\newcommand\doilink[1]{\href{http://dx.doi.org/#1}{#1}}
-\newcommand\doi[1]{doi:\doilink{#1}}
-
-% For \url{SOME_URL}, links SOME_URL to the url SOME_URL
-\providecommand*\url[1]{\href{#1}{#1}}
-% Same as above, but pretty-prints SOME_URL in teletype fixed-width font
-\renewcommand*\url[1]{\href{#1}{\texttt{#1}}}
-
-% For \email{ADDRESS}, links ADDRESS to the url mailto:ADDRESS
-\providecommand*\email[1]{\href{mailto:#1}{#1}}
-% Same as above, but pretty-prints ADDRESS in teletype fixed-width font
-%\renewcommand*\email[1]{\href{mailto:#1}{\texttt{#1}}}
-
-%\providecommand\BibTeX{{\rm B\kern-.05em{\sc i\kern-.025em b}\kern-.08em
-%    T\kern-.1667em\lower.7ex\hbox{E}\kern-.125emX}}
-%\providecommand\BibTeX{{\rm B\kern-.05em{\sc i\kern-.025em b}\kern-.08em
-%    \TeX}}
-\providecommand\BibTeX{{B\kern-.05em{\sc i\kern-.025em b}\kern-.08em
-    \TeX}}
-\providecommand\Matlab{\textsc{Matlab}}
-
-%%%%%%%%%%%%%%%%%%%%%%%% End Helper Commands %%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-%%%%%%%%%%%%%%%%%%%%%%%%% Begin CV Document %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%% ToC (table of contents) APPEARANCE
+% \usepackage[nottoc,notlof,notlot]{tocbibind} % Put the bibliography in the ToC
+% \usepackage[titles,subfigure]{tocloft} % Alter the style of the Table of Contents
+% \renewcommand{\cftsecfont}{\rmfamily\mdseries\upshape}
+% \renewcommand{\cftsecpagefont}{\rmfamily\mdseries\upshape} % No bold!
+\newcommand{\RIP}{\mbox{RIP}}
+\newcommand{\M}{\mathrm{M}}
+%%% END Article customizations
+% \usepackage{geometry}
+\title{Uncertainty Quantification using Conformal Prediction: Hyper-parameter Tuning and Over-parametrization}
+\author{Arun Kumar Kuchibhotla}
+\affil{5217 Fifth Ave, Pittsburgh, PA -- 15232\\Email: \texttt{arunku@stat.cmu.edu}, Tel: 267 693 3354.\\Department of Statistics and Data Science\\ Carnegie Mellon University, Pittsburgh.}
+\date{}
 
 \begin{document}
-\makeheading{Arun Kumar Kuchibhotla}
 
-\section{Contact Information}
+% \maketitle
+% % \vspace{-.3in}
+% % \begin{abstract}
+% \section{Abstract}
+% Conformal prediction~\cite{vovk2005algorithmic} is a generic tool to provide uncertainty quantification for black-box prediction algorithms. 
+% Understanding uncertainty is important for applications such as medicine and self-driving cars where deep learning models are becoming more common. 
+% Because conformal prediction is agnostic to the algorithm, there remain questions of tuning the hyper-parameters in machine learning algorithms to obtain the smallest prediction set while retaining  prediction validity. In this proposal, we plan to tackle this problem by providing a method of hyper-parameter tuning for predictive inference and proving that the method chooses a near optimal prediction set. Further, we plan to investigate the behavior of conformal prediction sets under over-parameterization, where a double-descent phenomenon~\cite{belkin2019reconciling} is known to occur. 
+% % \end{abstract}
+% % Recent success of deep learning and neural networks has brought to limelight the ``double descent phenomenon''~\citep{belkin2019reconciling}: generalization performance first improves, then gets worse, and then improves again with increasing model size, data size, or training time. Several researchers in recent years have contributed to the understanding of this phenomenon by providing theoretical arguments in specific models or data generating processes. Implications of such double descent for uncertainty quantification has not received much attention. Our research agenda is to use conformal prediction methodology to provide sound uncertainty quantification and adapt to double descent phenomenon in training, whenever possible.
+% \section{Research Goals}
+% Conformal prediction is a distribution-free finite-sample valid uncertainty quantification for prediction. This was introduced by~\cite{vovk2005algorithmic} and has become widely popular in statistics and machine learning~\cite{lei2014distribution,angelopoulos2020uncertainty,barber2019predictive} because it can act as a wrapper around any algorithm that provides point predictions. As a quick illustration, the inductive~\citep{papadopoulos2002inductive} or split~\citep{lei2014distribution} conformal prediction method works as follows: Suppose we have independent and identically distributed (i.i.d.) training data $(X_1, Y_1), \ldots, (X_n, Y_n)$ and i.i.d. calibration data $(X_1', Y_1'), \ldots, (X_m', Y_m')$ from a distribution $P$ on some space $\mathcal{X}\times\mathbb{R}$. The space $\mathcal{X}$ can be arbitrary such as a function space, a space of images, etc. Let $\mathcal{A}:\mathcal{X}\to\mathbb{R}$ be any predictive algorithm trained on the training data, i.e., for any $x\in\mathcal{X}$, $\mathcal{A}(x)$ is the point prediction for $Y$. If $R_i' = |Y_i' - \mathcal{A}(X_i')|, 1\le i\le m$ are residuals for the calibration data, and $\widehat{Q}_{\alpha}$ is the $\lceil(m+1)(1-\alpha)\rceil$-th largest element of $\{R_i', 1\le i\le m\}$, then for any $(X_{\mathrm{f}}, Y_{\mathrm{f}})\sim P$, $\mathbb{P}(|Y_{\mathrm{f}} - \mathcal{A}(X_{\mathrm{f}})| \le \widehat{Q}_{\alpha}) \ge 1 - \alpha.$
+% In particular, for $\widehat{C}(x) = \{y\in\mathbb{R}:\,|y - \mathcal{A}(x)| \le \widehat{Q}_{\alpha}\}$, we have $\mathbb{P}(Y_{\mathrm{f}} \in \widehat{C}(X_{\mathrm{f}})) \ge 1 - \alpha$. 
 
-% NOTE: Mind where the & separators and \\ breaks are in the following
-%       table.
-%
-% ALSO: \rcollength is the width of the right column of the table
-%       (adjust it to your liking; default is 1.85in).
-%
-\newlength{\rcollength}\setlength{\rcollength}{1.6in}%
+% The prediction guarantee above is agnostic to the training algorithm $\mathcal{A}$ and the distribution $P$ of the training/calibration data. With a finite-sample valid prediction set, conformal prediction provides us with an  understanding of the sampling uncertainty in the algorithm and the data. There are several other versions of conformal prediction that make better use of the training/calibration data~\citep{barber2019predictive,gupta2019nested} and also apply to classification settings~\cite{angelopoulos2020uncertainty,gupta2019nested}. 
+
+% In spite of these nice features of conformal prediction, questions remain in light of over-parametrization and hyper-parameter tuning. For example, conformal methodology can be applied to neural networks with arbitrary architectures and still have validity guarantees. The question remains on how to construct architectures with smallest prediction sets that also have validity guarantees. 
+% % One naive method would be to construct several algorithms (with different architectures) $\mathcal{A}_1, \ldots, \mathcal{A}_K$ on the training data and select the one that yields the smallest prediction set, in terms of width. Although, this leads to smallest prediction set, it does not retain validity. 
+% Therefore, the first problem we plan to tackle is:
+% \begin{quoting}
+% \textbf{(P1)}\;Given a collection of training algorithms, construct a selection rule that yields a near optimal prediction set and yet retains finite-sample validity. Further, how close can one get to the smallest prediction set in terms of width?
+% \end{quoting}
+% This problem was mentioned in~\cite{lei2014distribution}. Cross-validation (CV) might be the first choice, but CV targets the prediction risk instead of the width of a prediction set. Algorithm~1 of~\cite{lei2014distribution} (repeated here as Algorithm~\ref{alg:selection-rule}) provides a viable way to pick the smallest prediction set, but a formal study is left open.  
+% \begin{algorithm}[t]
+%     \SetAlgoLined
+%     \SetEndCharOfAlgoLine{}
+%     \KwIn{Data $(X_i, Y_i), 1\le i\le n$, coverage probability $1 - \alpha$, and algorithms $\mathcal{A}_k, 1\le k\le K$.}
+%     \KwOut{A valid prediction set $\widehat{C}^{\mathrm{final}}(\cdot)$ with width close to smallest width.}
+%     % \textbf{Initialization:} Data $(X_i, Y_i), 1\le i\le n$\;
+%     % \hspace{0.1in} 
+%     Split the data $\mathcal{D}$ into three parts $\mathcal{D}_1, \mathcal{D}_2,$ and $\mathcal{D}_3$. Fit algorithms $\mathcal{A}_1, \ldots, \mathcal{A}_K$ on $\mathcal{D}_1$.\;
+%     % \hspace{0.1in} 
+%     Calculate the ``residuals'' on data $\mathcal{D}_2$ for each algorithm $\mathcal{A}_k, 1\le k\le K$ and compute the corresponding conformal prediction sets $\widehat{C}_1, \widehat{C}_2, \ldots, \widehat{C}_K$ with confidence level $1 - \alpha$.\;
+%     % \hspace{0.1in} 
+%     Set $\widehat{k} := \argmin_{1\le k\le K}\,\mbox{Width}(\widehat{C}_k)$ and calculate the ``residuals'' on $\mathcal{D}_3$ for algorithm $\mathcal{A}_{\widehat{k}}$.\;
+%     Report the conformal prediction set $\widehat{C}^{\mathrm{final}}(\cdot)$ obtained from $\mathcal{D}_3$ and $\mathcal{A}_{\widehat{k}}$.\;
+%     \Return $\widehat{C}^{\mathrm{final}}(\cdot)$.
+%     \caption{Selection Rule for Smallest Prediction Set}
+%     \label{alg:selection-rule}
+% \end{algorithm}
+% % Suppose we have data $\mathcal{D} = \{(X_i, Y_i), 1\le i\le n\}$.
+% % \begin{enumerate}
+% %     \item Split the data $\mathcal{D}$ into three parts $\mathcal{D}_1, \mathcal{D}_2,$ and $\mathcal{D}_3$. Fit algorithms $\mathcal{A}_1, \ldots, \mathcal{A}_K$ on $\mathcal{D}_1$.
+% %     \item Calculate the ``residuals'' on data $\mathcal{D}_2$ for each algorithm $\mathcal{A}_k, 1\le k\le K$ and compute the corresponding conformal prediction sets $\widehat{C}_1, \widehat{C}_2, \ldots, \widehat{C}_K$ with confidence level $1 - \alpha$.
+% %     \item Set $\widehat{k} := \argmin_{1\le k\le K}\,\mbox{Width}(\widehat{C}_k)$ and calculate the ``residuals'' on $\mathcal{D}_3$ for algorithm $\mathcal{A}_{\widehat{k}}$.
+% %     \item Report the conformal prediction set $\widehat{C}^{\mathrm{final}}(\cdot)$ obtained from $\mathcal{D}_3$ and $\mathcal{A}_{\widehat{k}}$.
+% % \end{enumerate}
+
+% It can be proved that the outputted prediction set $\widehat{C}^{\mathrm{final}}$ based on Algorithm~\ref{alg:selection-rule} has a guaranteed $1 - \alpha$ coverage probability in finite samples. Observe that
+% although the prediction set $\widehat{C}_{\widehat{k}}$ computed in steps 2 \& 3 has the smallest width, it does not guarantee validity. This is similar to double dipping or cherry-picking. If $C^*_k, 1\le k\le K$ represent ``oracle'' versions of the prediction sets $\widehat{C}_k, 1\le k\le K$ (in step 2), then the aim of~\textbf{(P1)} is to prove that for some $R_{n,K}$ converging to zero with the sample size $n$ (and $|\mathcal{D}_3|$), with high probability, 
+% \begin{equation}\label{eq:oracle-inequality}%\textstyle
+% \mathrm{Width}(\widehat{C}^{\mathrm{final}}) ~\le~ \min_{1\le k\le K}\mathrm{Width}(C^*_k) + R_{n,K}.
+% \end{equation}
+% This is a form of oracle inequality. Understanding the dependence of $R_{n,K}$ on $K$, the number of algorithms, is crucial. Here $K$ can be infinite if the class of algorithms is small (in VC-dimension or metric entropy etc). Problem~\textbf{(P1)} is similar to aggregation in machine learning, where we want to pick one or a combination from a given collection of estimators that leads to a near optimal risk~\citep{bunea2007aggregation}.%~\citep{tsybakov2003optimal}. 
+% \medskip
+
+% A related second problem we plan to study stems from the empirical observation that if an algorithm undergoes a double descent~\cite{belkin2019reconciling}, then the corresponding conformal prediction width also undergoes a similar double descent; see Figure~\ref{fig:double-descent}. %Double descent phenomenon~\cite{belkin2019reconciling} refers to the observation that generalization performance first improves, then gets worse, and then improves again with increasing model size, data size, or training time.
+% \begin{figure}[!h]
+%     \centering
+%     \includegraphics[width = \textwidth]{Ramdas_figure2.jpg}
+%     \caption{Taken from~\citet[Fig. 2]{barber2019predictive}. This shows the width of conformal prediction intervals obtained from minimum norm linear regression estimators as the dimension $d$ increases and the sample size $n$ is fixed at 100. The methods `naive' and `jackknife' do not have coverage guarantees. The split method uses only half the data for calibrating, causing it to peak, in width, around $d = n/2 = 50$.}
+%     \label{fig:double-descent}
+% \end{figure}
+% It is of interest to investigate the double-descent phenomenon in conformal prediction and understand adaptation to such a phenomenon if it holds for the data at hand. 
+% The second problem we plan to tackle is, therefore:
+% \begin{quoting}
+% \textbf{(P2)} Prove that conformal prediction methods also exhibit a double descent phenomenon. Further, if we have a class of training algorithms that undergo double descent in one or more of their hyper-parameters (model size, width of network, etc), then construct a method to tune the hyper-parameters to take advantage of double descent in obtaining a smaller prediction set.
+% \end{quoting}
+% The first part of~\textbf{(P2)} would most probably follow the same techniques as used in the proofs for generalization error. But there is a difference in that we now deal with quantiles instead of prediction errors, and we believe it is of importance to theoretically understand the implications for uncertainty quantification. The second part of~\textbf{(P2)} could follow from \textbf{(P1)}, but this requires analyzing the minimum of $\mathrm{Width}(C_k^*), 1\le k\le K$ to understand whether the minimum width is attained before/after the critical threshold. 
+% \section{Expected Outcomes}
+% We expect to prove an oracle inequality of the type~\eqref{eq:oracle-inequality} for a large class of conformal prediction methods in the literature including the split conformal~\cite{papadopoulos2002inductive,lei2014distribution}, jackknife+~\cite{barber2019predictive}, and nested conformal~\cite{gupta2019nested} methods. In ongoing work, we have succeeded in proving~\eqref{eq:oracle-inequality} when the algorithms $\mathcal{A}_k$ in Algorithm~\ref{alg:selection-rule} are ridge regressions $\widehat{\beta}_{\lambda}, \lambda\ge -\Lambda_{\min}/2$, where $\Lambda_{\min}$ is the minimum eigenvalue of $\mathbb{E}[XX^{\top}]$. Formally, we prove~\eqref{eq:oracle-inequality} with $R_{n,K} = R_{n,\infty} = \sqrt{d/n}$, where $d$ is the dimension of the feature vector $X$. The case where $d/n\to\gamma\in(0,\infty)$ is under investigation.%; this is where we expect to also prove a double descent phenomenon.
+
+% Regarding problem~\textbf{(P2)}, we expect to prove the double descent phenomenon observed in Figure~\ref{fig:double-descent} for linear regression,
+% % as the number of features increases
+% and then extend the proofs to random forests and neural networks~\cite[Figs. 3 \& 4]{belkin2019reconciling}.
+% \section{Related Prior Work}%\label{sec:prior-work}
+% % \paragraph{Prior Work.}
+% Conformal prediction is currently a very active research area in statistics and machine learning~\cite{papadopoulos2002inductive,lei2014distribution,lei2018distribution,barber2019predictive,gupta2019nested,angelopoulos2020uncertainty}. Most papers concentrate on developing new ``residual'' measures~\cite{gupta2019nested,romano2019conformalized} or on making better use of the training data~\cite{barber2019predictive,gupta2019nested} for a fixed algorithm. In practice, however, most algorithms have tuning parameters, and the choice is important for precise prediction (see~\cite{lei2014distribution,lei2018distribution}). The proof of oracle inequality~\eqref{eq:oracle-inequality} is left as an open question in~\cite{lei2014distribution}.
+% To our knowledge, uncertainty quantification via conformal prediction under over-parametrization has not yet been addressed in the literature. Although the double descent phenomenon was observed in~\cite{barber2019predictive}, it hasn't been investigated theoretically.
+% % \section{Data Policy}
+% % The proposed work has both theoretical and practical/methodological implications. 
+% \paragraph{Data Policy.}
+% The theoretical part of the work will be made freely available through \url{arxiv.org}. The methodological part of the work will be implemented in Python and R and made accessible through Github.
+% \bibliographystyle{apalike}
+% \bibliography{AssumpLean}
+% % \hrulefill\\
+% \newpage
+% \makeheading{Arun Kumar Kuchibhotla}
+{\large\bf\noindent Arun Kumar Kuchibhotla}\\
+\rule{\textwidth}{1pt}
+% \section*{Contact Information}
+\paragraph{Contact Information}
+\begin{itemize}
+\item[]
+\newlength{\rcollength}\setlength{\rcollength}{1.8in}%
 %
 \begin{tabular}[t]{@{}p{\textwidth-\rcollength}p{\rcollength}}
-%\href{http://www.cse.osu.edu/}%
-%     {Department of Computer Science and Engineering} & \\
-%\href{http://www.osu.edu/}{The Ohio State University}
-4601 Chester Avenue,    & +1 267 693 3354 \\
-Philadelphia, PA -- 19143     & \email{arunku@wharton.upenn.edu}
+\href{http://www.stat.cmu.edu/}%
+    {Department of Statistics and Data Science} & \\
+\href{https://www.cmu.edu/}{Carnegie Mellon University} &\\
+Email: {arunku@cmu.edu} & \\
+Website: \url{https://arun-kuchibhotla.github.io/} &
 \end{tabular}
+\end{itemize}
+\paragraph{Research Interests}
+% \section*{Research Interests}
+\begin{itemize}
+    \item[] Post-selection Inference, Large Sample Theory, Conformal Prediction, Concentration Inequalities.
+\end{itemize}
+\paragraph{Academic Positions}
+% \section*{Academic Positions}
+\begin{itemize}
+    \item[] Assistant Professor, Department of Statistics \& Data Science, Carnegie Mellon University \\ 2020 --- current.
+\end{itemize}
+% \paragraph{Education}
+\section*{Education}
+\begin{itemize}\itemsep0em
+    \item University of Pennsylvania: Ph.D. in Statistics \hfill 2015--2020\\  \hspace*{1.02cm}\textit{Thesis Advisors}: (Late) Lawrence D. Brown, Andreas Buja.
+    \item University of Pennsylvania: Master of Arts in Statistics \hfill 2015--2016
+    \item Indian Statistical Institute: Master of Statistics (Distinction) \hfill 2013--2015\\
+    \hspace*{1.3cm}\textit{Specialization}: Mathematical Statistics and Probability
+    \item Indian Statistical Institute: Bachelor of Statistics (Distinction) \hfill 2010--2013
+\end{itemize}
+\vspace{-0.1in}
 
-%\section{Objective}
-
-%Insert text here if you want to
-%\begin{innerlist}
-%\item More information and auxiliary documents can be found at\\\url{http://www.tedpavlic.com/facjobsearch/}
-%\end{innerlist}
-
-\section{Research Interests}
-
-Post-selection Inference, Large Sample Theory, Robust Statistics, Non/semi-parametric Statistics, Concentration Inequalities.
-
-\section{Education}
-\begin{outerlist}
-\item[] Fifth Year Graduate Student, (Advisors: Lawrence D. Brown, Andreas Buja)\\ \href{https://statistics.wharton.upenn.edu/}{\textbf{The Wharton School}},\\ University of Pennsylvania, Philadelphia, USA.\\
-
-\href{www.isical.ac.in}{\textbf{Indian Statistical Institute}},
-Kolkata.
-\item[] M. Stat. (Hons),
-        \begin{innerlist}
-        \item Specialization: \emph{Mathematical Statistics and Probability}.
-        \item Completed in: 2015.
-        \item Class: First class with Distinction. Scored 88\%.
-        \end{innerlist}
-
-\item[] B. Stat. (Hons),
-        \begin{innerlist}
-        \item Major Subject: \emph{Statistics}
-        \item Completed in: 2013.
-        \item Class: First class with Distinction. Scored 80.5\%.
-        \end{innerlist}
-\end{outerlist}
-%\vspace{.1in}
-%\href{http://www.mnsu.edu}{\textbf{Minnesota State University}},
-%Mankato, MN
-%\begin{outerlist}
-%\item[] B.S.,
-%        \href{http://www.cset.mnsu.edu/mathstat/}
-%             {Mathematics and Statistics} (Double Major), May 2008
-%        \begin{innerlist}
-%        \item \emph{Summa Cum Laude}
-%        \end{innerlist}
-%
-%\end{outerlist}
-
-% \section{Research Projects Done}
-% \begin{innerlist}
-% %\item \textbf{Gauss Composition and Bhargava Cubes}\\
-% %Dr. \textbf{Vijay. M. Patankar} (ISI, Chennai)\\
-% %In this project, I was first introduced to binary quadratic forms, Gauss composition related to them
-% %and then the modern reformulation of Gauss composition given by Bhargava in his thesis. Under
-% %the guidance of Dr. Patankar, I formulated an algorithm to find Bhargava cubes given two quadratic
-% %forms. This project was presented in ISI, Kolkata. This project was accepted for oral presentation in JMM 2013.
-
-% \item\textbf{Estimating Optimal Transformations in Regression}\\
-% This project was done as a part of my sixth semester curriculum. In this project, I studied alternating conditional expectation and projection pursuit regression. I developed a test based on bootstrap for testing ACE model and multiple linear regression model. Monte Carlo studies were conducted. Also, a new model incorpora-ting both ACE and PPR was proposed and this new model was shown to be better for prediction also in Monte Carlo studies. This project was presented in ISI, Chennai.    
-% %\item\textbf{New Family of Divergences for Robust Statistical Inference} \\
-% %Dr. \textbf{Ayanendranth Basu} (ISRU, ISI, Kolkata)\hfill May-July 2013\\
-% %In this project, I was first introduced to statistical inference based on minimum distance estimation. There is a special class of statistical distances called divergences. Under guidance of Dr. Basu, I constructed a new parametric class of divergences which will allow robust estimation and also contains many of the well-known distances as a special cases. This manuscript is under preparation.
-% \item\textbf{Robust Statistical Inference using Characteristic Functions}\\
-% Dr. \textbf{Ayanendranath Basu} (ISRU, ISI, Kolkata)\\
-% This project was done along with my co-student Promit Ghosal (currently a graduate student at Columbia University). Statistical divergences and statistical distances considered in literature are between densities. Under guidance of Dr. Basu, we consider $L_2$ distance between characteristic functions to estimate parameters. It was shown by Monte Carlo studies that efficiency of the estimators using other distances is very poor. Robustness properties of $L_2$ distance based were studied. This project was presented at ICORS 2016.
-% \item \textbf{A General Set Up for Minimum Disparity Estimation}\\
-% Dr. \textbf{Ayanendranath Basu} (ISRU, ISI, Kolkata)\\
-% Minimum disparity estimation was demonstrated in literature as a potential alternati-ve to the maximum likelihood estimation as it achieves full asymptotic efficiency at the model and is stable against deviations from the model. But a general framework for continuous families was missing and was formulated and proved in this project. This manuscript was published in statistics and probability letters (2014). 
-% \item \textbf{Non-Parametric Curve Estimation Using Statistical Divergence}\\
-% Dr. \textbf{Ayanendranath Basu} (ISRU, ISI, Kolkata)\\
-% Statistical divergences were extensively studied in parametric models and were shown to be robust at an expense of a little loss in asymptotic efficiency. The goal of this project was to use statistical divergences for non-parametric curve estimation. Currently, we are considering the estimation of regression function and density function. If we can demonstrate the properties of regression function, then by asymptotic equivalence theory of regression function estimation problem and density function estimation problem, we can demonstrate similar properties for density estimate. The goal of this project is to consider non-parametric estimators obtained as extending the idea of penalized log-likelihood estimation and local likelihood estimation using divergences instead of likelihood. In Monte Carlo studies, we demonstrated that these estimators are robust to outliers in response variable. 
-% \item \textbf{Statistical Inference based on Bridge Divergences}\\
-% Dr. \textbf{Ayandendranath Basu} (ISRU, ISI, Kolkata)\\
-% This project was done in collaboration with Somabha Mukherjee (currently a doctoral student at Wharton). In this paper, we present a generalized family of divergences incorporating the two well-known classes called DPD and LDPD; this family provides a smooth bridge between the DPD and the LDPD measures. This family helps to clarify and settle several longstanding issues in the relation between the important
-% families of DPD and LDPD, apart from being important tools in different areas of statistical inference on their own right. The manuscript is ready and will be available soon in arxiv.
-% \item \textbf{Efficient Estimation in Single Index Models using Smoothing Splines}\\
-% Dr. \textbf{Bodhisattva Sen} (Columbia University)\\
-% This project was done along with Rohit Kumar Patra, currently an assistant professor at university of Florida. Single index models with an unknown link function offer a good alternative to non-parametric regression with high dimensional covariate vector. In this project, we study an estimation procedure using smoothing splines. We studied the large sample properties of the function estimate and also the index vector estimate in this cases. Monte Carlo studies were conducted to compare the estimation procedures. This manuscript is submitted to Bernoulli and is available in arxiv.    
-% \item \textbf{Efficient Estimation in Single Index Models with Convex Link}\\
-% Dr. \textbf{Bodhisattva Sen} (Columbia University)\\
-% This project was done along with Rohit Kumar Patra. Single index models with an unknown link function offer a good alternative to non-parametric regression with high dimensional covariate vector. In this project, we study two different estimation procedures with convexity constraint. First being the penalized least squares with an additional constraint for convexity. Second being the convex least squares. We studied the large sample properties of the convex function estimate and also the index vector estimate in both cases. Monte Carlo studies were conducted to compare the estimation procedures. This manuscript is currently in preprint form and will be submitted soon. 
-% \item \textbf{Models as approximations: a general theory}\\
-% This project was in collaboration with the Wharton linear models group. The paper provides a theory and fundamental understanding of mis-specification in general regression models. Some asymptotic theory and foundational concepts were discussed. Manuscript currently available in arxiv and accepted for publication in Statistical Science.
-% \item \textbf{Valid Post-selection Inference in Assumption-lean Linear Regression}\\
-% This project was done in collaboration with the Wharton linear models group. The paper indicates how one can perform valid inference after choosing the model based on the same data. This is the first such inference procedure available. The manuscript is available in preprint form and will be made available in arxiv soon.
-% %\item \textbf{A Minimum Distance Weighted Likelihood Method of Estimation}\\
-% %Dr. \textbf{Ayanendranath Basu} (ISRU, ISI, Kolkata)\hfill July--August 2014\\
-% %In literature, minimum disparity estimators and weighted likelihood estimators were studied as robust alternatives to the maximum likelihood estimation. These two methods have distinct identities. Despite their similarities, they have some basic differences. In this project we proposed a method of estimation which is simultaneous-ly a minimum disparity method and a weighted likelihood method, and may be viewed as combining the positive aspects of both. We studied the properties of the corresponding minimum disparity weighted likelihood (MDWL) estimators, and illustrated their properties through real data examples and simulations. This project was presented at the International Conference on Robust Statistics 2014, in Germany. This manuscript is currently under review.
-% \end{innerlist}
-% \section{Ongoing Projects}
-% \begin{outerlist}
-% \item \textbf{Integral Approximation and some finite sample results}\\
-% Dr. \textbf{Abhishek Chakrabortty} (Wharton)\\
-% This project revisits the classical problem of approximating an integral of a function based on evaluations at independent points randomly generated with respect to some distribution. We extend previous results and provide finite sample guarantees.
-% \end{outerlist}
-\section{Journal Publications}
-\vspace{-.1275in}
-\begin{bibsection}
-    \item \textbf{Kuchibhotla A. K.} and Basu A. (2015) ``A General Set Up for Minimum Disparity Estimation." \emph{Statistics and Probability Letters},  Vol. 96, 68-74, 2015.
-    \item \textbf{Kuchibhotla A. K.} and Basu A. (2017) ``On The Asymptotics of Minimum Disparity Estimation.'' \emph{TEST: An Official Journal of the Spanish Society of Statistics and Operations Research, 22.}
-    \item \textbf{Kuchibhotla A. K.}, Mukherjee S. and Basu A. (2017) ``Statistical inference based on bridge divergences.'' \emph{Annals of the Institute of Statistical Mathematics, 71 (3), 627-656.}
-    \item Berk R., Buja A., Brown L. D., George E. I., \textbf{Kuchibhotla A. K.}, Su W. J., Zhao L. H., (2018) ``Assumption Lean Regression'' \emph{The American Statistician, To appear.}
-    \item Bellec P., and \textbf{Kuchibhotla A. K.}, (2019) ``First order expansion of convex regularized estimators'' \emph{Advances in Neural Information Processing Systems 33, To appear.}
-\end{bibsection}
-
-\section{Preprints}
-\vspace{-.1275in}
-\begin{bibsection}
-	\item \textbf{Kuchibhotla A. K.} and Parta R. K. (2016) ``Efficient Estimation in Single Index Models through Smoothing splines'' \emph{arXiv preprint arXiv:1612.00068.}
-	\item Buja A., Berk R., Brown L. D., George E. I., \textbf{Kuchibhotla A. K.}, Zhao L. H. (2016) ``Models as Approximations --- Part II: A General Theory of Model-Robust Regression'' \emph{arXiv preprint arXiv:1612.03257.}
-	\item \textbf{Kuchibhotla A. K.}, Patra R. K., Sen B. (2017) ``Least Squares Estimation in a Single Index Model with Convex Lipschitz link'' \emph{arXiv preprint arXiv:1708.00145.}
-  \item \textbf{Kuchibhotla A. K.}, Brown L. D., Buja A., George E.I., Zhao L.H. (2017) ``Valid Post-selection Inference in Assumption-lean Linear Regression." \emph{arXiv preprint arXiv:1806.04119.}
-  \item \textbf{Kuchibhotla A. K.}, Brown L. D., Buja A., George E.I., Zhao L.H. (2018) ``A Model Free Perspective for Linear Regression: Uniform-in-model Bounds for Post Selection Inference.'' \emph{arXiv preprint arXiv:1802.05801.}
-  \item \textbf{Kuchibhotla A. K.}, Chakrabortty A. (2018) ``Moving Beyond Sub-Gaussianity in High-Dimensional Statistics: Applications in Covariance Estimation and Linear Regression.'' \emph{arXiv preprint arXiv:1804.02605.}
-  \item Chakrabortty A. and \textbf{Kuchibhotla A. K.} (2018) ``Tail Bounds for Canonical U-Statistics and U-Processes with Unbounded Kernels.''
-  \item \textbf{Kuchibhotla A. K.}, Brown L. D., Buja A. (2018) ``Model-free Study of Ordinary Least Squares Linear Regression.'' \emph{arxiv preprint arxiv:1809.10538.}
-  \item Banerjee D., \textbf{Kuchibhotla A. K.}, Muhkerjee S. (2019) ``High-dimensional CLT: Improvements, Non-uniform Extensions and Large Deviations'' \emph{arXiv preprint} \emph{arXiv:1806.06153.}
-  \item \textbf{Kuchibhotla A. K.} (2018) ``Deterministic Inequalities for Smooth M-estimators.'' \emph{arxiv preprint arxiv:1809.05172.} 
-  \item \textbf{Kuchibhotla A. K.} and Patra R. K. (2019) ``On Least Squares Estimation under Heteroscedastic and Heavy-Tailed Errors.'' \emph{arxiv preprint arXiv:1909.02088.}
-\end{bibsection}
-
-%\section{Submitted Journal Publications}
-%\vspace{-.125in}
-%\begin{bibsection}
-%    \item Toomey, T.L., Erickson, D.J., Carlin, B.P., Lenk, K.M., {\bf Quick, H.S.}, and Harwood, E.M. ``Do neighborhood attributes moderate the relationship between alcohol establishment density and crime?" 2012. Submitted to \emph{Prevention Science}.
-%\end{bibsection}
-
-% Add a little space to nudge next ``Conference Publications'' marginpar
-% down to make room for tall ``Submitted Journal Publications''
-% marginpar. If there are enough submitted journal publications, this
-% space will not be needed (and should be removed).
-%\vspace{0.1in}
-
-%\section{Papers in Preparation}
-%\vspace{-.1in}
-%\begin{bibsection}
-%%    \item Toomey, T.L., Erickson, D.J., Carlin, B.P., Lenk, K.M., {\bf Quick, H.S.}, and Harwood, E.M. ``Do neighborhood attributes moderate the relationship between alcohol establishment density and crime?"
-%    \item {\bf Quick, H.}, Banerjee, S., and Carlin, B.P. ``Heteroscedastic variances in areally referenced temporal processes with an application to California asthma hospitalization data.''
-%
-%    \item {\bf Quick, H.}, Carlin, B.P., and Banerjee, S. ``Space-time Gaussian process modeling of temporal air pollution gradients."
-%\end{bibsection}
-
-\section{Presentations}
-\begin{innerlist}
-\item Invited talk at MCP 2019, National Taiwan University.\\ URL: \url{https://2019mcp.smartevent.com.tw/}
-\item Invited talk at ICSA 2019, Nankai University.
-\item Shared a talk with Andreas Buja at WHOA-PSI-3, 2018.\\ URL: \url{https://www.math.wustl.edu/~kuffner/WHOA-PSI-3.html} 
-\item Invited talk at ``Workshop Model Selection, Regularization, and Inference'' 2018 (Represented Larry Brown).\\ URL: \url{https://www.univie.ac.at/seam/inference2018/}
-\item Shared a talk with Andreas Buja at SLDSC 2018.\\ URL: \url{https://publish.illinois.edu/sldsc2018/}
-\item Invited talk at WHOA-PSI-2, 2017 (Represented Larry Brown).\\ URL: \url{https://www.math.wustl.edu/~kuffner/WHOA-PSI-2.html}
-\item Contributed session presentation at the International Conference on Robust Statistics (ICORS) 2015, Kolkata, India.
-\item Contributed session presentation at the International Conference on Robust Statistics (ICORS) 2014, Halle, Germany.
-\item Two seminars in Theoretical Statistics and Mathematics Unit, ISI, Kolkata on August 7 and 13, 2012 based on my project under Dr. Patankar.
-\item A seminar in ISI, Chennai on July 3, 2013 based on my project Estimating Optimal Transformations for Regression.
-\end{innerlist}
-
-\section{Academic Achievements}
-\begin{innerlist}
-\item Got second prize in \href{http://www.isi-web.org/index.php/activities/awards/isi-awards/tinbergen-award}{Jan Tinbergen} competition for young statisticians from developing countries.\\
-URL: \url{https://isi-web.org/index.php/activities/awards/isi-awards/tinbergen-award}
-\item Awarded Kishore Vaigyanik Protsahan Yojana scholarship since April 2011. (From Indian Institute of Science)
+% \paragraph{Journal Publications}
+\section*{Journal Publications}
+% \setlength{\leftmargini}{1em}
+\begin{enumerate}\itemsep0em
+\item \textbf{Kuchibhotla A. K.} and Basu A. (2015) ``A General Set Up for Minimum Disparity Estimation." \emph{Statistics and Probability Letters},  Vol. 96, 68-74.
+\item \textbf{Kuchibhotla A. K.} and Basu A. (2017) ``On The Asymptotics of Minimum Disparity Estimation.'' \href{https://www.springer.com/journal/11749}{\emph{TEST}}, 26 (3):481--502.  
+\item \textbf{Kuchibhotla A. K.}, Mukherjee S. and Basu A. (2017) ``Statistical inference based on bridge divergences.'' \emph{Annals of the Institute of Statistical Mathematics, 71 (3), 627-656.}
+\item Berk R., Buja A., Brown L. D., George E. I., \textbf{Kuchibhotla A. K.}, Su W. J., Zhao L. H., (2019) ``Assumption Lean Regression'' \emph{The American Statistician, 1-17.}
+\item Buja A., Brown L. D., \textbf{Kuchibhotla A. K.}, Berk R., George E. I., Zhao L. H. (2019) ``Models as Approximations -- Part II: A General Theory of Model-Robust Regression'' \emph{Statistical Science, 34(4), 545--565.}
+\item Bellec P., and \textbf{Kuchibhotla A. K.}, (2019) ``First order expansion of convex regularized estimators'' \emph{Advances in Neural Information Processing Systems 32. Pages 3462--3473.}
+\item \textbf{Kuchibhotla A. K.}, Brown L. D., Buja A., Cai, J., George E.I., Zhao L.H. (2019) ``Valid Post-selection Inference in Model-free Linear Regression." \emph{Annals of Statistics}, 48(5), 2953--2981.
+\item \textbf{Kuchibhotla A. K.} and Parta R. K. (2020) ``Efficient Estimation in Single Index Models through Smoothing splines'' \emph{Bernoulli}, 26(2), 1587--1618.
+\item \textbf{Kuchibhotla A. K.}, Banerjee D., Muhkerjee S. (2021) ``High-dimensional CLT: Improvements, Non-uniform Extensions and Large Deviations'' \emph{Bernoulli}, 27(1): 192-217.
+	\item \textbf{Kuchibhotla A. K.} and Zheng Q. (2021) ``Near-Optimal Confidence Sequences for Bounded Random Variables'' \href{https://arxiv.org/abs/2006.05022}{\emph{arXiv:2006.05022.}} \emph{Proceedings of the 38th International Conference on Machine Learning, PMLR} 139:5827-5837.
+\item \textbf{Kuchibhotla A. K.}, Patra R. K., Sen B. (2021) ``Semiparametric Efficiency in Convexity Constrained Single Index Model'' \href{https://arxiv.org/abs/1708.00145}{\emph{arXiv:1708.00145.}} Accepted at \emph{Journal of American Statistical Association}.
+\item \textbf{Kuchibhotla A. K.}, Brown L. D., Buja A., George E.I., Zhao L.H. (2021) ``A Model Free Perspective for Linear Regression: Uniform-in-model Bounds for Post Selection Inference'' \href{https://arxiv.org/abs/1802.05801}{\emph{arXiv:1802.05801.}} Accepted at \emph{Econometric Theory}.
+	\item Gupta C., \textbf{Kuchibhotla A. K.}, and Ramdas. A. (2021) ``Nested conformal prediction and quantile out-of-bag ensemble methods'' \href{https://arxiv.org/abs/1910.10562}{\emph{arXiv:1910.10562.}} Accepted at \emph{Pattern Recognition.}
+	\item \textbf{Kuchibhotla A. K.} and Patra R. K. (2021) ``On Least Squares Estimation under Heteroscedastic and Heavy-Tailed Errors'' \href{https://arxiv.org/abs/1909.02088}{\emph{arXiv:1909.02088.}} Accepted at \emph{Annals of Statistics}.
+	\item \textbf{Kuchibhotla A. K.}, Kolassa J. E., and Kuffner T. A. (2022) ``Post-selection Inference''  \emph{Annual Review of Statistics and Its Application}, Volume 9.
+	\item Ogburn E. L., Cai J., \textbf{Kuchibhotla A. K.}, Berk R. A., Buja A. (2022) ``A few practical issues concerning assumption-lean inference for generalized linear models'' [Comment on ``Assumption-lean inference for generalised linear model
+parameters''] Accepted at \emph{Journal of the Royal Statistical Society: Series B (Statistical Methodology)}.
+    % \item 
+\end{enumerate}
+% \paragraph{Preprints}
+\section*{Preprints}
+\begin{enumerate}\itemsep0em
+	\item \textbf{Kuchibhotla A. K.}, Chakrabortty A. (2018) ``Moving Beyond Sub-Gaussianity in High-Dimensional Statistics: Applications in Covariance Estimation and Linear Regression'' \emph{arXiv:1804.02605.} Minor revision at Information and Inference: a Journal of the IMA.
+	\item Chakrabortty A. and \textbf{Kuchibhotla A. K.} (2018) ``Tail Bounds for Canonical U-Statistics and U-Processes with Unbounded Kernels''
+	\item \textbf{Kuchibhotla A. K.}, Brown L. D., Buja A. (2018) ``Model-free Study of Ordinary Least Squares Linear Regression'' \href{https://arxiv.org/abs/1809.10538}{\emph{arxiv:1809.10538.}}
+	\item \textbf{Kuchibhotla A. K.} (2018) ``Deterministic Inequalities for Smooth M-estimators'' \href{https://arxiv.org/abs/1809.05172}{\emph{arxiv:1809.05172.}} 
+  \item \textbf{Kuchibhotla A. K.} (2020) ``Exchangeability, Conformal Prediction, and Rank Tests'' \href{https://arxiv.org/abs/2005.06095}{\emph{arXiv:2005.06095.}} Revision submitted to Statistical Science.
+  \item \textbf{Kuchibhotla A. K.}, Rinaldo A., and Wasserman L. (2020) ``Berry-Esseen Bounds for Projection Parameters and Partial Correlations with Increasing Dimension'' \href{https://arxiv.org/abs/2007.09751}{\emph{arXiv:2007.09751.}} Revision submitted to the Annals of Statistics.
+  \item \textbf{Kuchibhotla A. K.} and Rinaldo, A. (2020) ``High-dimensional CLT for Sums of Non-degenerate Random Vectors: $n^{-1/2}$-rate'' \href{https://arxiv.org/abs/2009.13673}{\emph{arXiv:2009.13673.}}
+  \item \textbf{Kuchibhotla A. K.} and Berk R. A. ``Nested Conformal Prediction Sets for Classification with Applications to Probation Data'' \href{https://arxiv.org/abs/2104.09358}{\emph{arXiv:2104.09358.}} Minor revision at the Annals of Applied Statistics.
+  \item Yang Y., and \textbf{Kuchibhotla A. K.} (2021) ``Finite-sample Efficient Conformal Prediction'' \href{https://arxiv.org/abs/2104.13871}{\emph{arXiv:2104.13871.}} Submitted to the Journal of the American Statistical Association.
+  \item \textbf{Kuchibhotla A. K.}, Balakrishnan, S., and Wasserman L. (2021) ``The HulC: Confidence Regions from Convex Hulls'' \href{https://arxiv.org/abs/2105.14577}{\emph{arXiv:2105.14577.}} Submitted to the Journal of Royal Statistical Society: Series B (Statistical Methodology).
+  \item \textbf{Kuchibhotla A. K.} (2021) ``Median bias of M-estimators'' \href{https://arxiv.org/abs/2106.00164}{\emph{arXiv:2106.00164.}}
+\item Berk R., \textbf{Kuchibhotla A. K.}, and Tchetgen Tchetgen E. J. (2021) ``Improving Fairness in Criminal Justice Algorithmic Risk Assessments Using Optimal Transport and Conformal Prediction Sets'' \href{https://arxiv.org/pdf/2111.09211.pdf}{\emph{arXiv:2111.09211.}}
+  \item Fogliato R., Shrotriya S., and \textbf{Kuchibhotla A. K.} ``maars: Tidy Inference under the 'Models as Approximations' Framework in R'' \href{https://arxiv.org/abs/2106.11188}{\emph{arXiv:2106.11188.}}
+  \item Yang Y., \textbf{Kuchibhotla A. K.}, and Tchetgen Tchetgen E. J. (2022) ``Doubly Robust Calibration of Prediction Sets under Covariate Shift.'' \href{https://arxiv.org/abs/2203.01761}{\emph{arxiv:2203.01761.}}
+\end{enumerate}
+\section*{Working Papers}
+\begin{enumerate}
+    \item \textbf{Kuchibhotla A. K.}, Balakrishnan, S., and Wasserman L. (2022) ``A new notion of regularity of an estimator and its equivalence with valid inference.''
+    \item Yang Y., \textbf{Kuchibhotla A. K.}, and Tchetgen Tchetgen E. J. (2022) ``Minimax optimal non-parametric regression for missing data and CATE estimation.''
+    \item Hong A., and \textbf{Kuchibhotla A. K.} (2022) ``Statistical Practice: Examples and Issues of Reproducibility.''
+    \item \textbf{Kuchibhotla A. K.}, and Mukherjee S. S. (2022) ``Sharp Maximal Inequalities.''
+\end{enumerate}
+% \section*{Teaching}
+\paragraph{Teaching}
+\begin{itemize}\itemsep0em
+\item 46-929, CMU -- Financial Time Series Analysis (Spring 2022)
+\item 36-761, CMU -- Modern Theory of Linear Regression (Fall 2021)
+\item 36-760, CMU -- Central Limit Theorems and Resampling (Fall 2021)
+\item 37-761, CMU -- Modern Theory of Linear Regression (Fall 2020)
+\item 36-760, CMU -- Concentration Inequalities and CLTs (Fall 2020)
+\item STAT991, UPenn -- Topics in Linear Models (Fall 2017)
+% \\
+% ---~ Taught half a course jointly with Lawrence D. Brown. Part of creating the course structure and lecture notes.
+\item STAT111, UPenn -- Introductory Statistics (Summer 2018)
+% \\
+% ---~ Created syllabus, course material and lectured five times a week to a class of ∼25 undergraduate students from various disciplines and backgrounds.
+\end{itemize}
+% \section*{Presentations}
+\paragraph{Presentations}
+\begin{itemize}\itemsep0em
+\item Biostatistics department seminar (2022): \href{https://www.pubinfo.vcu.edu/calendar/details.asp?myVal=76554}{Virginia Commonwealth University}.
+\item Statistics department seminar (2022): \href{https://statistics.wharton.upenn.edu/research/seminars-conferences/}{The Wharton School, University of Pennsylvania}.
+\item Invited talk at \href{https://www.edas.info/ap/ciss2022/program.html}{56th Annual Conference on Information Sciences and Systems} (CISS 2022).
+\item Statistics department seminar (2022): \href{https://www.isical.ac.in/~isru/index.html}{Interdisciplinary Statistical Research Unit, ISI, Kolkata}. 
+\item Statistics department seminar (2022): \href{https://www.bristolmathsresearch.org/events/statistics/}{University of Bristol}.
+\item Statistics department seminar (2021): \href{https://today.wisc.edu/events/view/164421}{University of Wisconsin–Madison}.
+\item Biostatistics department seminar (2021): \href{https://publichealth.jhu.edu/departments/biostatistics/news-and-events/current-seminars}{Johns Hopkins University}. 
+\item Statistics department seminar (2021): \href{https://mcgillstat.github.io/}{McGill University}.
+\item Department seminar (2021): \href{https://www.iimb.ac.in/ds-webinar-series-2021-22}{Indian Institute of Management, Bangalore}.
+\item Invited talk at \href{https://symposium2021.icsa.org/program/}{ICSA 2021: Applied Statistics Symposium}.
+\item Invited talk at \href{https://www.isi2021.org/events/isi-world-statistics-congress-2021/index.html@session-type=ips-non-live&date=2021-07-16.html}{World Statistics Congress 2021}.
+\item Invited talk at \href{https://www.intindstat.org/summerConference2021/scprogCommittee}{International Indian Statistical Association 2021}.
+\item Invited talk at \href{https://www.selectiveinferenceseminar.com/}{International Seminar on Selective Inference 2020}.
+\item Statistics department seminar (2020): \href{https://stat.uchicago.edu/events/event/1784/?past=y}{University of Chicago}.
+\item Department seminar (2020): 
+University of Chicago Booth School of Business.
+\item Department seminar (2020): \href{https://www.hsph.harvard.edu/biostatistics/2020/02/upcoming-seminars/}{Harvard T.H. Chan School of Public Health}. \item Statistics department seminar (2020): \href{https://www.stat.ubc.ca/valid-post-selection-inference-why-and-how}{University of British Columbia}.
+\item Statistics department seminar (2020): University of California, Irvine.
+\item Statistics department seminar (2020): Rutgers University.
+\item Invited talk at \href{https://2019mcp.smartevent.com.tw/}{MCP 2019}, National Taiwan University.
+\item Invited talk at \href{https://www.math.wustl.edu/~kuffner/WHOA-PSI-4.html}{WHOA-PSI-4}, 2019.
+\item Invited talk at \href{https://ww2.amstat.org/meetings/jsm/2019/onlineprogram/AbstractDetails.cfm?abstractid=302901}{JSM 2019}, Denver.
+\item Invited talk at \href{http://www.icsa.org/icsa/events/2019-icsa-china-conference}{ICSA 2019}, Nankai University.
+\item Invited talk at young researchers session, \href{https://cccfran.github.io/larrybrown2018/\#schedule}{Lawrence D Brown memorial workshop}.
+\item Shared a talk with Andreas Buja at \href{https://www.math.wustl.edu/~kuffner/WHOA-PSI-3.html}{WHOA-PSI-3}, 2018.  
+\item Invited talk at \href{https://www.univie.ac.at/seam/inference2018/}{Workshop Model Selection, Regularization, and Inference} 2018 (Represented Larry Brown).
+\item Shared a talk with Andreas Buja at \href{https://publish.illinois.edu/sldsc2018/}{SLDSC 2018}.
+\item Invited talk at \href{https://www.math.wustl.edu/~kuffner/WHOA-PSI-2.html}{WHOA-PSI-2}, 2017 (Represented Larry Brown).
+\item Special topics session at \href{http://www.isi2015.ibge.gov.br/}{World Statistics Congress 2015}, Rio de Janeiro, Brazil.
+\item Contributed session presentation at \href{https://www.isical.ac.in/~icors2015/}{ICORS 2015}, Kolkata, India.
+\item Contributed session presentation at \href{https://statistik.wiwi.uni-halle.de/icors2014/}{ICORS 2014}, Halle, Germany.
+\end{itemize}
+\paragraph{Academic Achievements}
+\begin{itemize}
+\item NSF grant, \href{https://www.nsf.gov/awardsearch/showAward?AWD_ID=2113611&HistoricalAwards=false}{DMS-2113611} (2021--2024, \$300,000), ``Central Limit Theorems and Inference in High Dimensions.'' (Joint with Alessandro Rinaldo).
+\item Student travel award, Wharton Doctoral Programs, George James Term Fund 2019.
+\item Got second prize in \href{http://www.isi-web.org/index.php/activities/awards/isi-awards/tinbergen-award}{Jan Tinbergen} competition for young statisticians from developing countries.
+\item Awarded \href{http://www.kvpy.iisc.ernet.in/main/fellows.htm}{Kishore Vaigyanik Protsahan Yojana} scholarship (2011--2015).
 \item Inspire Scholar since April 2011. (From Department of Science and Technology, India)
 % \item Selected in IIT-Joint Entrance Exam 2010 (All India Rank - 2469), AIEEE 2010 (AIR-2604), BITSAT 2010 (Score-343)
 % \item Stood district second in mathematics competition conducted by Ramanujan Mathema-tics Academy
 % in 2008.     
-\end{innerlist}
-
-
-\section{Programming and Scripting}
-\begin{innerlist}
-\item C -- Basic Programming,
+\end{itemize}
+\paragraph{Committees}
+\begin{itemize}\itemsep0em
+    \item Served as one of the judges for International Indian Statistical Association (IISA) student paper competition for the Probability/Theory/Methodology section 2020.  
+    \item Served on the Statistical Learning and Data Science (SLDS) 2021 Student Paper Award committee.
+\end{itemize}
+\paragraph{PhD students}
+\begin{itemize}
+    \item Xiaoyi Gu (co-advised with Alessandro Rinaldo). Currently at Amazon.
+\end{itemize}
+\paragraph{Journal Review}
+Served as a reviewer for several statistical journals:
+\begin{itemize}
+    \item Annals of Statistics;
+    \item Journal of American Statistical Association;
+    \item Biometrika;
+    \item Journal of the Royal Statistical Society: Series B (Statistical Methodology);
+    \item Bernoulli;
+    \item Information and Inference;
+    \item Statistica Sinica;
+    \item Electronic Journal of Statistics;
+    \item Statistical Science;
+    \item Statistical Papers;
+    \item Statistics and Computing;
+\end{itemize}
+Also, served as a reviewer for machine learning conferences including COLT (conference on learning theory), UAI (Uncertainty in Artificial Intelligence). 
+\paragraph{Programming and Scripting}
+\begin{itemize}\itemsep0em
 \item R -- Proficient,
-\item Sage -- Basic Programming,
-\item \LaTeXe -- Proficient
-\end{innerlist}
-% I can effectively work with both windows and Linux operating systems. 
-%\section{Service}
-%Recruiting Committee, Division of Biostatistics \hfill {May 2010 -- Present}
-%\begin{innerlist}
-%    \item Assist with planning of annual Division of Biostatistics Open House and Admitted Student Visit Days
-%    \item Meet with prospective and admitted students %; answer questions from a student's perspective
-%\end{innerlist}
-%
-%\halfblankline
-%
-%Student Member of Search Committee for the \hfill {June 2010 -- Aug 2010}\\
-%SPH Coordinator of Recruitment and Student Leadership
-%\begin{innerlist}
-%    \item Assisted in job search for the SPH Coordinator of Recruitment and Student Leadership
-%    \item Reviewed applications, conducted interviews
-%\end{innerlist}
-%
-%\section{References}
-%
-%Bradley P.\ Carlin
-%\begin{innerlist}
-%\item[] Mayo Professor in Public Health, Division Head \hfill {Phone: 612-624-6646}\\
-%Division of Biostatistics \hfill{E-mail: carli002@umn.edu}\\
-%University of Minnesota
-%\end{innerlist}
-%
-%\halfblankline
-%
-%Sudipto Banerjee
-%\begin{innerlist}
-%\item[] Professor \hfill {Phone: 612-624-0624}\\
-%Division of Biostatistics \hfill{E-mail: baner009@umn.edu}\\
-%University of Minnesota
-%\end{innerlist}
-%
-%\halfblankline
-%
-%Traci Toomey
-%\begin{innerlist}
-%\item[] Professor \hfill {Phone: 612-626-9070}\\
-%Division of Epidemiology \hfill{E-mail: toome001@umn.edu}\\
-%University of Minnesota
-%\end{innerlist}
-%
-%%\section{Hardware and Software Skills}
-%\begin{comment}
-%Computer Programming:
-%%
-%\begin{innerlist}
-%    \item C, C$+$$+$, Java, JavaScript, NetLogo, Pascal, Perl, PHP,
-%        Lisp, UNIX shell scripting (including POSIX.2), GNU make,
-%        AppleScript, SQL, MySQL, \Matlab, Maple, Mathematica, and others
-%\end{innerlist}
-%
-%\halfblankline
-%\end{comment}
-
+\item C -- Basic Programming,
+\item Python -- Basic Programming.
+\end{itemize}
 \end{document}
-
-%%%%%%%%%%%%%%%%%%%%%%%%%% End CV Document %%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-%----------------------------------------------------------------------%
-% The following is copyright and licensing information for
-% redistribution of this LaTeX source code; it also includes a liability
-% statement. If this source code is not being redistributed to others,
-% it may be omitted. It has no effect on the function of the above code.
-%----------------------------------------------------------------------%
-% Copyright (c) 2007, 2008, 2009, 2010, 2011 by Theodore P. Pavlic
-%
-% Unless otherwise expressly stated, this work is licensed under the
-% Creative Commons Attribution-Noncommercial 3.0 United States License. To
-% view a copy of this license, visit
-% http://creativecommons.org/licenses/by-nc/3.0/us/ or send a letter to
-% Creative Commons, 171 Second Street, Suite 300, San Francisco,
-% California, 94105, USA.
-%
-% THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS
-% OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
-% MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.
-% IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY
-% CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT,
-% TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE
-% SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
-%----------------------------------------------------------------------%
