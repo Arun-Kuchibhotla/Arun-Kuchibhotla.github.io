@@ -484,8 +484,8 @@
 		"description": "This paper extends the minimum distance weighted likelihood estimator for the multivariate case using data depth."
 	},
 	{
-		"type": "Preprint",
-		"work_type": "Preprint",
+		"type": "Journal article",
+		"work_type": "Journal publication",
 		"id": 2,
 		"title": "Moving Beyond Sub-Gaussianity in High-dimensional Statistics: Applications in Covariance Estimation and Linear Regression",
 		"authors": [
@@ -496,7 +496,7 @@
 				"name": "Abhishek Chakrabortty"
 			}
 		],
-		"source": "arXiv:1804.02605",
+		"source": "arXiv:1804.02605. Accepted at Information and Inference: A Journal of the IMA",
 		"year": 2018,
 		"volume": 2605,
 		"citation_url": "https://arxiv.org/abs/1804.02605",

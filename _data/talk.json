@@ -1,10 +1,40 @@
 [	
-		{
+	{
+		"id": 25,
+		"title": "Median bias, HulC, and Valid Inference",
+		"meeting": "Department of Biostatistics, Virginia Commonwealth University",
+		"type": "Department Seminar",
+		"time": 2022-04-15,
+		"pdf_link": "HulC_valid_inference.pdf",
+		"record_link": "",
+		"url": "https://www.pubinfo.vcu.edu/calendar/details.asp?myVal=76554"
+	},
+	{
+		"id": 24,
+		"title": "Median bias, HulC, and Valid Inference",
+		"meeting": "Department of Statistics and Data Science, University of Pennsylvania",
+		"type": "Department Seminar",
+		"time": 2022-03-30,
+		"pdf_link": "HulC_valid_inference.pdf",
+		"record_link": "",
+		"url": "https://statistics.wharton.upenn.edu/research/seminars-conferences/"
+	},
+	{
+		"id": 23,
+		"title": "Median bias, HulC, and Valid Inference",
+		"meeting": "ISRU, Indian Statistical Institute",
+		"type": "Department Seminar",
+		"time": 2022-02-24,
+		"pdf_link": "HulC_valid_inference.pdf",
+		"record_link": "",
+		"url": ""
+	},
+	{
 		"id": 22,
 		"title": "Median bias, HulC, and Valid Inference",
 		"meeting": "Department of Statistics, University of Bristol",
 		"type": "Department Seminar",
-		"time": 2021-02-18,
+		"time": 2022-02-18,
 		"pdf_link": "HulC_valid_inference.pdf",
 		"record_link": "",
 		"url": "https://www.bristolmathsresearch.org/events/statistics/"
