@@ -1,5 +1,35 @@
 [	
 	{
+		"id": 28,
+		"title": "Refined Maximal Inequalities: Some Questions and Answers",
+		"meeting": "ICSA 2022",
+		"type": "Invited talk: session 33",
+		"time": 2022-07-02,
+		"pdf_link": "Refined_maximal_inequalities.pdf",
+		"record_link": "",
+		"url": "http://tongji.xaufe.edu.cn/icsa/Schedule.htm"
+	},
+	{
+		"id": 27,
+		"title": "Median bias, HulC, and Valid Inference",
+		"meeting": "Department of Mathematics and Statistics, Washington University",
+		"type": "Department Seminar",
+		"time": 2022-06-30,
+		"pdf_link": "HulC_Wharton.pdf",
+		"record_link": "",
+		"url": "https://math.wustl.edu/events/statistics-and-data-science-seminar-median-bias-hulc-and-valid-inference"
+	},
+	{
+		"id": 26,
+		"title": "Anytime Conformal Prediction",
+		"meeting": "IMS 2022: session IS25",
+		"type": "Invited talk",
+		"time": 2022-06-30,
+		"pdf_link": "Anytime_Conformal_Prediction.pdf",
+		"record_link": "",
+		"url": "https://www.imsannualmeeting-london2022.com/program"
+	},
+	{
 		"id": 25,
 		"title": "Median bias, HulC, and Valid Inference",
 		"meeting": "Department of Biostatistics, Virginia Commonwealth University",
