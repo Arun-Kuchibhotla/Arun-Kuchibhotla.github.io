@@ -1,5 +1,72 @@
 [
 	{
+		"title": "46-929, CMU – Financial Time Series",
+		"type": "instructor",
+		"time": [
+			{"time": "Spring 2025"},
+			{"time": "Spring 2024"},
+			{"time": "Spring 2023"}
+		]
+	},
+	{
+		"title": "46-932, CMU – Simulation Methods for Option Pricing",
+		"type": "instructor",
+		"time": [
+			{"time": "Spring 2025"},
+			{"time": "Spring 2024"},
+			{"time": "Spring 2023"}
+		]
+	},
+	{
+		"title": "36-760, CMU – Central Limit Theorems and Concentration of Measure",
+		"type": "instructor",
+		"time": [
+			{"time": "Fall 2024"}
+		]
+	},
+	{
+		"title": "36-225, CMU – Introduction to Probability",
+		"type": "instructor",
+		"time": [
+			{"time": "Fall 2022"}
+		]
+	},
+	{
+		"title": "46-929, CMU – Financial Time Series Analysis",
+		"type": "instructor",
+		"time": [
+			{"time": "Spring 2022"}
+		]
+	},
+	{
+		"title": "36-761, CMU – Modern Theory of Linear Regression",
+		"type": "instructor",
+		"time": [
+			{"time": "Fall 2021"}
+		]
+	},
+	{
+		"title": "36-760, CMU – Central Limit Theorems and Resampling",
+		"type": "instructor",
+		"time": [
+			{"time": "Fall 2021"}
+		]
+	},
+	{
+		"title": "37-761, CMU – Modern Theory of Linear Regression",
+		"type": "instructor",
+		"time": [
+			{"time": "Fall 2020"}
+		]
+	},
+	{
+		"title": "36-760, CMU – Concentration Inequalities and CLTs",
+		"type": "instructor",
+		"time": [
+			{"time": "Fall 2020"}
+		]
+	}
+	{
 		"title": "STAT 991 - TOPICS IN LINEAR MODELS",
 		"type": "instructor",
 		"time": [{"time": "Fall 2017 (jointly with Larry Brown)"}]
