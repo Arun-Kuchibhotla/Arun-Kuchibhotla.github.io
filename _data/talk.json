@@ -1,5 +1,53 @@
 [	
 	{
+    "id": 29,
+	"title": "Rate-adaptive robustly valid confidence sets for M-/Z-estimation problems",
+    "type": "Department Seminar",
+    "time": 2025-06-16,
+    "meeting": "ISOR Colloquium, University of Vienna.",
+    "url": "https://ucrisportal.univie.ac.at/en/activities/isor-colloquium-71"
+  },
+  {
+    "id": 30,
+	"title": "Robustly Valid Inference for M- and Z-estimators",
+    "type": "Invited talk",
+    "time": 2025-05-22,
+    "meeting": "International Conference on Robust Statistics, Stresa, Italy.",
+    "url": "http://datascience.maths.unitn.it/icors2025/"
+  },
+  {
+    "id": 31,
+	"title": "Adaptive Inference Techniques for Some Irregular Problems",
+    "type": "Department Seminar",
+    "time": 2025-02-03,
+    "meeting": "Princeton ORFE Wilks Memorial Seminar in Statistics",
+    "url": "https://orfe.princeton.edu/events/2025/arun-kumar-kuchibhotla-carnegie-mellon-university"
+  },
+  {
+    "id": 32,
+	"title": "Adaptive Inference Techniques for Some Irregular Problems",
+    "type": "Invited talk",
+    "time": 2025-06-13,
+    "meeting": "International Indian Statistical Association 2025",
+    "url": "https://www.intindstat.org/conference2025/index"
+  },
+  {
+    "id": 33,
+	"title": "Time uniform Computationally efficient Post-selection Inference",
+    "type": "Invited talk",
+    "time": 2024-12-17,
+    "meeting": "IMS ICSDS 2024, Nice, France.",
+    "url": "https://sites.google.com/view/ims-icsds2024/home"
+  },
+  {
+    "id": 34,
+	"title": "Some non-standard inference problems",
+    "type": "Invited talk",
+    "time": 2024-12-31,
+    "meeting": "International Indian Statistical Association 2024",
+    "url": "https://www.intindstat.org/conference2024/index"
+  },
+	{
 		"id": 28,
 		"title": "Refined Maximal Inequalities: Some Questions and Answers",
 		"meeting": "ICSA 2022",
