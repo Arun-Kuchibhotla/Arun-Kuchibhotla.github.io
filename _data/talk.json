@@ -48,6 +48,14 @@
     "url": "https://www.intindstat.org/conference2024/index"
   },
 	{
+    "id": 36,
+	"title": "Adaptive Inference Techniques for Some Irregular Problems",
+    "type": "Department Seminar",
+    "year": 2025-03-07,
+    "meeting": "Department of Statistics, University of Texas at Austin",
+    "url": "https://stat.utexas.edu/events/seminar-series/sds-seminar-series-arun-kuchibhotla-carnegie-mellon-university"
+  },
+	{
 		"id": 28,
 		"title": "Refined Maximal Inequalities: Some Questions and Answers",
 		"meeting": "ICSA 2022",
