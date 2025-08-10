@@ -4,6 +4,7 @@
 	"title": "Rate-adaptive robustly valid confidence sets for M-/Z-estimation problems",
     "type": "Department Seminar",
     "time": 2025-06-16,
+		"pdf_link": "UWien_talk_2025.pdf",
     "meeting": "ISOR Colloquium, University of Vienna.",
     "url": "https://ucrisportal.univie.ac.at/en/activities/isor-colloquium-71"
   },
@@ -12,6 +13,7 @@
 	"title": "Robustly Valid Inference for M- and Z-estimators",
     "type": "Invited talk",
     "time": 2025-05-22,
+	  "pdf_link": "ICORS_talk_2025.pdf",
     "meeting": "International Conference on Robust Statistics, Stresa, Italy.",
     "url": "http://datascience.maths.unitn.it/icors2025/"
   },
@@ -20,6 +22,7 @@
 	"title": "Adaptive Inference Techniques for Some Irregular Problems",
     "type": "Department Seminar",
     "time": 2025-02-03,
+	  "pdf_link": "Princeton_talk_2025.pdf",
     "meeting": "Princeton ORFE Wilks Memorial Seminar in Statistics",
     "url": "https://orfe.princeton.edu/events/2025/arun-kumar-kuchibhotla-carnegie-mellon-university"
   },
@@ -28,6 +31,7 @@
 	"title": "Adaptive Inference Techniques for Some Irregular Problems",
     "type": "Invited talk",
     "time": 2025-06-13,
+	  "pdf_link": "IISA_talk_2025.pdf",
     "meeting": "International Indian Statistical Association 2025",
     "url": "https://www.intindstat.org/conference2025/index"
   },
@@ -36,6 +40,7 @@
 	"title": "Time uniform Computationally efficient Post-selection Inference",
     "type": "Invited talk",
     "time": 2024-12-17,
+	  "pdf_link": "ICSDS_talk_2024.pdf",
     "meeting": "IMS ICSDS 2024, Nice, France.",
     "url": "https://sites.google.com/view/ims-icsds2024/home"
   },
@@ -44,6 +49,7 @@
 	"title": "Some non-standard inference problems",
     "type": "Invited talk",
     "time": 2024-12-31,
+	  "pdf_link": "",
     "meeting": "International Indian Statistical Association 2024",
     "url": "https://www.intindstat.org/conference2024/index"
   },
@@ -51,7 +57,8 @@
     "id": 36,
 	"title": "Adaptive Inference Techniques for Some Irregular Problems",
     "type": "Department Seminar",
-    "year": 2025-03-07,
+    "time": 2025-03-07,
+	"pdf_link": "UTAustin_talk_2025.pdf",
     "meeting": "Department of Statistics, University of Texas at Austin",
     "url": "https://stat.utexas.edu/events/seminar-series/sds-seminar-series-arun-kuchibhotla-carnegie-mellon-university"
   },
