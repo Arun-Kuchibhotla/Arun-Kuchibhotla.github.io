@@ -9,7 +9,7 @@ permalink: /
 <div class="container">
 	<div class="row">
 		<div class="col-4">
-			<img src="{{'/assets/images/PXL_20250531_091912479-EDIT.jpeg'| prepend:site.baseurl}}">
+			<img src="{{'/assets/images/PXL_20250531_091912479-EDIT.jpg'| prepend:site.baseurl}}">
 		</div>
 		<div class="col">
 			<p class="text-justify">
