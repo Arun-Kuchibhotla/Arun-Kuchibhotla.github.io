@@ -1,6 +1,15 @@
 [	
 	{
-    "id": 29,
+		"id": 36,
+		"title": "Locally adaptive nonparametric regression through shape-constrained classes",
+		"type": "Invited talk",
+		"time": 2025-07-15,
+		"pdf_link": "NSF75_talk_2025.pdf",
+		"meeting": "NSF@75: Advancing Statistical Science for a Data‑Driven World",
+		"url": "https://instats.org/seminar/nsfa75-advancing-statistical-science-for"
+	},
+	{
+    "id": 35,
 	"title": "Rate-adaptive robustly valid confidence sets for M-/Z-estimation problems",
     "type": "Department Seminar",
     "time": 2025-06-16,
@@ -9,7 +18,7 @@
     "url": "https://ucrisportal.univie.ac.at/en/activities/isor-colloquium-71"
   },
   {
-    "id": 30,
+    "id": 33,
 	"title": "Robustly Valid Inference for M- and Z-estimators",
     "type": "Invited talk",
     "time": 2025-05-22,
@@ -27,7 +36,7 @@
     "url": "https://orfe.princeton.edu/events/2025/arun-kumar-kuchibhotla-carnegie-mellon-university"
   },
   {
-    "id": 32,
+    "id": 34,
 	"title": "Adaptive Inference Techniques for Some Irregular Problems",
     "type": "Invited talk",
     "time": 2025-06-13,
@@ -36,7 +45,7 @@
     "url": "https://www.intindstat.org/conference2025/index"
   },
   {
-    "id": 33,
+    "id": 29,
 	"title": "Time uniform Computationally efficient Post-selection Inference",
     "type": "Invited talk",
     "time": 2024-12-17,
@@ -45,7 +54,7 @@
     "url": "https://sites.google.com/view/ims-icsds2024/home"
   },
   {
-    "id": 34,
+    "id": 30,
 	"title": "Some non-standard inference problems",
     "type": "Invited talk",
     "time": 2024-12-31,
@@ -54,7 +63,7 @@
     "url": "https://www.intindstat.org/conference2024/index"
   },
 	{
-    "id": 36,
+    "id": 32,
 	"title": "Adaptive Inference Techniques for Some Irregular Problems",
     "type": "Department Seminar",
     "time": 2025-03-07,
