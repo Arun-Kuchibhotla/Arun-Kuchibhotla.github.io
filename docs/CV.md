@@ -12,7 +12,7 @@ nav_order: 5
 	<div class="row">
 		<div class="col">
 <object data="{{
- '/assets/others/CV.pdf' | prepend: site.baseurl }}" width="900" height="1000" type='application/pdf'/>
+ '/assets/others/AKK_CV_Sep_2025.pdf' | prepend: site.baseurl }}" width="900" height="1000" type='application/pdf'/>
 </object>
 </div>
 </div>
