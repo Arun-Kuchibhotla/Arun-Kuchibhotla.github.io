@@ -9,7 +9,7 @@
   {% assign papers = site.data.publications | where: "work_type", type | sort: "year" | reverse %}
   {% for paper in papers %}<article class="paper" id="{{ paper.id | escape }}" data-record data-kind="{{ paper.work_type | escape }}" data-topics="{{ paper.topic | map: 'topic' | join: '|' | escape }}">
     <p class="paper-meta">{{ paper.year }}{% if paper.source and paper.source != "" %} · {{ paper.source | escape }}{% endif %}</p>
-    <h4>{{ paper.title | replace: "$n^{−1/2}$", "n⁻¹ᐟ²" | escape }}</h4>
+    <h4>{{ paper.title | escape }}</h4>
     <p class="byline">{{ paper.authors | map: "name" | join: ", " | escape }}</p>
     <div class="more-links">
       {% if paper.citation_url and paper.citation_url != "" %}<a href="{{ paper.citation_url | strip | escape }}">{% if paper.citation_url contains 'arxiv.org' %}arXiv{% else %}Paper{% endif %}</a>{% endif %}
