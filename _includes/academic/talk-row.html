@@ -1,0 +1,14 @@
+<article class="talk-row" data-record data-year="{{ talk.time | slice: 0, 4 }}">
+  <div class="date-cell">{% if talk.time.size > 4 %}<time datetime="{{ talk.time }}"><b>{{ talk.time | date: "%d" }}</b><span>{{ talk.time | date: "%b %Y" }}</span></time>{% elsif talk.time != "" %}<time datetime="{{ talk.time }}"><span>{{ talk.time }}</span></time>{% else %}<span aria-label="Date unavailable">—</span>{% endif %}</div>
+  <div class="talk-info"><h3>{{ talk.title | escape }}</h3>
+  {% if talk.subtitle %}<p class="subtitle">{{ talk.subtitle | escape }}</p>{% endif %}
+  <p class="venue">{{ talk.meeting | escape }}{% if talk.place %} · {{ talk.place | escape }}{% endif %}{% unless talk.meeting %}{{ talk.type | escape }}{% endunless %}</p>
+  {% if talk.type and talk.meeting %}<p class="archive-type">{{ talk.type | escape }}</p>{% endif %}
+  {% if talk.record_link or talk.notes_link or talk.url %}<div class="more-links">
+    {% if talk.record_link and talk.record_link != "" %}<a href="{{ talk.record_link | strip | escape }}">Recording</a>{% endif %}
+    {% if talk.notes_link and talk.notes_link != "" %}<a href="{{ talk.notes_link | strip | escape }}">Notes</a>{% endif %}
+    {% if talk.url and talk.url != "" %}<a href="{{ talk.url | strip | escape }}">Event website</a>{% endif %}
+  </div>{% endif %}</div>
+  {% if talk.pdf_link and talk.pdf_link != "" %}<a class="slides" href="/assets/others/{{ talk.pdf_link | escape }}" aria-label="Slides for {{ talk.title | escape }}"><span class="doc-icon" aria-hidden="true"></span>Slides</a>
+  {% elsif talk.pdf_weblink and talk.pdf_weblink != "" %}<a class="slides" href="{{ talk.pdf_weblink | strip | escape }}" aria-label="Slides for {{ talk.title | escape }}"><span class="doc-icon" aria-hidden="true"></span>Slides</a>{% endif %}
+</article>

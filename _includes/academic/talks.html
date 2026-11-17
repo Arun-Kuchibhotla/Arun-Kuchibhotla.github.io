@@ -1,0 +1,10 @@
+<section class="page-head"><div class="wrap"><h1>Talks</h1><p>Slides and recordings from conferences, workshops, and seminars.</p></div></section>
+<div class="wrap collection" data-collection="talks">
+  {% assign ordered = site.data.talk | sort: "time" | reverse %}
+  {% assign groups = ordered | group_by_exp: "item", "item.time | slice: 0, 4" %}
+  <div class="filters" data-controls hidden><label class="search"><span class="sr">Search talks</span><input type="search" data-search placeholder="Search titles or venues"></label>
+  <label><span class="sr">Filter talks by year</span><select data-filter="year"><option value="">All years</option>{% for group in groups %}{% if group.name != "" %}<option>{{ group.name }}</option>{% endif %}{% endfor %}</select></label></div>
+  <p class="result-count" aria-live="polite" data-count hidden></p>
+  {% for group in groups %}<section class="archive-group" data-group><h2>{% if group.name == "" %}Undated{% else %}{{ group.name }}{% endif %}</h2>
+    <div class="talk-list">{% for talk in group.items %}{% include academic/talk-row.html %}{% endfor %}</div></section>{% endfor %}
+</div>

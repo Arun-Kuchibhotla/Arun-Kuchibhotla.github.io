@@ -1,0 +1,16 @@
+<div class="paper-details">
+  {% if paper.abstract and paper.abstract != "" %}
+  <details>
+    <summary>Abstract</summary>
+    {% if paper.abstract_note %}<p class="abstract-note">{{ paper.abstract_note | escape }}</p>{% endif %}
+    <p>{{ paper.abstract | escape }}</p>
+    {% if paper.abstract_source_url %}<p class="abstract-source"><a href="{{ paper.abstract_source_url | escape }}">{{ paper.abstract_source_label | escape }}</a></p>{% endif %}
+  </details>
+  {% endif %}
+  {% if paper.description and paper.description != "" %}
+  <details>
+    <summary>Description</summary>
+    <p>{{ paper.description | escape }}</p>
+  </details>
+  {% endif %}
+</div>

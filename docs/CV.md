@@ -1,19 +1,7 @@
 ---
-layout: default
-title: CV
-nav_order: 5
+layout: academic
+title: "Curriculum vitae"
+permalink: /docs/CV/
+nav: "CV"
 ---
-
-<a href="{{
- '/assets/others/CV.pdf' | prepend: site.baseurl }}">Download</a>
-{: .no_toc }
-
-<div class="container">
-	<div class="row">
-		<div class="col">
-<object data="{{
- '/assets/others/AKK_CV_Sep_2025.pdf' | prepend: site.baseurl }}" width="900" height="1000" type='application/pdf'/>
-</object>
-</div>
-</div>
-</div>
+{% include academic/cv.html %}

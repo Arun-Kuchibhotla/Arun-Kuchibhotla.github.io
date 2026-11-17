@@ -1,0 +1,99 @@
+@font-face { font-family:"Crimson Text"; src:url("/assets/fonts/crimson-text.woff") format("woff"); font-weight:400; font-display:swap; }
+@font-face { font-family:"Crimson Text"; src:url("/assets/fonts/crimson-text-semibold.woff") format("woff"); font-weight:600; font-display:swap; }
+@font-face { font-family:"Crimson Text"; src:url("/assets/fonts/crimson-text-italic.woff") format("woff"); font-weight:400; font-style:italic; font-display:swap; }
+@font-face { font-family:"Barlow Semi Condensed"; src:url("/assets/fonts/barlow-semicondensed-medium.woff") format("woff"); font-weight:500; font-display:swap; }
+@font-face { font-family:"Barlow Semi Condensed"; src:url("/assets/fonts/barlow-semicondensed-semibold.woff") format("woff"); font-weight:600; font-display:swap; }
+@font-face { font-family:"Instrument Serif"; src:url("/assets/fonts/instrument-serif.woff") format("woff"); font-weight:400; font-display:swap; }
+@font-face { font-family:"Instrument Serif"; src:url("/assets/fonts/instrument-serif-italic.woff") format("woff"); font-weight:400; font-style:italic; font-display:swap; }
+@font-face { font-family:"Source Sans 3"; src:url("/assets/fonts/source-sans-3.woff") format("woff"); font-weight:200 900; font-display:swap; }
+
+:root {
+  --heading-face:var(--sans); --heading-weight:560; --heading-space:-.052em;
+  --name-space:-.058em; --surname-face:var(--serif); --surname-style:italic; --surname-weight:400;
+  --surname-space:-.055em; --title-face:var(--serif); --title-weight:500; --title-space:-.035em;
+}
+[data-type="crimson"] {
+  --sans:"Source Sans 3",Arial,sans-serif; --heading-face:"Crimson Text",Georgia,serif;
+  --heading-weight:600; --heading-space:-.025em; --name-space:-.031em;
+  --surname-face:var(--heading-face); --surname-space:-.035em;
+  --title-face:var(--heading-face); --title-weight:400; --title-space:-.009em;
+}
+[data-type="barlow"] {
+  --sans:"Source Sans 3",Arial,sans-serif; --heading-face:"Barlow Semi Condensed",Arial,sans-serif;
+  --heading-weight:600; --heading-space:-.016em; --name-space:-.024em;
+  --surname-face:var(--heading-face); --surname-style:normal; --surname-weight:600; --surname-space:-.024em;
+  --title-face:var(--heading-face); --title-weight:500; --title-space:0;
+}
+[data-type="instrument"] {
+  --heading-face:"Instrument Serif",Georgia,serif; --heading-weight:400;
+  --heading-space:-.009em; --name-space:-.018em;
+  --surname-face:var(--heading-face); --surname-space:-.025em;
+  --title-face:var(--sans); --title-weight:500; --title-space:-.025em;
+}
+
+.profile-copy h1,.specimen-name {
+  font-family:var(--heading-face); font-weight:var(--heading-weight); letter-spacing:var(--name-space);
+}
+.profile-copy h1 {margin:0 0 12px;}
+.profile-copy h1 em,.specimen-name em {
+  display:block; font-family:var(--surname-face); font-style:var(--surname-style);
+  font-weight:var(--surname-weight); letter-spacing:var(--surname-space); color:var(--pine);
+}
+.profile-appointment {
+  color:var(--pine);
+  font:600 clamp(15px,1.18vw,18px)/1.4 var(--sans);
+}
+.profile-appointment span {padding-inline:.17em;}
+.profile-introduction {
+  max-width:61ch;
+  margin-top:16px;
+  font:400 clamp(16px,1.23vw,18px)/1.5 var(--sans);
+}
+.profile-introduction p + p {margin-top:.65em;}
+.activity-heading h2,.home-background h2,.specimen-example h3,
+html[data-type] :is(.page-head h1,.collection>h1,.collection>h2,.collaborators>h2,.software>h2,.archive-group>h2,.archive-group>h3) {
+  font-family:var(--heading-face); font-weight:var(--heading-weight); letter-spacing:var(--heading-space);
+}
+.activity-entry h3,.specimen-example p,
+html[data-type] :is(.talk-info h3,.paper h4,.course h3) {
+  font-family:var(--title-face); font-weight:var(--title-weight); letter-spacing:var(--title-space);
+}
+
+.preview-note {background:var(--wash);border-bottom:1px solid var(--line);font:500 13px/1.4 "DM Sans",Arial,sans-serif;}
+.preview-note .wrap {display:flex;justify-content:space-between;gap:12px;align-items:center;padding-block:8px;}
+.preview-note a,.specimen-footer a {color:var(--pine);font-weight:650;text-decoration:none;}
+.preview-note a:hover,.specimen-footer a:hover {text-decoration:underline;}
+.font-board {padding-block:clamp(32px,4vw,58px) 55px;}
+.board-intro {margin:0 0 28px;}
+.board-intro h1 {font:550 clamp(38px,4.5vw,62px)/1.05 "DM Sans",Arial,sans-serif;letter-spacing:-.055em;}
+.board-intro p {margin-top:10px;color:var(--muted);}
+.specimens {display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:clamp(12px,1.5vw,24px);}
+.specimen {
+  min-width:0;display:flex;flex-direction:column;
+  border:1px solid var(--line);border-top:3px solid var(--pine);
+}
+.specimen-label,.specimen-footer {font-family:"DM Sans",Arial,sans-serif;padding:13px clamp(12px,1.2vw,20px);}
+.specimen-label {display:flex;gap:7px;justify-content:space-between;align-items:center;background:var(--wash);border-bottom:1px solid var(--line);}
+.specimen-label h2 {font:650 clamp(13px,1.12vw,16px)/1.3 "DM Sans",Arial,sans-serif;letter-spacing:-.025em;}
+.specimen-label span {font:450 11px/1.35 "DM Sans",Arial,sans-serif;color:var(--muted);}
+.specimen-body {padding:21px clamp(12px,1.2vw,20px) 15px;flex:1;}
+.specimen-name {font-size:clamp(34px,3.12vw,49px);line-height:1;}
+.specimen-name em {font-size:1.07em;line-height:1.02;}
+.specimen-role {font:450 13px/1.43 var(--sans);margin:12px 0 23px;min-height:4.29em;color:var(--muted);}
+.specimen-example {margin-top:17px;}
+.specimen-example h3 {font-size:clamp(22px,1.82vw,28px);line-height:1.12;padding-bottom:7px;border-bottom:1px solid var(--ink);}
+.specimen-example p {margin-top:9px;font-size:clamp(18px,1.45vw,22px);line-height:1.22;text-wrap:pretty;}
+.specimen-footer {padding-block:13px 15px;border-top:1px solid var(--line);}
+.specimen-footer p {font-size:12px;color:var(--muted);line-height:1.45;min-height:2.9em;margin-bottom:9px;}
+.specimen-footer a {font-size:14px;}
+@media (max-width:1050px) {
+  .specimens {grid-template-columns:repeat(2,minmax(0,1fr));gap:18px;}
+  .specimen-name {font-size:44px;}
+  .specimen-label h2 {font-size:16px;}
+  .specimen-role,.specimen-footer p {min-height:0;}
+}
+@media (max-width:575px) {
+  .specimens {grid-template-columns:1fr;}
+  .specimen-body,.specimen-label,.specimen-footer {padding-inline:20px;}
+  .specimen-name {font-size:46px;}
+}

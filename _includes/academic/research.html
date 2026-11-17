@@ -1,0 +1,30 @@
+<section class="page-head"><div class="wrap"><h1>Research articles</h1><p>I develop methods for inference and prediction under weak assumptions.</p>
+<a class="text-link ext" href="https://scholar.google.com/citations?user=k2uOCu0AAAAJ">Google Scholar</a></div></section>
+<div class="wrap collection" data-collection="papers">
+<div id="publications"></div>
+  <div class="filters" data-controls hidden><label class="search"><span class="sr">Search publications</span><input type="search" data-search placeholder="Search titles, authors, or journals"></label><label><span class="sr">Filter by topic</span><select data-filter="topics"><option value="">All topics</option></select></label><label><span class="sr">Filter by publication status</span><select data-kind-filter><option value="">All publication statuses</option><option>Published and accepted</option><option>Preprints</option><option>Working papers</option></select></label></div>
+  <p class="result-count" aria-live="polite" data-count hidden></p>
+  {% assign types = "Published and accepted,Preprints,Working papers" | split: "," %}
+  {% for type in types %}<section class="archive-group" data-group><h3 class="group-name">{{ type }}</h3>
+  {% assign papers = site.data.publications | where: "work_type", type | sort: "year" | reverse %}
+  {% for paper in papers %}<article class="paper" id="{{ paper.id | escape }}" data-record data-kind="{{ paper.work_type | escape }}" data-topics="{{ paper.topic | map: 'topic' | join: '|' | escape }}">
+    <p class="paper-meta">{{ paper.year }}{% if paper.source and paper.source != "" %} · {{ paper.source | escape }}{% endif %}</p>
+    <h4>{{ paper.title | replace: "$n^{−1/2}$", "n⁻¹ᐟ²" | escape }}</h4>
+    <p class="byline">{{ paper.authors | map: "name" | join: ", " | escape }}</p>
+    <div class="more-links">
+      {% if paper.citation_url and paper.citation_url != "" %}<a href="{{ paper.citation_url | strip | escape }}">{% if paper.citation_url contains 'arxiv.org' %}arXiv{% else %}Paper{% endif %}</a>{% endif %}
+      {% if paper.citation_link and paper.citation_link != "" %}<a href="/assets/others/{{ paper.citation_link | escape }}">PDF</a>{% endif %}
+      {% if paper.journal_url and paper.journal_url != "" %}<a href="{{ paper.journal_url | strip | escape }}">Published version</a>{% endif %}
+      {% if paper.earlier_url %}<a href="{{ paper.earlier_url | escape }}">Earlier manuscript</a>{% endif %}
+      {% if paper.code_url and paper.code_url != "" %}<a href="{{ paper.code_url | strip | escape }}">Code</a>{% endif %}
+    </div>
+    {% include academic/paper-details.html %}
+  </article>{% endfor %}</section>{% endfor %}
+  <section class="software"><h2>Software</h2><p><a href="https://cran.r-project.org/package=simest">simest</a> · R package for constrained single-index model estimation.</p></section>
+  <section id="collaborators" class="collaborators"><h2>Collaborators</h2>
+    <p>Co-authors listed on this page, with the number of papers listed together.</p>
+    <div id="coauthors"></div>
+    <script type="application/json" id="author-profiles">{{ site.data.coauthors | jsonify }}</script>
+    <noscript><p>See the author lists above.</p></noscript>
+  </section>
+</div>

@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="en"{% if page.nav != "Font options" %} data-type="crimson"{% endif %}>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{% if page.nav != "Home" %}{{ page.title | escape }} | {% endif %}Arun Kumar Kuchibhotla</title>
+  <meta name="description" content="Academic website of Arun Kumar Kuchibhotla, Associate Professor of Statistics and Data Science at Carnegie Mellon University. Research, talks, slides, and teaching.">
+  <link rel="icon" href="/assets/images/academic-mark.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="/assets/css/academic.css">
+  <link rel="stylesheet" href="/assets/css/type-options.css">
+  <script src="/assets/js/type-preview.js"></script>
+  <script src="/assets/js/academic.js" defer></script>
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<header class="mast"><div class="wrap bar">
+  <a class="brand" href="/" aria-label="Arun Kumar Kuchibhotla, home"><span class="monogram" aria-hidden="true">AKK</span><span class="wordmark">Arun K. Kuchibhotla</span></a>
+  <nav aria-label="Main navigation">
+    <a href="/" {% if page.nav == "Home" %}aria-current="page"{% endif %}>Home</a>
+    <a href="/docs/research/" {% if page.nav == "Research" %}aria-current="page"{% endif %}>Research</a>
+    <a href="/docs/talk/" {% if page.nav == "Talks" %}aria-current="page"{% endif %}>Talks</a>
+    <a href="/docs/teaching/" {% if page.nav == "Teaching" %}aria-current="page"{% endif %}>Teaching</a>
+    <a href="/docs/CV/" {% if page.nav == "CV" %}aria-current="page"{% endif %}>CV</a>
+  </nav>
+</div></header>
+<aside class="preview-note" hidden aria-label="Font preview"><div class="wrap"><span data-preview-label></span><a href="/font-options/">Compare all four fonts <span aria-hidden="true">→</span></a></div></aside>
+<main id="main">{{ content }}</main>
+<footer class="foot" id="contact"><div class="wrap foot-inner">
+  <div><div class="signature">Arun Kumar Kuchibhotla</div><p>Department of Statistics &amp; Data Science<br>Carnegie Mellon University</p></div>
+  <div><h2>Contact</h2><a href="mailto:arunku@cmu.edu">arunku@cmu.edu</a><p>Baker Hall, 4909 Frew St<br>Pittsburgh, PA 15213 · <a href="tel:+14122682803">+1 412 268 2803</a></p></div>
+  <div><h2>Academic profiles</h2><a class="ext" href="https://scholar.google.com/citations?user=k2uOCu0AAAAJ">Google Scholar</a><br><a class="ext" href="https://orcid.org/0000-0003-4459-5352">ORCID</a></div>
+</div></footer>
+</body>
+</html>

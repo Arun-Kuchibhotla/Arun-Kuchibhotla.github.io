@@ -1,0 +1,25 @@
+<div class="wrap font-board">
+  <header class="board-intro">
+    <h1>Font options</h1>
+    <p>Compare your name, section headings, and titles side by side. Open any option to read the full site in that typeface.</p>
+  </header>
+  {% assign sample_papers = site.data.publications | where: "id", "arxiv-2604-01470" %}
+  {% assign sample_talks = site.data.talk | where: "id", 43 %}
+  <div class="specimens">
+    {% for option in site.data.type_options %}
+    <section class="specimen" data-type="{{ option.key }}" aria-labelledby="label-{{ option.key }}">
+      <header class="specimen-label">
+        <h2 id="label-{{ option.key }}">{{ option.label | escape }}</h2>
+        {% if option.key == "crimson" %}<span>Current</span>{% endif %}
+      </header>
+      <div class="specimen-body">
+        <p class="specimen-name">Arun Kumar <em>Kuchibhotla</em></p>
+        <p class="specimen-role">Associate Professor of Statistics &amp; Data Science<br>Carnegie Mellon University</p>
+        <div class="specimen-example"><h3>Recent preprints</h3>{% for paper in sample_papers %}<p>{{ paper.title | escape }}</p>{% endfor %}</div>
+        <div class="specimen-example"><h3>Recent talks</h3>{% for talk in sample_talks %}<p>{{ talk.title | escape }}</p>{% endfor %}</div>
+      </div>
+      <footer class="specimen-footer"><p>{{ option.pairing | escape }}</p><a href="/?font={{ option.key }}" aria-label="Preview the website in {{ option.label | escape }}">View on website <span aria-hidden="true">→</span></a></footer>
+    </section>
+    {% endfor %}
+  </div>
+</div>

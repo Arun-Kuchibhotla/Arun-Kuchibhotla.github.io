@@ -1,351 +1,430 @@
-[	
-	{
-		"id": 36,
-		"title": "Locally adaptive nonparametric regression through shape-constrained classes",
-		"type": "Invited talk",
-		"time": 2025-07-15,
-		"pdf_link": "NSF75_talk_2025.pdf",
-		"meeting": "NSF@75: Advancing Statistical Science for a Data‑Driven World",
-		"url": "https://instats.org/seminar/nsfa75-advancing-statistical-science-for"
-	},
-	{
+[
+  {
+    "id": 47,
+    "title": "Mean-Median gaps in real line and Inference in Infinite-dimensions",
+    "meeting": "Statistical Foundations of AI, UC Santa Barbara",
+    "time": "2026-11-13",
+    "pdf_link": "Statistical_Foundations_of_AI_UCSB_2026.pdf"
+  },
+  {
+    "id": 46,
+    "title": "Statistical Inference for Linear Programming Problems: Debiasing and Regularity",
+    "meeting": "ASA Statistical Learning and Data Science",
+    "time": "2026-11-03",
+    "pdf_link": "ASA_Statistical_Learning_and_Data_Science_2026.pdf"
+  },
+  {
+    "id": 45,
+    "title": "Adaptive and Asymptotically Valid Inference for Regularized Problems",
+    "meeting": "Workshop on Selective Inference, Indian School of Business, Hyderabad",
+    "time": "2026-11-02",
+    "pdf_link": "ISB_Hyderabad_Workshop_on_Selective_Inference_2026.pdf"
+  },
+  {
+    "id": 44,
+    "title": "Some comments on Inference under Irregularity",
+    "meeting": "Statistics Seminar, George Mason University",
+    "time": "2026-10-16",
+    "pdf_link": "George_Mason_University_Statistics_Seminar_2026.pdf"
+  },
+  {
+    "id": 43,
+    "title": "Multiply Robust Prediction Sets for Missing Data",
+    "meeting": "Joint Statistical Meetings, Invited Session",
+    "time": "2026-08-06",
+    "pdf_link": "JSM_Invited_Session_2026.pdf"
+  },
+  {
+    "id": 42,
+    "title": "From Theory to Practice: Modernizing Inference for Independent and Dependent Data",
+    "meeting": "Joint Statistical Meetings, Noether Award Session",
+    "time": "2026-08-05",
+    "pdf_link": "JSM_Neother_2026.pdf"
+  },
+  {
+    "id": 41,
+    "title": "Statistical Inference: Beyond CLT and Beyond Independence.",
+    "meeting": "IMS Annual Meeting, Salzburg",
+    "time": "2026-07-07",
+    "pdf_link": "IMS_Annual_Meeting_Salzburg_2026.pdf",
+    "subtitle": "Dimension-agnostic Rate-optimal Inference"
+  },
+  {
+    "id": 40,
+    "title": "Inference in monotone regression with applications to Lipschitz regression",
+    "meeting": "International Symposium on Nonparametric Statistics",
+    "time": "2026-06-22",
+    "pdf_link": "Internation_Symposium_on_Nonparametric_Statistics_2026.pdf"
+  },
+  {
+    "id": 39,
+    "title": "Rate-adaptive robustly valid confidence sets for M-/Z-estimation problems",
+    "meeting": "Kent State University Colloquium",
+    "time": "2026-03-05",
+    "pdf_link": "Kent_State_University-Colloquim_2026.pdf"
+  },
+  {
+    "id": 38,
+    "title": "Some probability inequalities with applications to statistical inference",
+    "meeting": "Statistics Seminar, Indian Statistical Institute, Delhi",
+    "time": "2026-01-06",
+    "pdf_link": "ISI_Delhi_Statistics_Seminar_2026.pdf"
+  },
+  {
+    "id": 37,
+    "title": "Statistical Properties of Rectified Flow",
+    "meeting": "MaLGa Seminar, University of Genova, Italy",
+    "time": "2025-12-04",
+    "pdf_link": "University_of_Geneva_Machine_Learning_Group_2025.pdf",
+    "url": "https://malga.unige.it/seminars/17403"
+  },
+  {
+    "id": 36,
+    "title": "Locally adaptive nonparametric regression through shape-constrained classes",
+    "type": "Invited talk",
+    "time": "2025-07-15",
+    "pdf_link": "NSF75_talk_2025.pdf",
+    "meeting": "NSF@75: Advancing Statistical Science for a Data‑Driven World",
+    "url": "https://instats.org/seminar/nsfa75-advancing-statistical-science-for"
+  },
+  {
     "id": 35,
-	"title": "Rate-adaptive robustly valid confidence sets for M-/Z-estimation problems",
+    "title": "Rate-adaptive robustly valid confidence sets for M-/Z-estimation problems",
     "type": "Department Seminar",
-    "time": 2025-06-16,
-		"pdf_link": "UWien_talk_2025.pdf",
+    "time": "2025-06-16",
+    "pdf_link": "UWien_talk_2025.pdf",
     "meeting": "ISOR Colloquium, University of Vienna.",
     "url": "https://ucrisportal.univie.ac.at/en/activities/isor-colloquium-71"
   },
   {
     "id": 33,
-	"title": "Robustly Valid Inference for M- and Z-estimators",
+    "title": "Robustly Valid Inference for M- and Z-estimators",
     "type": "Invited talk",
-    "time": 2025-05-22,
-	  "pdf_link": "ICORS_talk_2025.pdf",
+    "time": "2025-05-22",
+    "pdf_link": "ICORS_talk_2025.pdf",
     "meeting": "International Conference on Robust Statistics, Stresa, Italy.",
     "url": "http://datascience.maths.unitn.it/icors2025/"
   },
   {
     "id": 31,
-	"title": "Adaptive Inference Techniques for Some Irregular Problems",
+    "title": "Adaptive Inference Techniques for Some Irregular Problems",
     "type": "Department Seminar",
-    "time": 2025-02-03,
-	  "pdf_link": "Princeton_talk_2025.pdf",
+    "time": "2025-02-03",
+    "pdf_link": "Princeton_talk_2025.pdf",
     "meeting": "Princeton ORFE Wilks Memorial Seminar in Statistics",
     "url": "https://orfe.princeton.edu/events/2025/arun-kumar-kuchibhotla-carnegie-mellon-university"
   },
   {
     "id": 34,
-	"title": "Adaptive Inference Techniques for Some Irregular Problems",
+    "title": "Adaptive Inference Techniques for Some Irregular Problems",
     "type": "Invited talk",
-    "time": 2025-06-13,
-	  "pdf_link": "IISA_talk_2025.pdf",
+    "time": "2025-06-13",
+    "pdf_link": "IISA_talk_2025.pdf",
     "meeting": "International Indian Statistical Association 2025",
     "url": "https://www.intindstat.org/conference2025/index"
   },
   {
     "id": 29,
-	"title": "Time uniform Computationally efficient Post-selection Inference",
+    "title": "Time uniform Computationally efficient Post-selection Inference",
     "type": "Invited talk",
-    "time": 2024-12-17,
-	  "pdf_link": "ICSDS_talk_2024.pdf",
+    "time": "2024-12-17",
+    "pdf_link": "ICSDS_talk_2024.pdf",
     "meeting": "IMS ICSDS 2024, Nice, France.",
     "url": "https://sites.google.com/view/ims-icsds2024/home"
   },
   {
     "id": 30,
-	"title": "Some non-standard inference problems",
+    "title": "Some non-standard inference problems",
     "type": "Invited talk",
-    "time": 2024-12-31,
-	  "pdf_link": "",
+    "time": "2024-12-31",
+    "pdf_link": "",
     "meeting": "International Indian Statistical Association 2024",
     "url": "https://www.intindstat.org/conference2024/index"
   },
-	{
+  {
     "id": 32,
-	"title": "Adaptive Inference Techniques for Some Irregular Problems",
+    "title": "Adaptive Inference Techniques for Some Irregular Problems",
     "type": "Department Seminar",
-    "time": 2025-03-07,
-	"pdf_link": "UTAustin_talk_2025.pdf",
+    "time": "2025-03-07",
+    "pdf_link": "UTAustin_talk_2025.pdf",
     "meeting": "Department of Statistics, University of Texas at Austin",
     "url": "https://stat.utexas.edu/events/seminar-series/sds-seminar-series-arun-kuchibhotla-carnegie-mellon-university"
   },
-	{
-		"id": 28,
-		"title": "Refined Maximal Inequalities: Some Questions and Answers",
-		"meeting": "ICSA 2022",
-		"type": "Invited talk: session 33",
-		"time": 2022-07-02,
-		"pdf_link": "Refined_maximal_inequalities.pdf",
-		"record_link": "",
-		"url": "http://tongji.xaufe.edu.cn/icsa/Schedule.htm"
-	},
-	{
-		"id": 27,
-		"title": "Median bias, HulC, and Valid Inference",
-		"meeting": "Department of Mathematics and Statistics, Washington University",
-		"type": "Department Seminar",
-		"time": 2022-06-30,
-		"pdf_link": "HulC_Wharton.pdf",
-		"record_link": "",
-		"url": "https://math.wustl.edu/events/statistics-and-data-science-seminar-median-bias-hulc-and-valid-inference"
-	},
-	{
-		"id": 26,
-		"title": "Anytime Conformal Prediction",
-		"meeting": "IMS 2022: session IS25",
-		"type": "Invited talk",
-		"time": 2022-06-30,
-		"pdf_link": "Anytime_Conformal_Prediction.pdf",
-		"record_link": "",
-		"url": "https://www.imsannualmeeting-london2022.com/program"
-	},
-	{
-		"id": 25,
-		"title": "Median bias, HulC, and Valid Inference",
-		"meeting": "Department of Biostatistics, Virginia Commonwealth University",
-		"type": "Department Seminar",
-		"time": 2022-04-15,
-		"pdf_link": "HulC_Wharton.pdf",
-		"record_link": "",
-		"url": "https://www.pubinfo.vcu.edu/calendar/details.asp?myVal=76554"
-	},
-	{
-		"id": 24,
-		"title": "Median bias, HulC, and Valid Inference",
-		"meeting": "Department of Statistics and Data Science, University of Pennsylvania",
-		"type": "Department Seminar",
-		"time": 2022-03-30,
-		"pdf_link": "HulC_Wharton.pdf",
-		"record_link": "",
-		"url": "https://statistics.wharton.upenn.edu/research/seminars-conferences/"
-	},
-	{
-		"id": 23,
-		"title": "Median bias, HulC, and Valid Inference",
-		"meeting": "ISRU, Indian Statistical Institute",
-		"type": "Department Seminar",
-		"time": 2022-02-24,
-		"pdf_link": "HulC_valid_inference.pdf",
-		"record_link": "",
-		"url": ""
-	},
-	{
-		"id": 22,
-		"title": "Median bias, HulC, and Valid Inference",
-		"meeting": "Department of Statistics, University of Bristol",
-		"type": "Department Seminar",
-		"time": 2022-02-18,
-		"pdf_link": "HulC_valid_inference.pdf",
-		"record_link": "",
-		"url": "https://www.bristolmathsresearch.org/events/statistics/"
-	},
-	{
-		"id": 21,
-		"title": "The HulC: Hull based Confidence Regions",
-		"meeting": "Department of Statistics, University of Wisconsin-Madison",
-		"type": "Department Seminar",
-		"time": 2021-11-03,
-		"pdf_link": "HulC_JHU2021.pdf",
-		"record_link": "",
-		"url": "https://today.wisc.edu/events/view/164421"
-	},
-	{
-		"id": 20,
-		"title": "The HulC: Hull based Confidence Regions",
-		"meeting": "Department of Biostatistics, Johns Hopkins University",
-		"type": "Department Seminar",
-		"time": 2021-10-18,
-		"pdf_link": "HulC_JHU2021.pdf",
-		"record_link": "",
-		"url": "https://publichealth.jhu.edu/departments/biostatistics/news-and-events/current-seminars"
-	},
-	{
-		"id": 19,
-		"title": "The HulC: Hull based Confidence Regions",
-		"meeting": "Department of Statistics, McGill University",
-		"type": "Department Seminar",
-		"time": 2021-10-01,
-		"pdf_link": "HulC_IIMB2021.pdf",
-		"record_link": "",
-		"url": "https://mcgillstat.github.io/"
-	},
-	{
-		"id": 18,
-		"title": "The HulC: Hull based Confidence Regions",
-		"meeting": "IIM, Bangalore",
-		"type": "Department Seminar",
-		"time": 2021-07-16,
-		"pdf_link": "HulC_IIMB2021.pdf",
-		"record_link": "",
-		"url": "https://www.iimb.ac.in/ds-webinar-series-2021-22"
-	},
-	{
-		"id": 17,
-		"title": "Post-selection inference: some answers and some questions",
-		"meeting": "ICSA 2021: Applied Statistics Symposium",
-		"type": "Invited talk",
-		"time": 2021-09-13,
-		"pdf_link": "ICSA_2021_Arun.pdf",
-		"record_link": "",
-		"url": "https://symposium2021.icsa.org/program/"
-	},
-	{
-		"id": 16,
-		"title": "The HulC: Hull based Confidence Regions",
-		"meeting": "WSC 2021",
-		"type": "Invited talk",
-		"time": 2021-07-16,
-		"pdf_weblink": "https://docs.google.com/presentation/d/1NQAMv_Er5Mq7ZirqOzVPE0mOeSHF60kl7lzSy_QgtU8/edit?usp=sharing",
-		"record_link": "https://youtu.be/BQEywOvNEGw",
-		"url": "https://www.isi2021.org/"
-	},
-	{
-		"id": 15,
-		"title": "The HulC: Hull based Confidence Regions",
-		"meeting": "IISA 2021",
-		"type": "Invited talk",
-		"time": 2021-05-20,
-		"pdf_link": "The_HulC_IISA_2021.pdf",
-		"url": "https://www.intindstat.org/summerConference2021/scprogCommittee"
-	},
-	{
-		"id": 14,
-		"title": "Optimality in Universal Post-selection Inference ",
-		"meeting": "ISSI",
-		"type": "Invited talk",
-		"time": 2020-07-16,
-		"pdf_weblink": "https://drive.google.com/file/d/1jFiJdCdyTrngTPxyWqjTSgeFTOcdc564/view",
-		"record_link": "https://drive.google.com/file/d/1Ce41mU5J_9BTJp__1xhKNMDPCjpYS_Ah/view",
-		"notes_link": "https://drive.google.com/file/d/1_kis-fb3RbJRE0bLmOrmkOhc3tW111PF/view",
-		"url": "https://www.selectiveinferenceseminar.com/home"
-	},
-	{
-		"id": 13,
-		"title": "Valid Post-selection Inference: Why and How",
-		"type": "Job talk",
-		"time": "",
-		"pdf_link": "JobTalk_covariate_selection_only.pdf"
-	},
-	{
-		"id": 12,
-		"title": "Valid Post-selection Inference in Model-free Linear Regression",
-		"type": "Invited talk",
-		"time": 2019-12-14,
-		"meeting": "MCP",
-		"place": "National Taiwan University, Taipei, Taiwan",
-		"pdf_link": "MCP_2019_Arun.pdf",
-		"url": "http://www.mcp-conference.org/hp/2019/"
-	},
-	{
-		"id": 11,
-		"title": "Randomness-free Study of M-estimators: NBK Inequalities",
-		"type": "Invited talk",
-		"time": 2019-07-03,
-		"meeting": "ICSA",
-		"place": "Nankai University, Tianjin, China",
-		"pdf_link": "ICSA_2019_07_03.pdf",
-		"url": "http://www.icsa.org/icsa/events/2019-icsa-china-conference"
-	},
-	{
-		"id": 10,
-		"title": "Post-selection Inference for all (using NBK Inequalities)",
-		"type": "Invited talk",
-		"time": 2019-08-19,
-		"meeting": "WHOA-PSI-4",
-		"place": "St. Louis, MO",
-		"pdf_link": "WHOA-PSI-4.pdf",
-		"url": "https://www.math.wustl.edu/~kuffner/WHOA-PSI-4.html"
-	},
-	{
-		"id": 9,
-		"title": "Randomness-free Study of M-estimators: NBK Inequalities",
-		"type": "Invited talk",
-		"time": 2019-07-30,
-		"meeting": "JSM",
-		"place": "Denver, CO",
-		"pdf_link": "JSM_2019_07_30V2.pdf",
-		"url": ""
-	},
-	{
-		"id": 8,
-		"title": "Construction of PoSI Statistics",
-		"type": "Shared a talk with Andreas Buja",
-		"time": 2018,
-		"meeting": "WHOA-PSI-3",
-		"place": "St. Louis, MO",
-		"pdf_link": "WHOA-PSI-3.pdf",
-		"url": "https://www.math.wustl.edu/~kuffner/WHOA-PSI-3.html"
-	},
-	{
-		"id": 7,
-		"title": "Uniform Linear Representation for Post-selection Inference",
-		"type": "Invited talk representing Larry Brown",
-		"time": 2018,
-		"meeting": "Workshop Model Selection, Regularization, and Inference",
-		"place": "University of Vienna, Vienna, Austria",
-		"pdf_link": "UniformLinearRepresentation.pdf",
-		"url": " https://www.univie.ac.at/seam/inference2018/"
-	},
-	{
-		"id": 6,
-		"title": "Recent Developments in Post-selection Inference",
-		"type": "Invited talk",
-		"time": 2018,
-		"meeting": "Larry Brown's Memorial Workshop",
-		"place": "University of Pennsylvania, Philadelphia, PA",
-		"pdf_link": "Larry_Memorial.pdf",
-		"url": "https://cccfran.github.io/larrybrown2018/"
-	},
-	{
-		"id": 5,
-		"title": "Post-Selection Inference and Misspecification",
-		"type": "Shared a talk with Andreas Buja",
-		"time": 2018,
-		"meeting": "SLDSC",
-		"place": "Columbia University, New York, NY",
-		"pdf_link": "SLDSC_2018.pdf",
-		"url": "https://publish.illinois.edu/sldsc2018/"
-	},
-	{
-		"id": 4,
-		"title": "Validity First, Optimality Next",
-		"type": "Shared a talk with Andreas Buja",
-		"time": 2017,
-		"meeting": "WHOA-PSI-2",
-		"place": "St. Louis, MO",
-		"pdf_link": "WHOA-PSI-2.pdf",
-		"url": "https://www.math.wustl.edu/~kuffner/WHOA-PSI-2.html"
-	},
-	{
-		"id": 3,
-		"title": "Testing in Additive and Projection Pursuit Models",
-		"type": "Special Topics Session",
-		"time": 2015,
-		"meeting": "World Statistics Congress",
-		"place": "Rio de Janeiro, Brazil",
-		"pdf_link": "WSC15.pdf",
-		"url": "http://www.isi2015.ibge.gov.br/"
-	},
-	{
-		"id": 2,
-		"title": "Robust Non-Parametric Curve Estimation using Density Power Divergences",
-		"type": "Contributed talk",
-		"time": 2015,
-		"meeting": "ICORS",
-		"place": "ISI, Kolkata",
-		"pdf_link": "ICORS15.pdf",
-		"url": "https://www.isical.ac.in/~icors2015/"
-	},
-	{
-		"id": 1,
-		"title": "Minimum Distance Weighted Likelihood",
-		"type": "Contributed talk",
-		"time": 2014,
-		"meeting": "ICORS",
-		"place": "ISI, Kolkata",
-		"pdf_link": "ICORS14.pdf",
-		"url": "https://statistik.wiwi.uni-halle.de/icors2014/"
-	}
+  {
+    "id": 28,
+    "title": "Refined Maximal Inequalities: Some Questions and Answers",
+    "meeting": "ICSA 2022",
+    "type": "Invited talk: session 33",
+    "time": "2022-07-02",
+    "pdf_link": "Refined_maximal_inequalities.pdf",
+    "record_link": "",
+    "url": "http://tongji.xaufe.edu.cn/icsa/Schedule.htm"
+  },
+  {
+    "id": 27,
+    "title": "Median bias, HulC, and Valid Inference",
+    "meeting": "Department of Mathematics and Statistics, Washington University",
+    "type": "Department Seminar",
+    "time": "2022-06-30",
+    "pdf_link": "HulC_Wharton.pdf",
+    "record_link": "",
+    "url": "https://math.wustl.edu/events/statistics-and-data-science-seminar-median-bias-hulc-and-valid-inference"
+  },
+  {
+    "id": 26,
+    "title": "Anytime Conformal Prediction",
+    "meeting": "IMS 2022: session IS25",
+    "type": "Invited talk",
+    "time": "2022-06-30",
+    "pdf_link": "Anytime_Conformal_Prediction.pdf",
+    "record_link": "",
+    "url": "https://www.imsannualmeeting-london2022.com/program"
+  },
+  {
+    "id": 25,
+    "title": "Median bias, HulC, and Valid Inference",
+    "meeting": "Department of Biostatistics, Virginia Commonwealth University",
+    "type": "Department Seminar",
+    "time": "2022-04-15",
+    "pdf_link": "HulC_Wharton.pdf",
+    "record_link": "",
+    "url": "https://www.pubinfo.vcu.edu/calendar/details.asp?myVal=76554"
+  },
+  {
+    "id": 24,
+    "title": "Median bias, HulC, and Valid Inference",
+    "meeting": "Department of Statistics and Data Science, University of Pennsylvania",
+    "type": "Department Seminar",
+    "time": "2022-03-30",
+    "pdf_link": "HulC_Wharton.pdf",
+    "record_link": "",
+    "url": "https://statistics.wharton.upenn.edu/research/seminars-conferences/"
+  },
+  {
+    "id": 23,
+    "title": "Median bias, HulC, and Valid Inference",
+    "meeting": "ISRU, Indian Statistical Institute",
+    "type": "Department Seminar",
+    "time": "2022-02-24",
+    "pdf_link": "HulC_valid_inference.pdf",
+    "record_link": "",
+    "url": ""
+  },
+  {
+    "id": 22,
+    "title": "Median bias, HulC, and Valid Inference",
+    "meeting": "Department of Statistics, University of Bristol",
+    "type": "Department Seminar",
+    "time": "2022-02-18",
+    "pdf_link": "HulC_valid_inference.pdf",
+    "record_link": "",
+    "url": "https://www.bristolmathsresearch.org/events/statistics/"
+  },
+  {
+    "id": 21,
+    "title": "The HulC: Hull based Confidence Regions",
+    "meeting": "Department of Statistics, University of Wisconsin-Madison",
+    "type": "Department Seminar",
+    "time": "2021-11-03",
+    "pdf_link": "HulC_JHU2021.pdf",
+    "record_link": "",
+    "url": "https://today.wisc.edu/events/view/164421"
+  },
+  {
+    "id": 20,
+    "title": "The HulC: Hull based Confidence Regions",
+    "meeting": "Department of Biostatistics, Johns Hopkins University",
+    "type": "Department Seminar",
+    "time": "2021-10-18",
+    "pdf_link": "HulC_JHU2021.pdf",
+    "record_link": "",
+    "url": "https://publichealth.jhu.edu/departments/biostatistics/news-and-events/current-seminars"
+  },
+  {
+    "id": 19,
+    "title": "The HulC: Hull based Confidence Regions",
+    "meeting": "Department of Statistics, McGill University",
+    "type": "Department Seminar",
+    "time": "2021-10-01",
+    "pdf_link": "HulC_IIMB2021.pdf",
+    "record_link": "",
+    "url": "https://mcgillstat.github.io/"
+  },
+  {
+    "id": 18,
+    "title": "The HulC: Hull based Confidence Regions",
+    "meeting": "IIM, Bangalore",
+    "type": "Department Seminar",
+    "time": "2021-07-16",
+    "pdf_link": "HulC_IIMB2021.pdf",
+    "record_link": "",
+    "url": "https://www.iimb.ac.in/ds-webinar-series-2021-22"
+  },
+  {
+    "id": 17,
+    "title": "Post-selection inference: some answers and some questions",
+    "meeting": "ICSA 2021: Applied Statistics Symposium",
+    "type": "Invited talk",
+    "time": "2021-09-13",
+    "pdf_link": "ICSA_2021_Arun.pdf",
+    "record_link": "",
+    "url": "https://symposium2021.icsa.org/program/"
+  },
+  {
+    "id": 16,
+    "title": "The HulC: Hull based Confidence Regions",
+    "meeting": "WSC 2021",
+    "type": "Invited talk",
+    "time": "2021-07-16",
+    "pdf_weblink": "https://docs.google.com/presentation/d/1NQAMv_Er5Mq7ZirqOzVPE0mOeSHF60kl7lzSy_QgtU8/edit?usp=sharing",
+    "record_link": "https://youtu.be/BQEywOvNEGw",
+    "url": "https://www.isi2021.org/"
+  },
+  {
+    "id": 15,
+    "title": "The HulC: Hull based Confidence Regions",
+    "meeting": "IISA 2021",
+    "type": "Invited talk",
+    "time": "2021-05-20",
+    "pdf_link": "The_HulC_IISA_2021.pdf",
+    "url": "https://www.intindstat.org/summerConference2021/scprogCommittee"
+  },
+  {
+    "id": 14,
+    "title": "Optimality in Universal Post-selection Inference ",
+    "meeting": "ISSI",
+    "type": "Invited talk",
+    "time": "2020-07-16",
+    "pdf_weblink": "https://drive.google.com/file/d/1jFiJdCdyTrngTPxyWqjTSgeFTOcdc564/view",
+    "record_link": "https://drive.google.com/file/d/1Ce41mU5J_9BTJp__1xhKNMDPCjpYS_Ah/view",
+    "notes_link": "https://drive.google.com/file/d/1_kis-fb3RbJRE0bLmOrmkOhc3tW111PF/view",
+    "url": "https://www.selectiveinferenceseminar.com/home"
+  },
+  {
+    "id": 13,
+    "title": "Valid Post-selection Inference: Why and How",
+    "type": "Job talk",
+    "time": "",
+    "pdf_link": "JobTalk_covariate_selection_only.pdf"
+  },
+  {
+    "id": 12,
+    "title": "Valid Post-selection Inference in Model-free Linear Regression",
+    "type": "Invited talk",
+    "time": "2019-12-14",
+    "meeting": "MCP",
+    "place": "National Taiwan University, Taipei, Taiwan",
+    "pdf_link": "MCP_2019_Arun.pdf",
+    "url": "http://www.mcp-conference.org/hp/2019/"
+  },
+  {
+    "id": 11,
+    "title": "Randomness-free Study of M-estimators: NBK Inequalities",
+    "type": "Invited talk",
+    "time": "2019-07-03",
+    "meeting": "ICSA",
+    "place": "Nankai University, Tianjin, China",
+    "pdf_link": "ICSA_2019_07_03.pdf",
+    "url": "http://www.icsa.org/icsa/events/2019-icsa-china-conference"
+  },
+  {
+    "id": 10,
+    "title": "Post-selection Inference for all (using NBK Inequalities)",
+    "type": "Invited talk",
+    "time": "2019-08-19",
+    "meeting": "WHOA-PSI-4",
+    "place": "St. Louis, MO",
+    "pdf_link": "WHOA-PSI-4.pdf",
+    "url": "https://www.math.wustl.edu/~kuffner/WHOA-PSI-4.html"
+  },
+  {
+    "id": 9,
+    "title": "Randomness-free Study of M-estimators: NBK Inequalities",
+    "type": "Invited talk",
+    "time": "2019-07-30",
+    "meeting": "JSM",
+    "place": "Denver, CO",
+    "pdf_link": "JSM_2019_07_30V2.pdf",
+    "url": ""
+  },
+  {
+    "id": 8,
+    "title": "Construction of PoSI Statistics",
+    "type": "Shared a talk with Andreas Buja",
+    "time": "2018",
+    "meeting": "WHOA-PSI-3",
+    "place": "St. Louis, MO",
+    "pdf_link": "WHOA-PSI-3.pdf",
+    "url": "https://www.math.wustl.edu/~kuffner/WHOA-PSI-3.html"
+  },
+  {
+    "id": 7,
+    "title": "Uniform Linear Representation for Post-selection Inference",
+    "type": "Invited talk representing Larry Brown",
+    "time": "2018",
+    "meeting": "Workshop Model Selection, Regularization, and Inference",
+    "place": "University of Vienna, Vienna, Austria",
+    "pdf_link": "UniformLinearRepresentation.pdf",
+    "url": " https://www.univie.ac.at/seam/inference2018/"
+  },
+  {
+    "id": 6,
+    "title": "Recent Developments in Post-selection Inference",
+    "type": "Invited talk",
+    "time": "2018",
+    "meeting": "Larry Brown's Memorial Workshop",
+    "place": "University of Pennsylvania, Philadelphia, PA",
+    "pdf_link": "Larry_Memorial.pdf",
+    "url": "https://cccfran.github.io/larrybrown2018/"
+  },
+  {
+    "id": 5,
+    "title": "Post-Selection Inference and Misspecification",
+    "type": "Shared a talk with Andreas Buja",
+    "time": "2018",
+    "meeting": "SLDSC",
+    "place": "Columbia University, New York, NY",
+    "pdf_link": "SLDSC_2018.pdf",
+    "url": "https://publish.illinois.edu/sldsc2018/"
+  },
+  {
+    "id": 4,
+    "title": "Validity First, Optimality Next",
+    "type": "Shared a talk with Andreas Buja",
+    "time": "2017",
+    "meeting": "WHOA-PSI-2",
+    "place": "St. Louis, MO",
+    "pdf_link": "WHOA-PSI-2.pdf",
+    "url": "https://www.math.wustl.edu/~kuffner/WHOA-PSI-2.html"
+  },
+  {
+    "id": 3,
+    "title": "Testing in Additive and Projection Pursuit Models",
+    "type": "Special Topics Session",
+    "time": "2015",
+    "meeting": "World Statistics Congress",
+    "place": "Rio de Janeiro, Brazil",
+    "pdf_link": "WSC15.pdf",
+    "url": "http://www.isi2015.ibge.gov.br/"
+  },
+  {
+    "id": 2,
+    "title": "Robust Non-Parametric Curve Estimation using Density Power Divergences",
+    "type": "Contributed talk",
+    "time": "2015",
+    "meeting": "ICORS",
+    "place": "ISI, Kolkata",
+    "pdf_link": "ICORS15.pdf",
+    "url": "https://www.isical.ac.in/~icors2015/"
+  },
+  {
+    "id": 1,
+    "title": "Minimum Distance Weighted Likelihood",
+    "type": "Contributed talk",
+    "time": "2014",
+    "meeting": "ICORS",
+    "place": "ISI, Kolkata",
+    "pdf_link": "ICORS14.pdf",
+    "url": "https://statistik.wiwi.uni-halle.de/icors2014/"
+  }
 ]
